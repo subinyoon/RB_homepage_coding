@@ -857,6 +857,41 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     background:blue;
 }
 
+.wrap_3 .underline .line_2{
+    top:341px;
+}
+
+.wrap_3 .underline .line_3{
+    top:362px;
+}
+
+.wrap_3 .underline .line_4{
+    top:383px;
+}
+
+.wrap_3 .underline .line_5{
+    top:404px;
+}
+
+.wrap_3 .underline .line_6{
+    top:425px;
+}
+
+.wrap_3 .underline .line_7{
+    top:446px;
+}
+
+.wrap_3 .underline .line_8{
+    top:467px;
+}
+
+.wrap_3 .underline .line_9{
+    top:488px;
+}
+
+.wrap_3 .underline .line_10{
+    top:509px;
+}
 
 .wrap_3 .form_box:after{ /*clearfix*/
     content:"";
