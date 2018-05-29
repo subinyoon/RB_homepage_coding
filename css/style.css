@@ -893,8 +893,15 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     top:509px;
 }
 
+/*send button*/
+
+
+/*-------------------------------------------------------------*/
+
 .wrap_3 .form_box:after{ /*clearfix*/
     content:"";
     display:block;
     clear:both;
 }
+
+/*-------------------------------------------------------------*/
