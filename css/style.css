@@ -24,13 +24,13 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     width:92%;
     height:60px;
     position:absolute;
-    top:60px;
+    top:90px;
     left:50%;
     margin-left:-46%;
 }
 
 .wrap .wrap_fixed_1 .menu{
-    width:55px;
+    width:60px;
     position:fixed;
     line-height:20px;
     border:none;
@@ -226,6 +226,9 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
 /*-----------------------------------------------------*/
 
 /*main graphic*/
+
+/*main graphic style*/
+.cls-1{fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:0.5px; opacity:0.7;}
 
 .wrap .graphic_main{
     position:relative;
@@ -567,7 +570,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
 }
 
 .wrap_2 .aboutus_txt{
-    width:536px;
+    width:540px;
     margin:0 auto;
     text-align:center;
     opacity:0.6;
@@ -726,7 +729,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
 
 /*division line*/
 
-.division{
+.division_2{
     width:100%;
     height:1px;
     opacity:0.7;
@@ -751,7 +754,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
 
 .contact_bg{
     width:100%;
-    height:900px;
+    height:806px;
     background:white;
     position:absolute;
     top:1567px;
@@ -894,6 +897,16 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
 }
 
 /*send button*/
+.wrap_3  .form_wrap .form_button{
+    background:transparent;
+    border-style:none;
+    border-bottom:1px solid #848484;
+    font-size:16px;
+    font-weight:500;
+    margin-top:29px;
+    opacity:0.6;
+    float:right;
+}
 
 
 /*-------------------------------------------------------------*/
@@ -904,4 +917,49 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     clear:both;
 }
 
+.wrap_3 .form_wrap form:after{  /*clearfix*/
+    content:"";
+    display:block;
+    clear:both;
+}
+
 /*-------------------------------------------------------------*/
+
+/*division line*/
+
+.division_3{
+    width:100%;
+    height:1px;
+    opacity:0.7;
+    background:#848484;
+    position:absolute;
+    top:2370px;
+}
+
+.wrap_4{
+    margin:0 auto;
+    width:1258px;
+    height:64px;
+    position:relative;
+    overflow:visible;
+}
+
+.wrap_4 .txt{
+    width:33.3333%;
+    float:left;
+    padding-top:27px;
+}
+
+.wrap_4 .txt p{
+    font-size:12px;
+    opacity:0.5;
+    margin:0;
+}
+
+.wrap_4 .txt2 p{
+    text-align:center;
+}
+
+.wrap_4 .txt3 p{
+    text-align:right;
+}
