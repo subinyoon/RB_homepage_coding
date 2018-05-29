@@ -835,6 +835,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     background:none;
     margin-top:20px;
     z-index:1;
+    border:none;
 }
 
 .wrap_3 .underline{
@@ -845,7 +846,6 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     left:50%;
     margin-left:-365px;
     opacity:0.5;
-    background:red;
 }
 
 .wrap_3 .underline .lines{
@@ -854,7 +854,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     position:absolute;
     top:320px;
     opacity:1;
-    background:blue;
+    background:#848484;
 }
 
 .wrap_3 .underline .line_2{
