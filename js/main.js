@@ -1,7 +1,10 @@
     $(document).ready(function(){
-
+        
+        easeScroll();
+        menuScroll();
         showTexture();
         showBoxes();
+        
         
     }); //document ready END
 
@@ -77,6 +80,30 @@ function showBoxes(){
             
             $(".box_"+(i+3)).css({'background':'#f4f4f4'});
         });
+}
+
+function menuScroll(){
+    $(".menu3").click(function() {
+    $('html,body').stop().animate({
+        scrollTop: $(".wrap_3").offset().top}, 1000, 'swing');
+    }); // menu1 JB소식
+}
+
+function easeScroll(){
+    $("html").easeScroll({
+        frameRate:60,
+        animationTime: 800,
+        stepSize: 20,
+        pulseAlgorithm: 2,
+        pulseScale: 10,
+        pulseNormalize: 1,
+        accelerationDelta: 10,
+        accelerationMax : 1,
+        keyboardSupport: false,
+        arrowScroll: 50,
+        touchpadSupport: true,
+        fixedBackground: false 
+    });
 }
 
 

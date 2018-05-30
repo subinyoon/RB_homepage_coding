@@ -15,17 +15,17 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     width:1366px;
     height:806px;
     position:relative;
-    overflow:visible;
+    overflow:hidden;
 }
 
 .graphic_wrap{
-    width:1700px;
+    width:1650px;
     height:806px;
-
     opacity:0.8;
     position:absolute;
     left:50%;
-    margin-left:-850px;
+    margin-left:-825px;
+    overflow:visible;
 }
 
 /*menu*/ /*------------------------------*/
