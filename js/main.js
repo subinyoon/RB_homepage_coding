@@ -1,10 +1,13 @@
     $(document).ready(function(){
         
-        easeScroll();
+        //easeScroll();
         menuScroll();
         showTexture();
         showBoxes();
-        
+        showContactGraphic();
+        showClientGraphic();
+        showContactBg();
+        showGoToTop();
         
     }); //document ready END
 
@@ -12,14 +15,12 @@
 function showTexture(){
     $(".menu ul li").on('mouseover', function(){
             var i = $(this).index()+1;
-            console.log(i);
+            //console.log(i);
             $(".solid_2").css({'display':'none'});
             
-        
             if(i == 2){
                 $(".texture_"+i).css({'display':'block'});
                 $(".solid_8").css({'display':'block'});
-                
                 
             }else if(i == 3){
                 $(".texture_"+i).css({'display':'block'});
@@ -55,29 +56,25 @@ function showTexture(){
 function showBoxes(){
     $(".client_boxes .row_1 .boxes").on('mouseover', function(){
             var i = $(this).index()+1;
-            console.log(i);
-            
+            //console.log(i);
             $(".box_"+i).css({'background':'#fff', 'cursor':'pointer'});
         });
     
     $(".client_boxes .row_2 .boxes").on('mouseover', function(){
             var i = $(this).index()+1;
-            console.log(i);
-            
+            //console.log(i);
             $(".box_"+(i+3)).css({'background':'#fff', 'cursor':'pointer'});
         });
     
     $(".client_boxes .row_1 .boxes").on('mouseout', function(){
             var i = $(this).index()+1;
-            console.log(i);
-            
+            //console.log(i);
             $(".box_"+i).css({'background':'#f4f4f4'});
         });
     
     $(".client_boxes .row_2 .boxes").on('mouseout', function(){
             var i = $(this).index()+1;
-            console.log(i);
-            
+            //console.log(i);
             $(".box_"+(i+3)).css({'background':'#f4f4f4'});
         });
 }
@@ -85,8 +82,8 @@ function showBoxes(){
 function menuScroll(){
     $(".menu3").click(function() {
     $('html,body').stop().animate({
-        scrollTop: $(".wrap_3").offset().top}, 1000, 'swing');
-    }); // menu1 JB소식
+        scrollTop: $(".wrap_3").offset().top}, 600, 'swing');
+    });
 }
 
 function easeScroll(){
@@ -103,6 +100,58 @@ function easeScroll(){
         arrowScroll: 50,
         touchpadSupport: true,
         fixedBackground: false 
+    });
+}
+
+function showContactGraphic(){
+    
+    $(document).scroll(function(){
+        var currentScroll = $(document).scrollTop();
+        //console.log(currentScroll);
+        if(currentScroll >= 1360){
+           $(".form_wrap #graphic_contact").animate({'stroke-dashoffset':'0'}, 3000, 'swing');
+            $(".form_wrap .graphic_solid_grey").animate({'opacity':'1'}, 4000, 'swing');
+            $(".form_wrap .graphic_solid_red").animate({'opacity':'1'}, 5000, 'swing');
+        }
+    });
+}
+
+function showClientGraphic(){
+    
+    $(document).scroll(function(){
+        var currentScroll = $(document).scrollTop();
+        //console.log(currentScroll);
+        if(currentScroll >= 540){
+            $(".wrap_3 #client_line").animate({'stroke-dashoffset':'0'}, 3000, 'swing');
+            $(".wrap_3 #client_line_2").animate({'stroke-dashoffset':'0'}, 3500, 'swing');
+        }
+    });
+}
+
+function showContactBg(){
+    
+    $(document).scroll(function(){
+        var currentScroll = $(document).scrollTop();
+        //console.log(currentScroll);
+        if(currentScroll >= 970){
+            $(".contact_bg").animate({'opacity':'1'}, 1500, 'swing');
+        }
+    });
+}
+
+function showGoToTop(){
+    
+    $(document).scroll(function(){
+        var currentScroll = $(document).scrollTop();
+        console.log(currentScroll);
+        if(currentScroll >= 1280){
+            $(".wrap_3 .gototop").animate({'opacity':'0.7'}, 1000, 'swing');
+            
+            $(".wrap_3 .gototop").click(function() {
+                $('html,body').stop().animate({
+                    scrollTop: $(".graphic_wrap").offset().top}, 500, 'swing');
+            });
+        }
     });
 }
 
