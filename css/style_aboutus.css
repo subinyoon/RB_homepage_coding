@@ -13,10 +13,9 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
 .wrap{
     margin:0 auto;
     width:1366px;
-    height:875px;
+    height:860px;
     position:relative;
     overflow:hidden;
-    background:blue;
 }
 
 /*menu*/ /*------------------------------*/
@@ -205,13 +204,11 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
 .aboutus_wrap{
     margin:0 auto;
     width:942px;
-    height:760px;
     position:relative;
-    overflow:hidden;
+    overflow:visible;
     opacity:1;
     transform: translateY(0px);
     animation: none;
-    background:#8989ff;
 }
 
 @keyframes moveWrap2{
@@ -223,14 +220,12 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     height:172px;
     margin-top:138px;
     margin-bottom:53px;
-    background:#babaff;
 }
 
 .aboutus_skills .skill_box{
     width:33.25%;
     float:left;
     height:172px;
-    background:#d0d0ff;
 }
 
 .aboutus_skills .skill_1{
@@ -278,9 +273,70 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
 }
 
 /*about us textbox*/
+.aboutus_txt_wrap{
+    width : 940px;
+    height : 335px;
+    background:#fff;
+    border:1px solid #848484;
+}
 
+.aboutus_txt_wrap .txt_1{
+    font-size:14px;
+    line-height:23px;
+    text-align:center;
+    opacity:0.6;
+    margin:64px 0 0 0;
+}
 
+.aboutus_txt_wrap .txt_2{
+    font-size:14px;
+    line-height:23px;
+    text-align:center;
+    opacity:0.6;
+    margin:0;
+    font-weight:bold;
+}
 
+/*line*/
+.aboutus_txt_wrap .line_wrap{
+    width:100%;
+    height:32px;
+    padding-top:13px;
+    padding-bottom:13px;
+    opacity:0.6;
+}
+
+.aboutus_txt_wrap .line_wrap .box{
+    width:49.8%;
+    height:32px;
+    float:left;
+}
+
+.aboutus_txt_wrap .line_wrap .box2{
+    border-left:1px solid #848484;
+}
+
+/*about us graphic*/
+.aboutus_wrap .aboutus_graphic{
+    background-image:url(../img/graphic_aboutus.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    width:234px;
+    height:237px;
+    position:absolute;
+    left:658px;
+    top:400px;
+}
+
+/*division*/
+.division{
+    width:100%;
+    height:1px;
+    background:#848484;
+    opacity:0.6;
+    position:absolute;
+    top:860px;
+}
 
 
 /*-----------------------------------------------------*/
@@ -291,6 +347,12 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
 }
 
 .aboutus_skills .skill_box .line_wrap:after{ /*clearfix*/
+    content:"";
+    display:block;
+    clear:both;
+}
+
+.aboutus_txt_wrap .line_wrap:after{ /*clearfix*/
     content:"";
     display:block;
     clear:both;

@@ -1,11 +1,11 @@
 $(document).ready(function(){
     
     landingPage();
+    menuLink();
         
 }); //document ready END
 
 function landingPage(){
-    menuScroll();
     showTexture();
     showBoxes();
     showContactGraphic();
@@ -13,6 +13,34 @@ function landingPage(){
     showContactBg();
     showGoToTop();
     showWrap();
+}
+
+/*menu link--------------------------------*/
+function menuLink(){
+    $(".menu ul li").on('click', function(){
+        var i = $(this).index()+1;
+        
+        if( i == 1){
+            window.location.href='';
+        }else if( i == 2){
+            window.location.href='rb_aboutus.html';  
+        }else if (i == 3){
+            var url = window.location.href;
+            console.log(url);
+        
+            if( url == "http://127.0.0.1:64258/rb_index.html" || url == "http://127.0.0.1:64258/rb_index.html#goto_contact" ){
+                $('html,body').stop().animate({
+                scrollTop: $(".wrap_3").offset().top}, 600, 'swing');
+            }else{
+                window.location.href='rb_index.html#goto_contact';
+            }        
+        }
+    });
+    
+    /*rb left nav logo : clicked*/
+    $(".wrap_fixed_2 .nav_1 .mid").on('click', function(){
+        window.location.href='rb_index.html';
+    });
 }
 
 /*-------------------------------------------------------*/
@@ -92,17 +120,9 @@ function showClientGraphic(){
         var currentScroll = $(document).scrollTop();
         //console.log(currentScroll);
         if(currentScroll >= 540){
-            $(".wrap_3 #client_line").animate({'stroke-dashoffset':'0'}, 3000, 'swing');
-            $(".wrap_3 #client_line_2").animate({'stroke-dashoffset':'0'}, 3500, 'swing');
+            $("#client_line").animate({'stroke-dashoffset':'0'}, 3000, 'swing');
+            $("#client_line_2").animate({'stroke-dashoffset':'0'}, 3500, 'swing');
         }
-    });
-}
-
-/*landing: contact clicked scroll down*/
-function menuScroll(){
-    $(".menu3").click(function() {
-    $('html,body').stop().animate({
-        scrollTop: $(".wrap_3").offset().top}, 600, 'swing');
     });
 }
 
@@ -111,6 +131,7 @@ function showContactGraphic(){
     
     $(document).scroll(function(){
         var currentScroll = $(document).scrollTop();
+        
         //console.log(currentScroll);
         if(currentScroll >= 1360){
            $(".form_wrap #graphic_contact").animate({'stroke-dashoffset':'0'}, 3000, 'swing');
@@ -152,8 +173,15 @@ function showGoToTop(){
 /*landing: fade in effect on wraps*/
 function showWrap(){
     
+    var currentScroll = $(document).scrollTop();
+    //console.log(currentScroll);
+    
+    if(currentScroll <= 1546 && currentScroll >= 985){
+            $(".wrap_3").css({'animation':'moveWrap3 1s forwards'});
+    }
+    
     $(document).scroll(function(){
-        var currentScroll = $(document).scrollTop();
+        currentScroll = $(document).scrollTop();
         //console.log(currentScroll);
         
         if(currentScroll >= 220){

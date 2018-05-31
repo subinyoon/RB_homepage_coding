@@ -786,6 +786,26 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     cursor:pointer;
 }
 
+.wrap_2 #client_line{
+    width:288px;
+    position:absolute;
+    left:300px;
+    top:594px;
+    transform: scaleX(-1);
+    stroke-dasharray: 760;
+    stroke-dashoffset: 760;
+}
+
+.wrap_2 #client_line_2{
+    width:288px;
+    position:absolute;
+    left:280px;
+    top:594px;
+    transform: scaleX(-1);
+    stroke-dasharray: 760;
+    stroke-dashoffset: 760;
+}
+
 /*-----------------------------------------------------*/
 .wrap_2 .client_boxes .row_1:after{ /*clearfix*/
     content:"";
@@ -838,26 +858,6 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
 
 .wrap_3 .gototop:hover{
     cursor:pointer;
-}
-
-.wrap_3 #client_line{
-    width:288px;
-    position:absolute;
-    left:260px;
-    top:-166px;
-    transform: scaleX(-1);
-    stroke-dasharray: 760;
-    stroke-dashoffset: 760;
-}
-
-.wrap_3 #client_line_2{
-    width:288px;
-    position:absolute;
-    left:240px;
-    top:-166px;
-    transform: scaleX(-1);
-    stroke-dasharray: 760;
-    stroke-dashoffset: 760;
 }
 
 .wrap_3 .contact_txt{
