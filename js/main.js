@@ -8,6 +8,7 @@
         showClientGraphic();
         showContactBg();
         showGoToTop();
+        showWrap();
         
     }); //document ready END
 
@@ -31,9 +32,9 @@ function showTexture(){
                 $(".texture_"+i).css({'display':'block'});
                 $(".solid_9").css({'display':'block'});
             }
-        });
+    });
         
-        $(".menu ul li").on('mouseout', function(){
+    $(".menu ul li").on('mouseout', function(){
             var i = $(this).index()+1;
             console.log(i);
             $(".solid_2").css({'display':'block'});
@@ -50,7 +51,7 @@ function showTexture(){
                 $(".texture_"+i).css({'display':'none'});
                 $(".solid_9").css({'display':'none'});
             }
-        });
+    });
 }
 
 function showBoxes(){
@@ -58,25 +59,25 @@ function showBoxes(){
             var i = $(this).index()+1;
             //console.log(i);
             $(".box_"+i).css({'background':'#fff', 'cursor':'pointer'});
-        });
+    });
     
     $(".client_boxes .row_2 .boxes").on('mouseover', function(){
             var i = $(this).index()+1;
             //console.log(i);
             $(".box_"+(i+3)).css({'background':'#fff', 'cursor':'pointer'});
-        });
+    });
     
     $(".client_boxes .row_1 .boxes").on('mouseout', function(){
             var i = $(this).index()+1;
             //console.log(i);
             $(".box_"+i).css({'background':'#f4f4f4'});
-        });
+    });
     
     $(".client_boxes .row_2 .boxes").on('mouseout', function(){
             var i = $(this).index()+1;
             //console.log(i);
             $(".box_"+(i+3)).css({'background':'#f4f4f4'});
-        });
+    });
 }
 
 function menuScroll(){
@@ -143,7 +144,7 @@ function showGoToTop(){
     
     $(document).scroll(function(){
         var currentScroll = $(document).scrollTop();
-        console.log(currentScroll);
+        //console.log(currentScroll);
         if(currentScroll >= 1280){
             $(".wrap_3 .gototop").animate({'opacity':'0.7'}, 1000, 'swing');
             
@@ -155,5 +156,19 @@ function showGoToTop(){
     });
 }
 
+function showWrap(){
+    
+    $(document).scroll(function(){
+        var currentScroll = $(document).scrollTop();
+        //console.log(currentScroll);
+        
+        if(currentScroll >= 220){
+            $(".wrap_2").css({'animation':'moveWrap2 1s forwards'});
+        }
+        if(currentScroll >= 985){
+            $(".wrap_3").css({'animation':'moveWrap3 1s forwards'});
+        }
+    });
+}
 
       

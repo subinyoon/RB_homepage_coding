@@ -589,6 +589,13 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     height:760px;
     position:relative;
     overflow:visible;
+    opacity:0;
+    transform: translateY(50px);
+    animation: none;
+}
+
+@keyframes moveWrap2{
+    to{transform: translateY(0px); opacity:1;}
 }
 
 .wrap_2 .aboutus_txt{
@@ -808,6 +815,13 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     height:886px;
     position:relative;
     overflow:visible;
+    transform: translateY(50px);
+    animation:none;
+    opacity:0;
+}
+
+@keyframes moveWrap3 {
+    to{transform: translateY(0); opacity:1;}
 }
 
 .wrap_3 .gototop{
