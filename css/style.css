@@ -1056,7 +1056,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     top:2452px;
 }
 
-.wrap_4{
+.footer{
     margin:0 auto;
     width:1258px;
     height:64px;
@@ -1064,23 +1064,23 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     overflow:visible;
 }
 
-.wrap_4 .txt{
+.footer .txt{
     width:33.3333%;
     float:left;
     padding-top:27px;
 }
 
-.wrap_4 .txt p{
+.footer .txt p{
     font-size:12px;
     opacity:0.5;
     margin:0;
 }
 
-.wrap_4 .txt2 p{
+.footer .txt2 p{
     text-align:center;
 }
 
-.wrap_4 .txt3 p{
+.footer .txt3 p{
     text-align:right;
 }
 

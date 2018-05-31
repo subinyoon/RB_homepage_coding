@@ -1,0 +1,330 @@
+@charset "utf-8";
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
+font-family: 'Noto Sans KR', sans-serif;
+
+/*reset*/
+*{margin:0; padding:0;}
+body{font-size:14px; background-color:#f4f4f4; position:relative;}
+a{text-decoration:none; color:#000000;}
+ul, li{list-style:none; margin:0; padding:0;}
+p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
+/*reset end*/
+
+.wrap{
+    margin:0 auto;
+    width:1366px;
+    height:875px;
+    position:relative;
+    overflow:hidden;
+    background:blue;
+}
+
+/*menu*/ /*------------------------------*/
+
+.wrap .wrap_fixed_1{
+    width:92%;
+    height:60px;
+    position:absolute;
+    top:135px;
+    left:50%;
+    margin-left:-46%;
+}
+
+.wrap .wrap_fixed_1 .menu{
+    width:60px;
+    position:fixed;
+    line-height:20px;
+    border:none;
+    z-index:9999;
+}
+
+.wrap .wrap_fixed_1 .menu ul li{
+    opacity:0.5;
+}
+
+.wrap .wrap_fixed_1 .menu ul li:hover{
+    opacity:1;
+    cursor:pointer;
+}
+
+/*left nav*/ /*------------------------------*/
+
+.wrap .wrap_fixed_2{
+    width:92.8%;
+    height:50px;
+    position:absolute;
+    top:280px;
+    left:50%;
+    margin-left:-46.4%;
+    z-index:0;
+    opacity:0.7;
+}
+
+.wrap .wrap_fixed_2 .nav_1{
+    width:24px;
+    height:223px;
+    position:fixed;
+}
+
+
+/*top*/
+.wrap .wrap_fixed_2 .nav_1 .top{
+    width:100%;
+    margin-bottom:8px;
+}
+
+.wrap .wrap_fixed_2 .nav_1 .top .boxes{
+    width:47%;
+    height:88px;
+    float:left;
+}
+
+.wrap .wrap_fixed_2 .nav_1 .top .border_box{
+    border-left:1px solid #000;
+    opacity:0.5;
+}
+
+/*mid*/
+.wrap .wrap_fixed_2 .nav_1 .mid{
+    width:100%;
+    height:31px;
+    background-image: url(../img/logo.png);
+    background-repeat:no-repeat;
+    background-size:contain;
+}
+
+/*bot*/
+.wrap .wrap_fixed_2 .nav_1 .bot{
+    width:100%;
+    margin-top:8px;
+}
+
+.wrap .wrap_fixed_2 .nav_1 .bot .boxes{
+    width:47%;
+    height:88px;
+    float:left;
+}
+
+.wrap .wrap_fixed_2 .nav_1 .bot .border_box{
+    border-left:1px solid #000;
+    opacity:0.5;
+}
+
+/*right nav*/ /*------------------------------*/
+
+.wrap .wrap_fixed_2 .position_relative{
+    position:relative;
+}
+
+.wrap .wrap_fixed_2 .inner_wrap{
+    position:absolute;
+    width:12px;
+    height:50px;
+    right:0;
+}
+
+.wrap .wrap_fixed_2 .inner_wrap .nav_2{
+    width:12px;
+    height:223px;
+    position:fixed;
+}
+
+/*top*/
+.wrap .wrap_fixed_2 .position_relative .inner_wrap .nav_2 .top{
+    width:100%;
+    margin-bottom:12px;
+}
+
+.wrap .wrap_fixed_2 .position_relative .inner_wrap .nav_2 .top .boxes{
+    width:45%;
+    height:40px;
+    float:left;
+}
+
+.wrap .wrap_fixed_2 .position_relative .inner_wrap .nav_2 .top .border_box{
+    border-left:1px solid #000;
+    opacity:0.5;
+}
+
+/*mid*/
+.wrap .wrap_fixed_2 .position_relative .inner_wrap .nav_2 .mid{
+    width:100%;
+    height:118px;
+    background-image: url(../img/logo_txt.png);
+    background-repeat:no-repeat;
+    background-size:contain;
+}
+
+/*bot*/
+.wrap .wrap_fixed_2 .position_relative .inner_wrap .nav_2 .bot{
+    width:100%;
+    margin-top:12px;
+}
+
+.wrap .wrap_fixed_2 .position_relative .inner_wrap .nav_2 .bot .boxes{
+    width:45%;
+    height:40px;
+    float:left;
+}
+
+.wrap .wrap_fixed_2 .position_relative .inner_wrap .nav_2 .bot .border_box{
+    border-left:1px solid #000;
+    opacity:0.5;
+}
+
+/*-----------------------------------------------------*/
+
+.wrap .wrap_fixed_2 .nav_1 .top:after{ /*clearfix*/
+    content:"";
+    display:block;
+    clear:both;
+}
+
+
+.wrap .wrap_fixed_2 .nav_1 .bot:after{ /*clearfix*/
+    content:"";
+    display:block;
+    clear:both;
+}
+
+.wrap .wrap_fixed_2 .position_relative .inner_wrap .nav_2 .top:after{ /*clearfix*/
+    content:"";
+    display:block;
+    clear:both;
+}
+
+.wrap .wrap_fixed_2 .position_relative .inner_wrap .nav_2 .bot:after{ /*clearfix*/
+    content:"";
+    display:block;
+    clear:both;
+}
+
+/*-----------------------------------------------------*/
+
+/*about us*/
+.aboutus_wrap{
+    margin:0 auto;
+    width:942px;
+    height:760px;
+    position:relative;
+    overflow:hidden;
+    opacity:1;
+    transform: translateY(0px);
+    animation: none;
+    background:#8989ff;
+}
+
+@keyframes moveWrap2{
+    to{transform: translateY(0px); opacity:1;}
+}
+
+.aboutus_skills{
+    width:100%;
+    height:172px;
+    margin-top:138px;
+    margin-bottom:53px;
+    background:#babaff;
+}
+
+.aboutus_skills .skill_box{
+    width:33.25%;
+    float:left;
+    height:172px;
+    background:#d0d0ff;
+}
+
+.aboutus_skills .skill_1{
+    border-right:1px solid #848484;
+}
+
+/*title*/
+.aboutus_skills .skill_box .skill_title{
+    width:100%;
+    margin:0;
+    text-align:center;
+    font-size:18px;
+    font-weight:bold;
+    opacity:0.5;
+    padding-top:19px;
+}
+
+/*subtitle*/
+.aboutus_skills .skill_box .skill_subtitle{
+    width:100%;
+    margin:0;
+    text-align:center;
+    font-size:14px;
+    line-height:1.64;
+    font-weight:bold;
+    opacity:0.5;
+}
+
+/*line*/
+.aboutus_skills .skill_box .line_wrap{
+    width:100%;
+    padding-top:7px;
+    padding-bottom:12px;
+    opacity:0.6;
+}
+
+.aboutus_skills .skill_box .line_wrap .box{
+    width:49.8%;
+    height:28px;
+    float:left;
+}
+
+.aboutus_skills .skill_box .line_wrap .box2{
+    border-left:1px solid #848484;
+}
+
+/*about us textbox*/
+
+
+
+
+
+/*-----------------------------------------------------*/
+.aboutus_skills:after{ /*clearfix*/
+    content:"";
+    display:block;
+    clear:both;
+}
+
+.aboutus_skills .skill_box .line_wrap:after{ /*clearfix*/
+    content:"";
+    display:block;
+    clear:both;
+}
+
+/*-----------------------------------------------------*/
+/*footer*/
+.footer{
+    margin:0 auto;
+    width:1258px;
+    height:64px;
+    position:relative;
+    overflow:visible;
+}
+
+.footer .txt{
+    width:33.3333%;
+    float:left;
+    padding-top:27px;
+}
+
+.footer .txt p{
+    font-size:12px;
+    opacity:0.5;
+    margin:0;
+}
+
+.footer .txt2 p{
+    text-align:center;
+}
+
+.footer .txt3 p{
+    text-align:right;
+}
+/*-----------------------------------------------------*/
+
+

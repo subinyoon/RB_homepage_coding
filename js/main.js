@@ -1,18 +1,22 @@
-    $(document).ready(function(){
+$(document).ready(function(){
+    
+    landingPage();
         
-        //easeScroll();
-        menuScroll();
-        showTexture();
-        showBoxes();
-        showContactGraphic();
-        showClientGraphic();
-        showContactBg();
-        showGoToTop();
-        showWrap();
-        
-    }); //document ready END
+}); //document ready END
 
+function landingPage(){
+    menuScroll();
+    showTexture();
+    showBoxes();
+    showContactGraphic();
+    showClientGraphic();
+    showContactBg();
+    showGoToTop();
+    showWrap();
+}
 
+/*-------------------------------------------------------*/
+/*landing: main graphic*/
 function showTexture(){
     $(".menu ul li").on('mouseover', function(){
             var i = $(this).index()+1;
@@ -54,6 +58,7 @@ function showTexture(){
     });
 }
 
+/*landing: client*/
 function showBoxes(){
     $(".client_boxes .row_1 .boxes").on('mouseover', function(){
             var i = $(this).index()+1;
@@ -80,6 +85,20 @@ function showBoxes(){
     });
 }
 
+/*landing: client graphic*/
+function showClientGraphic(){
+    
+    $(document).scroll(function(){
+        var currentScroll = $(document).scrollTop();
+        //console.log(currentScroll);
+        if(currentScroll >= 540){
+            $(".wrap_3 #client_line").animate({'stroke-dashoffset':'0'}, 3000, 'swing');
+            $(".wrap_3 #client_line_2").animate({'stroke-dashoffset':'0'}, 3500, 'swing');
+        }
+    });
+}
+
+/*landing: contact clicked scroll down*/
 function menuScroll(){
     $(".menu3").click(function() {
     $('html,body').stop().animate({
@@ -87,23 +106,7 @@ function menuScroll(){
     });
 }
 
-function easeScroll(){
-    $("html").easeScroll({
-        frameRate:60,
-        animationTime: 800,
-        stepSize: 20,
-        pulseAlgorithm: 2,
-        pulseScale: 10,
-        pulseNormalize: 1,
-        accelerationDelta: 10,
-        accelerationMax : 1,
-        keyboardSupport: false,
-        arrowScroll: 50,
-        touchpadSupport: true,
-        fixedBackground: false 
-    });
-}
-
+/*landing: contact graphic*/
 function showContactGraphic(){
     
     $(document).scroll(function(){
@@ -117,18 +120,7 @@ function showContactGraphic(){
     });
 }
 
-function showClientGraphic(){
-    
-    $(document).scroll(function(){
-        var currentScroll = $(document).scrollTop();
-        //console.log(currentScroll);
-        if(currentScroll >= 540){
-            $(".wrap_3 #client_line").animate({'stroke-dashoffset':'0'}, 3000, 'swing');
-            $(".wrap_3 #client_line_2").animate({'stroke-dashoffset':'0'}, 3500, 'swing');
-        }
-    });
-}
-
+/*landing: contact bg*/
 function showContactBg(){
     
     $(document).scroll(function(){
@@ -140,6 +132,7 @@ function showContactBg(){
     });
 }
 
+/*landing: contact gototop*/
 function showGoToTop(){
     
     $(document).scroll(function(){
@@ -156,6 +149,7 @@ function showGoToTop(){
     });
 }
 
+/*landing: fade in effect on wraps*/
 function showWrap(){
     
     $(document).scroll(function(){
@@ -170,5 +164,6 @@ function showWrap(){
         }
     });
 }
+/*-------------------------------------------------------*/
 
       
