@@ -26,13 +26,13 @@ function menuLink(){
             window.location.href='rb_aboutus.html';  
         }else if (i == 3){
             var url = window.location.href;
-            console.log(url);
+            //console.log(url);
         
             if( url == "http://127.0.0.1:64258/rb_index.html" || url == "http://127.0.0.1:64258/rb_index.html#goto_contact" ){
                 $('html,body').stop().animate({
                 scrollTop: $(".wrap_3").offset().top}, 600, 'swing');
             }else{
-                window.location.href='rb_index.html#goto_contact';
+             window.location.href='rb_index.html#goto_contact';
             }        
         }
     });
@@ -68,7 +68,7 @@ function showTexture(){
         
     $(".menu ul li").on('mouseout', function(){
             var i = $(this).index()+1;
-            console.log(i);
+            //console.log(i);
             $(".solid_2").css({'display':'block'});
             
             if(i == 2){
@@ -177,7 +177,11 @@ function showWrap(){
     //console.log(currentScroll);
     
     if(currentScroll <= 1546 && currentScroll >= 985){
-            $(".wrap_3").css({'animation':'moveWrap3 1s forwards'});
+        $(".wrap_3").css({'animation':'moveWrap3 1s forwards'}); 
+    }
+    
+    if(currentScroll == 0){
+       $(".aboutus_wrap").css({'animation':'moveWrap 1s forwards'}); 
     }
     
     $(document).scroll(function(){
