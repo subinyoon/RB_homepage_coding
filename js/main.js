@@ -1,7 +1,8 @@
 $(document).ready(function(){
     
-    landingPage();
     menuLink();
+    landingPage();
+    aboutusPage();
         
 }); //document ready END
 
@@ -15,20 +16,24 @@ function landingPage(){
     showWrap();
 }
 
-/*menu link--------------------------------*/
+function aboutusPage(){
+    aboutusFilter();
+}
+
+/*menu link---------------------------------------------*/
 function menuLink(){
     $(".menu ul li").on('click', function(){
         var i = $(this).index()+1;
         
         if( i == 1){
-            window.location.href='';
+            window.location.href='rb_portfolio.html';
         }else if( i == 2){
             window.location.href='rb_aboutus.html';  
         }else if (i == 3){
             var url = window.location.href;
-            //console.log(url);
+            console.log(url);
         
-            if( url == "http://127.0.0.1:64258/rb_index.html" || url == "http://127.0.0.1:64258/rb_index.html#goto_contact" ){
+            if( url == "http://127.0.0.1:62473/rb_index.html" || url == "http://127.0.0.1:62473/rb_index.html#goto_contact" ){
                 $('html,body').stop().animate({
                 scrollTop: $(".wrap_3").offset().top}, 600, 'swing');
             }else{
@@ -86,7 +91,7 @@ function showTexture(){
     });
 }
 
-/*landing: client*/
+/*landing: client hover*/
 function showBoxes(){
     $(".client_boxes .row_1 .boxes").on('mouseover', function(){
             var i = $(this).index()+1;
@@ -170,7 +175,7 @@ function showGoToTop(){
     });
 }
 
-/*landing: fade in effect on wraps*/
+/*all: fade in effect on wraps*/
 function showWrap(){
     
     var currentScroll = $(document).scrollTop();
@@ -196,6 +201,75 @@ function showWrap(){
         }
     });
 }
+/*-------------------------------------------------------*/
+
+/*about us : filter*/
+function aboutusFilter(){
+    $(".filter_wrap ul li").on('click', function(){
+        
+        var i = $(this).index()+1;
+        //console.log(i);
+        
+        if( i == 1){ //when web is clicked 
+            
+            var remaining = $(".f_2, .f_3, .f_4");
+            
+            if($(".f_"+i).css('display') === 'none'){
+                $(".f_"+i).css({'display':'block'});
+            }
+            
+            if((remaining).css('display') === 'block'){
+                $(remaining).css({'display':'none'});
+            }else{
+                $(remaining).css({'display':'none'});
+            }
+
+            
+        }else if( i == 2){
+            
+            var remaining = $(".f_1, .f_3, .f_4");
+            
+            if($(".f_"+i).css('display') === 'none'){
+               $(".f_"+i).css({'display':'block'});
+            }
+            
+            if((remaining).css('display') === 'block'){
+                $(remaining).css({'display':'none'});
+            }else{
+                $(remaining).css({'display':'none'});
+            }
+
+        }else if (i == 3){
+            
+            var remaining = $(".f_1, .f_2, .f_4");
+            
+            if($(".f_"+i).css('display') === 'none'){
+               $(".f_"+i).css({'display':'block'});
+            }
+            
+            if((remaining).css('display') === 'block'){
+                $(remaining).css({'display':'none'});
+            }else{
+                $(remaining).css({'display':'none'});
+            }
+            
+        }else if (i == 4){
+            
+            var remaining = $(".f_1, .f_2, .f_3");
+            
+            if($(".f_"+i).css('display') === 'none'){
+               $(".f_"+i).css({'display':'block'});
+            }
+            
+            if((remaining).css('display') === 'block'){
+                $(remaining).css({'display':'none'});
+            }else{
+                $(remaining).css({'display':'none'});
+            }
+        }  
+    }); // onclick END   
+}
+
 /*-------------------------------------------------------*/
 
       

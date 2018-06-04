@@ -13,7 +13,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
 .wrap{
     margin:0 auto;
     width:1366px;
-    height:860px;
+    height:820px;
     position:relative;
     overflow:hidden;
 }
@@ -344,16 +344,6 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     animation: fillsolid 5s forwards;
 }
 
-/*division*/
-.division{
-    width:100%;
-    height:1px;
-    background:#848484;
-    opacity:0.6;
-    position:absolute;
-    top:860px;
-}
-
 /*main graphic animation keyframes------------------------------*/
 @keyframes movePath{
     to{stroke-dashoffset: 0;}
@@ -386,6 +376,23 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
 }
 
 /*-----------------------------------------------------*/
+/*footer*/
+.footer_wrap{
+    width:100%;
+    position:relative;
+    margin-top:70px;
+}
+
+/*division*/
+.footer_wrap .division{
+    width:100%;
+    height:1px;
+    background:#848484;
+    opacity:0.6;
+    position:absolute;
+    top:0px;
+}
+
 /*footer*/
 .footer{
     margin:0 auto;
