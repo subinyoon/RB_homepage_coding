@@ -43,7 +43,7 @@ function menuLink(){
     });
     
     /*rb left nav logo : clicked*/
-    $(".wrap_fixed_2 .nav_1 .mid").on('click', function(){
+    $(".wrap_fixed_2 .nav_1 .mid, .wrap_fixed_2 .nav_2 .mid").on('click', function(){
         window.location.href='rb_index.html';
     });
 }
@@ -210,9 +210,18 @@ function aboutusFilter(){
         var i = $(this).index()+1;
         //console.log(i);
         
-        if( i == 1){ //when web is clicked 
+        if( i == 1){ //all
+            var remaining = $(".f_2, .f_3, .f_4, .f_5");
             
-            var remaining = $(".f_2, .f_3, .f_4");
+            if((remaining).css('display') === 'none'){
+                $(remaining).css({'display':'block'});
+            }else{
+                $(remaining).css({'display':'block'});
+            }
+            
+           
+        }else if( i == 2){ //web
+            var remaining = $(".f_3, .f_4, .f_5");
             
             if($(".f_"+i).css('display') === 'none'){
                 $(".f_"+i).css({'display':'block'});
@@ -225,9 +234,8 @@ function aboutusFilter(){
             }
 
             
-        }else if( i == 2){
-            
-            var remaining = $(".f_1, .f_3, .f_4");
+        }else if( i == 3){ //uiux
+            var remaining = $(".f_2, .f_4, .f_5");
             
             if($(".f_"+i).css('display') === 'none'){
                $(".f_"+i).css({'display':'block'});
@@ -239,9 +247,8 @@ function aboutusFilter(){
                 $(remaining).css({'display':'none'});
             }
 
-        }else if (i == 3){
-            
-            var remaining = $(".f_1, .f_2, .f_4");
+        }else if (i == 4){ //editorial
+            var remaining = $(".f_2, .f_3, .f_5");
             
             if($(".f_"+i).css('display') === 'none'){
                $(".f_"+i).css({'display':'block'});
@@ -253,9 +260,8 @@ function aboutusFilter(){
                 $(remaining).css({'display':'none'});
             }
             
-        }else if (i == 4){
-            
-            var remaining = $(".f_1, .f_2, .f_3");
+        }else if (i == 5){ //graphic
+            var remaining = $(".f_2, .f_3, .f_4");
             
             if($(".f_"+i).css('display') === 'none'){
                $(".f_"+i).css({'display':'block'});

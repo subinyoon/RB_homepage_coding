@@ -153,6 +153,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     background-image: url(../img/logo_txt.png);
     background-repeat:no-repeat;
     background-size:contain;
+    cursor:pointer;
 }
 
 /*bot*/

@@ -152,6 +152,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     background-image: url(../img/logo_txt.png);
     background-repeat:no-repeat;
     background-size:contain;
+    cursor:pointer;
 }
 
 /*bot*/
@@ -232,7 +233,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
 }
 
 .wrap .filter_wrap .filter_list{
-    width:208px;
+    width:240px;
     height:20px;
     display:block;
     font-size:11px;
@@ -244,7 +245,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
 .wrap .filter_wrap .filter_list li{
     display:block;
     float:left;
-    width:22px;
+    width:12px;
     padding:0 10px 0 10px;
     opacity:0.5;
     /*background:#a8a8ff;*/
@@ -256,18 +257,24 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
 }
 
 .wrap .filter_wrap .filter_list li:nth-child(2){
-    width:28px;
+    width:21px;
     border-left: 1px solid #848484;
     /*background:#00d8ff;*/
 }
 
 .wrap .filter_wrap .filter_list li:nth-child(3){
-    width:39px;
+    width:28px;
     border-left: 1px solid #848484;
     /*background:#ffde71;*/
 }
 
 .wrap .filter_wrap .filter_list li:nth-child(4){
+    width:39px;
+    border-left: 1px solid #848484;
+    /*background:#4be04b;*/
+}
+
+.wrap .filter_wrap .filter_list li:nth-child(5){
     width:36px;
     border-left: 1px solid #848484;
     /*background:#4be04b;*/
