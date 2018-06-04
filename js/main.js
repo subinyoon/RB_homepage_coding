@@ -33,7 +33,7 @@ function menuLink(){
             var url = window.location.href;
             console.log(url);
         
-            if( url == "http://127.0.0.1:62473/rb_index.html" || url == "http://127.0.0.1:62473/rb_index.html#goto_contact" ){
+            if( url == "http://127.0.0.1:58233/rb_index.html" || url == "http://127.0.0.1:58233/rb_index.html#goto_contact" ){
                 $('html,body').stop().animate({
                 scrollTop: $(".wrap_3").offset().top}, 600, 'swing');
             }else{
@@ -186,7 +186,9 @@ function showWrap(){
     }
     
     if(currentScroll == 0){
-       $(".aboutus_wrap").css({'animation':'moveWrap 1s forwards'}); 
+        $(".aboutus_wrap").css({'animation':'moveWrap 1s forwards'}); 
+        
+        $(".portfolio_wrap").css({'animation':'moveWrap 1s forwards'}); 
     }
     
     $(document).scroll(function(){

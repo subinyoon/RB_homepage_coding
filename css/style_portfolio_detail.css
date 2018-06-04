@@ -13,6 +13,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
 .wrap{
     margin:0 auto;
     width:1366px;
+    height:1640px; /*height = innerwrap.height + 280px*/
     position:relative;
     overflow:visible;
 }
@@ -200,174 +201,62 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
 }
 
 /*-----------------------------------------------------*/
+/*main header image*/
+.main_image{
+    width:100%;
+    height:640px;
+    background:#dedede;
+    position:absolute;
+}
 
-/*portfolio*/
-.wrap .portfolio_wrap{
+/*portfolio detail*/
+.wrap .portfolio_detail_wrap{
     margin:0 auto;
     width:942px;
     height:550px;
     position:relative;
     overflow:visible;
-    opacity:0;
-    transform: translateY(50px);
+    opacity:1;
+    transform: translateY(0px);
     animation: none;
-    padding-top:124px;
+    padding-top:280px;
 }
 
 @keyframes moveWrap{
     to{transform: translateY(0px); opacity:1;}
 }
 
-/*portfolio filter list*/
-.wrap .filter_wrap{
-    width:92%;
-    height:20px;
-    position:absolute;
-    top:60px;
-    left:50%;
-    margin-left:-46%;
-    /*border-bottom:1px solid #848484;*/
-    padding-left:6px;
-    /*background:#7a7aff;*/
-    z-index:5;
-}
-
-.wrap .filter_wrap .filter_list{
-    width:240px;
-    height:20px;
-    display:block;
-    font-size:11px;
-    line-height:1.3;
-    margin: 0 auto;
-    /*background:red;*/
-}
-
-.wrap .filter_wrap .filter_list li{
-    display:block;
-    float:left;
-    width:12px;
-    padding:0 10px 0 10px;
-    opacity:0.5;
-    /*background:#a8a8ff;*/
-}
-
-.wrap .filter_wrap .filter_list li:hover{
-    opacity:1;
-    cursor:pointer;
-}
-
-.wrap .filter_wrap .filter_list li:nth-child(2){
-    width:21px;
-    border-left: 1px solid #848484;
-    /*background:#00d8ff;*/
-}
-
-.wrap .filter_wrap .filter_list li:nth-child(3){
-    width:28px;
-    border-left: 1px solid #848484;
-    /*background:#ffde71;*/
-}
-
-.wrap .filter_wrap .filter_list li:nth-child(4){
-    width:39px;
-    border-left: 1px solid #848484;
-    /*background:#4be04b;*/
-}
-
-.wrap .filter_wrap .filter_list li:nth-child(5){
-    width:36px;
-    border-left: 1px solid #848484;
-    /*background:#4be04b;*/
-}
-
-/*portfolio columns*/
-.wrap .column{
-    width:32.6%;
-    float:left;
-}
-
-.wrap .column .contents{
+.wrap .portfolio_detail_wrap .inner_wrap{
     width:100%;
-    height:190px;
-    opacity:0.3;
-    margin-top:10px;
-    color:#848484;
+    height:1360px;
+    background:#fff;
 }
 
-.wrap .column .contents:hover{
-    opacity:0.7;
-    cursor:pointer;
+.wrap .portfolio_detail_wrap .inner_wrap .title{
+    display:block;
+    font-size:50px;
+    font-weight:900;
+    letter-spacing:-0.5px;
+    color:#525252;
+    line-height:27px;
+    margin:0;
+    padding-left:106px;
+    padding-top:92px;
 }
 
-.wrap .column1{
-    margin-right:1.1%;
+.wrap .portfolio_detail_wrap .inner_wrap .subtitle{
+    font-size:16px;
+    font-weight:300;
+    color:#525252;
+    line-height:1.1;
+    margin:0;
 }
 
-.wrap .column2{
-    margin-right:1.1%;
-}
 
-/*contents details*/
-.wrap .column1 .contents_1{
-    height:280px;
-    background:#e3e3e3;
-}
 
-.wrap .column1 .contents_2{
-    height:400px;
-    background:#e3e3e3;
-}
 
-.wrap .column1 .contents_3{
-    height:190px;
-    background:#e3e3e3;
-}
-
-.wrap .column2 .contents_1{
-    height:280px;
-    background:#e3e3e3;
-}
-
-.wrap .column2 .contents_2{
-    height:190px;
-    background:#e3e3e3;
-}
-
-.wrap .column2 .contents_3{
-    height:400px;
-    background:#e3e3e3;
-}
-
-.wrap .column3 .contents_1{
-    height:400px;
-    background:#e3e3e3;
-}
-
-.wrap .column3 .contents_2{
-    height:190px;
-    background:#e3e3e3;
-}
-
-/*filter onoff*/
-.wrap .column .f_editorial{display:block;}
-.wrap .column .f_graphic{display:block;}
-.wrap .column .f_web{display:block;}
-.wrap .column .f_uiux{display:block;}
 
 /*-----------------------------------------------------*/
-.wrap .filter_wrap .filter_list:after{ /*clearfix*/
-    content:"";
-    display:block;
-    clear:both;
-}
-
-.wrap:after{ /*clearfix*/
-    content:"";
-    display:block;
-    clear:both;
-}
-/*-----------------------------------------------------*/
-
 .footer_wrap{
     width:100%;
     position:relative;
