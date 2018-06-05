@@ -44,7 +44,7 @@ function menuLink(){
             var url = window.location.href;
             console.log(url);
         
-            if( url == "http://127.0.0.1:60946/rb_index.html" || url == "http://127.0.0.1:60946/rb_index.html#goto_contact" ){
+            if( url == "http://127.0.0.1:54596/rb_index.html" || url == "http://127.0.0.1:54596/rb_index.html#goto_contact" ){
                 $('html,body').stop().animate({
                 scrollTop: $(".wrap_3").offset().top}, 600, 'swing');
             }else{
