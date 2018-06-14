@@ -219,7 +219,7 @@ function aboutusFilter(){
         //console.log(i);
         
         if( i == 1){ //all
-            var remaining = $(".f_2, .f_3, .f_4, .f_5");
+            var remaining = $(".f_2, .f_3, .f_4, .f_5, .f_6");
             
             if((remaining).css('display') === 'none'){
                 $(remaining).css({'display':'block'});
@@ -229,7 +229,7 @@ function aboutusFilter(){
             
            
         }else if( i == 2){ //web
-            var remaining = $(".f_3, .f_4, .f_5");
+            var remaining = $(".f_3, .f_4, .f_5, .f_6");
             
             if($(".f_"+i).css('display') === 'none'){
                 $(".f_"+i).css({'display':'block'});
@@ -243,7 +243,7 @@ function aboutusFilter(){
 
             
         }else if( i == 3){ //uiux
-            var remaining = $(".f_2, .f_4, .f_5");
+            var remaining = $(".f_2, .f_4, .f_5, .f_6");
             
             if($(".f_"+i).css('display') === 'none'){
                $(".f_"+i).css({'display':'block'});
@@ -255,8 +255,23 @@ function aboutusFilter(){
                 $(remaining).css({'display':'none'});
             }
 
-        }else if (i == 4){ //editorial
-            var remaining = $(".f_2, .f_3, .f_5");
+        }else if(i == 4){ //interactive
+            
+            var remaining = $(".f_2, .f_3, .f_5, .f_6");
+            
+            if($(".f_"+i).css('display') === 'none'){
+               $(".f_"+i).css({'display':'block'});
+            }
+            
+            if((remaining).css('display') === 'block'){
+                $(remaining).css({'display':'none'});
+            }else{
+                $(remaining).css({'display':'none'});
+            }
+                  
+        }else if (i == 5){ //graphic
+            
+            var remaining = $(".f_2, .f_3, .f_4, .f_6");
             
             if($(".f_"+i).css('display') === 'none'){
                $(".f_"+i).css({'display':'block'});
@@ -268,8 +283,8 @@ function aboutusFilter(){
                 $(remaining).css({'display':'none'});
             }
             
-        }else if (i == 5){ //graphic
-            var remaining = $(".f_2, .f_3, .f_4");
+        }else if (i == 6){ //editorial
+            var remaining = $(".f_2, .f_3, .f_4, .f_5");
             
             if($(".f_"+i).css('display') === 'none'){
                $(".f_"+i).css({'display':'block'});

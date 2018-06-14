@@ -13,7 +13,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
 .wrap{
     margin:0 auto;
     width:1366px;
-    height:2270px;
+    height:2150px;
     position:relative;
     overflow:visible;
 }
@@ -206,10 +206,10 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     height:640px;
     background:#dedede;
     position:absolute;
-    background-image:url();
+    background-image:url(../img/bluest_header_1.jpg);
     background-repeat:no-repeat;
     background-size:cover;
-    opacity:1;
+    opacity:0.1;
 }
 
 /*portfolio detail*/
@@ -363,7 +363,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
 .wrap .portfolio_detail_wrap .inner_wrap .content_1_txt_wrap .content_txt{
     font-size:11px;
     margin:0;
-    width:256px;
+    width:270px;
     line-height:1.82;
     display:block;
     float:left;
@@ -455,7 +455,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
 .wrap .portfolio_detail_wrap .inner_wrap .content_2_txt_wrap .content_txt{
     font-size:11px;
     margin:0;
-    width:256px;
+    width:210px;
     line-height:1.82;
     display:block;
     float:left;

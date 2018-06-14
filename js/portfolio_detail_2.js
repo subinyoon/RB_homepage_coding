@@ -6,81 +6,58 @@ $(document).ready(function(){
 
 function portfolioDetailPage(){
     content1();
-    content2();
 }
 
-/*portfolio detail : content 1 onclick effect*/
 function content1(){
     
-    $(".content_1_wrap .box").on('click', function(){
+    //img target
+    var $img1 = $(".black_img");
+    
+    volumeControl();
         
-        //get box1 fixed url
-        var fixdiv = $(".content_1_wrap .box_1").attr('id');
-            //console.log(div);
-        var getfixUrl = getComputedStyle($('#'+fixdiv)[0]).getPropertyValue("background-image");
-            //console.log(getfixUrl);
-        var slicefixUrl = getfixUrl.slice(27,43);
-            //console.log(slicefixUrl);
-        var finalfixUrl = ".."+slicefixUrl;
-            //console.log(finalfixUrl);
+    $(".animation_wrap").on("click", function(){
+            
+        var transition = document.getElementById("audio_transition");
+            
+        transition.volume = 0.02;
+        transition.play();
+            
+        if($img1.css('opacity') == 1) {
+            fadeOut();
+        }else if($img1.css('opacity') == 0){
+            fadeIn();
+        }
 
-        
-        //get $(this).onclicked url
-        var i = $(this).index()+1;
-            //console.log(i);
-        var div = $(this).attr('id');
-            //console.log(div);
-        var getUrl = getComputedStyle($('#'+div)[0]).getPropertyValue("background-image");
-            //console.log(getUrl);
-        var sliceUrl = getUrl.slice(27,43);
-            //console.log(sliceUrl);
-        var finalUrl = ".."+sliceUrl;
-            //console.log(finalUrl);
-        
-        //action
-        $(".content_1_wrap .box_1").css({'background-image':'url('+finalUrl+')'});
-        $(".content_1_wrap .box_"+i).css({'background-image':'url('+finalfixUrl+')'});
+    }); // click END
+}
+    
+function fadeOut(){
+    
+    //img target
+    var $img1 = $(".black_img");
+
+    $img1.stop().animate({
+        opacity:0
+    },2000,"linear",function(){
+        console.log("fade out");
     });
 }
-
-/*portfolio detail : content 2 onclick effect*/
-function content2(){
-    $(".content_2_wrap .box").on('click', function(){
-
-        var i = $(this).index()+4;
-            //console.log(i);
-        
-        if(i == 4){
-            $(".box_"+i).css({
-            'opacity':'1',
-            'box-shadow':'2px 2px 8px #e2e2e2'
-            });
+    
+function fadeIn(){
+    
+    //img target
+    var $img1 = $(".black_img");
             
-            $(".box_5, .box_6").css({
-            'opacity':'0.3',
-            'box-shadow':'none'
-            });  
-        }else if(i == 5){
-            $(".box_"+i).css({
-            'opacity':'1',
-            'box-shadow':'2px 2px 8px #e2e2e2'
-            });
-            
-            $(".box_4, .box_6").css({
-            'opacity':'0.3',
-            'box-shadow':'none'
-            });     
-        }else if(i == 6){
-            $(".box_"+i).css({
-            'opacity':'1',
-            'box-shadow':'2px 2px 8px #e2e2e2'
-            });
-            
-            $(".box_5, .box_4").css({
-            'opacity':'0.3',
-            'box-shadow':'none'
-            });     
-        }  
+    $img1.stop().animate({
+        opacity:1
+    },2000,"linear",function(){
+        console.log("fade in");
     });
 }
+    
+function volumeControl(){
+    var x = document.getElementById("main_audio");
+    x.volume = 0.01;
+}
+
       

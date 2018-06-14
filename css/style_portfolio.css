@@ -233,7 +233,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
 }
 
 .wrap .filter_wrap .filter_list{
-    width:240px;
+    width:299px;
     height:20px;
     display:block;
     font-size:11px;
@@ -257,24 +257,30 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
 }
 
 .wrap .filter_wrap .filter_list li:nth-child(2){
-    width:21px;
+    width:19px;
     border-left: 1px solid #848484;
     /*background:#00d8ff;*/
 }
 
 .wrap .filter_wrap .filter_list li:nth-child(3){
-    width:28px;
+    width:26px;
     border-left: 1px solid #848484;
     /*background:#ffde71;*/
 }
 
 .wrap .filter_wrap .filter_list li:nth-child(4){
-    width:39px;
+    width:48px;
     border-left: 1px solid #848484;
     /*background:#4be04b;*/
 }
 
 .wrap .filter_wrap .filter_list li:nth-child(5){
+    width:33px;
+    border-left: 1px solid #848484;
+    /*background:#4be04b;*/
+}
+
+.wrap .filter_wrap .filter_list li:nth-child(6){
     width:36px;
     border-left: 1px solid #848484;
     /*background:#4be04b;*/
@@ -323,6 +329,11 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     background:#e3e3e3;
 }
 
+.wrap .column1 .contents_4{
+    height:280px;
+    background:#e3e3e3;
+}
+
 .wrap .column2 .contents_1{
     height:280px;
     background:#e3e3e3;
@@ -345,6 +356,11 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
 
 .wrap .column3 .contents_2{
     height:190px;
+    background:#e3e3e3;
+}
+
+.wrap .column3 .contents_3{
+    height:280px;
     background:#e3e3e3;
 }
 
