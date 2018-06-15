@@ -215,7 +215,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
 /*portfolio detail*/
 .wrap .portfolio_detail_wrap{
     margin:0 auto;
-    width:942px;
+    width:1000px;
     height:360px;
     position:relative;
     overflow:visible;
@@ -223,6 +223,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     transform: translateY(0px);
     animation: none;
     padding-top:280px;
+/*    background-color: red;*/
 }
 
 @keyframes moveWrap{
@@ -249,7 +250,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     color:#525252;
     line-height:27px;
     margin:0;
-    padding-top:92px;
+    padding-top:97px;
 }
 
 .wrap .portfolio_detail_wrap .subtitle{
@@ -263,7 +264,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
 }
 
 .wrap .portfolio_detail_wrap .inner_wrap .project_info_wrap{
-    padding-top:60px;
+    padding-top:50px;
 }
 
 .wrap .portfolio_detail_wrap .inner_wrap .project_info_wrap .line{
