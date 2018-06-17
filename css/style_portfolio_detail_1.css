@@ -27,7 +27,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     background-image:url(../img/bluest_header_1.jpg);
     background-repeat:no-repeat;
     background-size:cover;
-    opacity:0.1;
+    opacity:0.3;
 }
 
 .wrap .portfolio_detail_wrap .inner_wrap .content_1_wrap .box_1{

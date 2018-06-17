@@ -303,9 +303,19 @@ function aboutusFilter(){
 
 /*portfolio : linking to portfolio detail*/
 function toDetail(){
-    $(".portfolio_wrap .column .contents, .client_boxes .boxes").on('click', function(){
+    
+    $(".portfolio_wrap .column1 .contents_2").on('click', function(){
         window.location.href='rb_portfolio_detail_1.html';
     });
+    
+    $(".portfolio_wrap .column3 .contents_3").on('click', function(){
+        window.location.href='rb_portfolio_detail_2.html';
+    });
+    
+    $(".portfolio_wrap .column2 .contents_4").on('click', function(){
+        window.location.href='rb_portfolio_detail_3.html';
+    });
+
 } // 이부분은 상세페이지 더 나오면 디테일하게 잡을 것!!!!!
 
       

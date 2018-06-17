@@ -38,7 +38,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     height:640px;
     background:#dedede;
     position:absolute;
-    background-image:url();
+    background-image:url(../img/haya_header_1.jpg);
     background-repeat:no-repeat;
     background-size:cover;
     opacity:1;
