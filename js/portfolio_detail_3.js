@@ -1,32 +1,43 @@
 $(document).ready(function(){
+    
+    setWinHeight();
 
     $(document).on('scroll', function(){
         positionFixed();
         drawSvg();
         changeBg();
-        
-        
     });
         
 }); //document ready END
 
+function setWinHeight(){
+    var winHeight = window.innerHeight;
+    var getHeight = $(".wrap .graphic_image").css('height');
+    var strHeight = getHeight.replace(/\D/g,'');
+    var numHeight = Number(strHeight); 
+    var sumHeight = numHeight+winHeight;
+    
+    $(".wrap .graphic_image").css({"height":sumHeight});
+}
+
 function positionFixed(){
     var offset = window.pageYOffset;
         //console.log(offset);
+        //console.log(window.innerHeight);
             
-        if(offset >= 554){
+        if(offset >= 600){
                 
             $(".svgs .svg_lines").css({"position":"fixed"});
                 
-            $(".svg_1").css({"top":"-554px"});
-            $(".svg_2").css({"top":"-136px"});
-            $(".svg_3").css({"top":"2px"});
-            $(".svg_4").css({"top":"-554px"});
-            $(".svg_5").css({"top":"-554px"});
-            $(".svg_6").css({"top":"-554px"});
-            $(".svg_7").css({"top":"-554px"});
+            $(".svg_1").css({"top":"-600px"});
+            $(".svg_2").css({"top":"-182px"});
+            $(".svg_3").css({"top":"-44px"});
+            $(".svg_4").css({"top":"-600px"});
+            $(".svg_5").css({"top":"-600px"});
+            $(".svg_6").css({"top":"-600px"});
+            $(".svg_7").css({"top":"-600px"});
                 
-            $(".wrap .bg_wrap").css({"top":"160px"});
+            $(".wrap .bg_wrap").css({"top":"114px"});
             $(".wrap .bg_wrap .bg_fixed").css({"position":"fixed"}); 
             
         }else{
@@ -63,7 +74,7 @@ function positionFixed(){
 }
 
 function drawSvg(){
-    var percentScroll = window.pageYOffset/5516; /*5216 변수로 바꾸기 모니터마다 다름...*/
+    var percentScroll = window.pageYOffset/($(document).height()-$(window).height());
         
         var getNum1 = $(".svg_1 .black_1").css('stroke-dasharray');
         var strNum1 = getNum1.replace(/\D/g,'');
@@ -117,10 +128,11 @@ function drawSvg(){
 }
 
 function changeBg(){
-    var percentScroll = window.pageYOffset/5516; /*5216 변수로 바꾸기 모니터마다 다름...*/
-    
+    var percentScroll = window.pageYOffset/($(document).height()-$(window).height());
+
+    //console.log(percentScroll);
     var changeBg = parseInt(percentScroll*255);
             //console.log(changeBg);
-            console.log(percentScroll);
+            //console.log(percentScroll);
     $(".bg_wrap .bg_fixed").css({'background':'rgb(0,0,'+changeBg+')'});
 }
