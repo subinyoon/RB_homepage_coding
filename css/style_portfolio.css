@@ -28,6 +28,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     transform: translateY(50px);
     animation: none;
     padding-top:124px;
+    background-color: green;
 }
 
 @keyframes moveWrap{
