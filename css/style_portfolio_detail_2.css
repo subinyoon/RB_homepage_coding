@@ -10,10 +10,24 @@ ul, li{list-style:none; margin:0; padding:0;}
 p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
 /*reset end*/
 
+@font-face {
+    font-family: NotoSerifCJK;
+    src: url("../path/NotoSerifCJKsc-Medium.otf") format("opentype");
+}
+
+.portfolio_detail_wrap .inner_wrap .content_wrap .title span{
+    font-family: 'NotoSerifCJK';
+    font-size: 50px;
+}
+
+.portfolio_detail_wrap .inner_wrap .content_wrap .title span:nth-child(1){
+    font-size: 49px;
+}
+
 .wrap{
     margin:0 auto;
     width:1366px;
-    height:1680px; /*이부분 페이지마다 다름*/
+    height:1570px; /*이부분 페이지마다 다름*/
     position:relative;
     overflow:visible;
 }
@@ -24,7 +38,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     height:640px;
     background:#dedede;
     position:absolute;
-    background-image:url();
+    background-image:url(../img/haya_header_1.jpg);
     background-repeat:no-repeat;
     background-size:cover;
     opacity:1;
@@ -100,7 +114,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
         /*left: calc( 100% + 130px );*/
         opacity:0;
         left: calc(100% + 130px);
-        top: calc(85%);
+        top: calc(87%);
     }
 }
 
@@ -114,7 +128,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
         /*left: calc( 100% + 130px );*/
         opacity:0;
         left: calc(100% + 130px);
-        top: calc(100% + 30%);
+        top: calc(100% + 39%);
     }
 }
 
@@ -128,7 +142,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
         /*left: calc( 100% + 130px );*/
         opacity:0;
         left: calc(100% + 130px);
-        top: calc(100% + 55%);
+        top: calc(100% + 65%);
     }
 }
 
@@ -142,7 +156,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
         /*left: calc( 100% + 130px );*/
         opacity:0;
         left: calc(100% + 130px);
-        top: calc(42%);
+        top: calc(43%);
     }
 }
 
@@ -156,7 +170,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
         /*left: calc( 100% + 130px );*/
         opacity:0;
         left: calc(100% + 130px);
-        top: calc(100% + 10%);
+        top: calc(100% + 15%);
     }
 }
 
@@ -172,7 +186,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
 .p-2{
     left:0;
     top:400px;
-    /*animation-name:animation2;*/
+    animation-name:animation2;
     animation-duration:3.5s;
 }
 
@@ -180,7 +194,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
 .p-3{
     left:0;
     top:600px;
-    /*animation-name:animation3;*/
+    animation-name:animation3;
     animation-duration:2.8s;
 }
 
@@ -188,14 +202,14 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
 .p-4{
     left:60%;
     top:-10px;
-    /*animation-name:animation4;*/
+    animation-name:animation4;
     animation-duration:3.2s;
 }
 
 .p-5{
     left:0;
     top:200px;
-    /*animation-name:animation5;*/
+    animation-name:animation5;
     animation-duration:2.2s;
 }
 

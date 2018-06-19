@@ -137,8 +137,12 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
 }
 
 .wrap .column1 .contents_2{
-    height:400px;
+    height:435px;
     background:#e3e3e3;
+    background-image:url(../img/poster2.jpg);
+    background-repeat:no-repeat;
+    background-size:contain;
+    opacity:1;
 }
 
 .wrap .column1 .contents_3{
@@ -166,19 +170,36 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     background:#e3e3e3;
 }
 
+.wrap .column2 .contents_4{
+    height:435px;
+    background:#e3e3e3;
+    background-image:url(../img/overtime_thumbnail.jpg);
+    background-repeat:no-repeat;
+    background-size:contain;
+    opacity:1;
+}
+
 .wrap .column3 .contents_1{
     height:400px;
     background:#e3e3e3;
 }
 
 .wrap .column3 .contents_2{
-    height:190px;
+    height:348px;
     background:#e3e3e3;
+    background-image:url(../img/bino6.jpg);
+    background-repeat:no-repeat;
+    background-size:contain;
+    opacity:1;
 }
 
 .wrap .column3 .contents_3{
-    height:280px;
+    height:308px;
     background:#e3e3e3;
+    background-image:url(../img/thumbnail_haya.jpg);
+    background-repeat:no-repeat;
+    background-size:contain;
+    opacity:1;
 }
 
 /*filter onoff*/

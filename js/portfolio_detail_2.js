@@ -39,7 +39,7 @@ function fadeOut(){
     $img1.stop().animate({
         opacity:0
     },2000,"linear",function(){
-        console.log("fade out");
+        //console.log("fade out");
     });
 }
     
@@ -51,7 +51,7 @@ function fadeIn(){
     $img1.stop().animate({
         opacity:1
     },2000,"linear",function(){
-        console.log("fade in");
+        //console.log("fade in");
     });
 }
     
