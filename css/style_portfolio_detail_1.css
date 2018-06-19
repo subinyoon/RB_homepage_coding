@@ -31,7 +31,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
 }
 
 .wrap .portfolio_detail_wrap .inner_wrap .content_1_wrap .box_1{
-    width:525px;
+    width:532px;
     height:745.5px;
     float:left;
     background-image:url(../img/poster2.jpg);
@@ -54,7 +54,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
 .wrap .portfolio_detail_wrap .inner_wrap .content_1_wrap .box_3{
     width:195px;
     height:276.9px;
-    margin-top:14px;
+    margin-top:9px;
     float:right;
     background-image:url(../img/poster1.jpg);
     background-repeat:no-repeat;

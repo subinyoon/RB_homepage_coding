@@ -22,22 +22,22 @@ function setWinHeight(){
 
 function positionFixed(){
     var offset = window.pageYOffset;
-        //console.log(offset);
+        console.log(offset);
         //console.log(window.innerHeight);
             
-        if(offset >= 600){
+        if(offset >= 620){
                 
             $(".svgs .svg_lines").css({"position":"fixed"});
                 
-            $(".svg_1").css({"top":"-600px"});
-            $(".svg_2").css({"top":"-182px"});
-            $(".svg_3").css({"top":"-44px"});
-            $(".svg_4").css({"top":"-600px"});
-            $(".svg_5").css({"top":"-600px"});
-            $(".svg_6").css({"top":"-600px"});
-            $(".svg_7").css({"top":"-600px"});
+            $(".svg_1").css({"top":"-620px"});
+            $(".svg_2").css({"top":"-202px"});
+            $(".svg_3").css({"top":"-64px"});
+            $(".svg_4").css({"top":"-620px"});
+            $(".svg_5").css({"top":"-620px"});
+            $(".svg_6").css({"top":"-620px"});
+            $(".svg_7").css({"top":"-620px"});
                 
-            $(".wrap .bg_wrap").css({"top":"114px"});
+            $(".wrap .bg_wrap").css({"top":"94px"});
             $(".wrap .bg_wrap .bg_fixed").css({"position":"fixed"}); 
             
         }else{

@@ -15,16 +15,26 @@ function landingPage(){
     showContactBg();
     showGoToTop();
     showWrap();
+    closeLightbox();
 }
 
 function aboutusPage(){
-    aboutusFilter();
+    
 }
-
 
 function portfolioPage(){
     toDetail();
+    portfolioFilter();
 }
+
+/*light box---------------------------------------------*/
+function closeLightbox(){
+    
+    $(".light_box_wrap .close_btn").on('click',function(){
+        $(".light_box_wrap").css({"animation":"lightboxhide 0.3s forwards ease-in-out"});
+    });
+}
+
 
 /*menu link---------------------------------------------*/
 function menuLink(){
@@ -191,15 +201,20 @@ function showWrap(){
         $(".wrap_3").css({'animation':'moveWrap3 1s forwards'}); 
     }
     
-    if(currentScroll == 0){
-        $(".aboutus_wrap").css({'animation':'moveWrap 1s forwards'}); 
+    if(currentScroll >= 0){
+        $(".aboutus_wrap .aboutus_skills").css({'animation':'moveWrap 1s forwards'}); 
+        
+        setTimeout(function(){
+            $(".aboutus_wrap .aboutus_txt_wrap").css({'animation':'moveWrap 1s forwards'}); 
+        },150);
+        
         
         $(".portfolio_wrap").css({'animation':'moveWrap 1s forwards'}); 
     }
     
     $(document).scroll(function(){
         currentScroll = $(document).scrollTop();
-        //console.log(currentScroll);
+        console.log(currentScroll);
         
         if(currentScroll >= 220){
             $(".wrap_2").css({'animation':'moveWrap2 1s forwards'});
@@ -211,12 +226,12 @@ function showWrap(){
 }
 /*-------------------------------------------------------*/
 
-/*about us : filter*/
-function aboutusFilter(){
+/*portfolio us : filter*/
+function portfolioFilter(){
     $(".filter_wrap ul li").on('click', function(){
         
         var i = $(this).index()+1;
-        //console.log(i);
+        console.log(i);
         
         if( i == 1){ //all
             var remaining = $(".f_2, .f_3, .f_4, .f_5, .f_6");
@@ -314,6 +329,10 @@ function toDetail(){
     
     $(".portfolio_wrap .column2 .contents_4").on('click', function(){
         window.location.href='rb_portfolio_detail_3.html';
+    });
+    
+    $(".portfolio_wrap .column3 .contents_2").on('click', function(){
+        window.location.href='rb_portfolio_detail_4.html';
     });
 
 } // 이부분은 상세페이지 더 나오면 디테일하게 잡을 것!!!!!
