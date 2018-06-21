@@ -436,6 +436,77 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     top:150px;
     display:none;
 }
+/*-----------------------------------------------------*/
+
+/*bubbles*/
+.bubbles{
+    width:1650px;
+    height:806px;
+    position:absolute;
+    left:50%;
+    margin-left:-825px;
+    overflow:hidden;
+}
+
+.bubbles .bubble1{
+    width:129px;
+    height:63.5px;
+    background-image:url(../img/bubbles_right_bot.png);
+    background-repeat:no-repeat;
+    position:absolute;
+    left:1032px;
+    top:86px;
+    background-size:contain;
+}
+
+.bubbles .bubble1 p{
+    width:100%;
+    font-size:12px;
+    margin:0;
+    color:#848484;
+    text-align:center;
+    padding-top:15px;
+}
+
+.bubbles .bubble2{
+    width:171px;
+    height:78.5px;
+    background-image:url(../img/bubbles_right_top.png);
+    background-repeat:no-repeat;
+    position:absolute;
+    left:1117px;
+    top:325px;
+    background-size:contain;
+}
+
+.bubbles .bubble2 p{
+    width:100%;
+    font-size:12px;
+    margin:0;
+    color:#848484;
+    padding-top:16px;
+    padding-left:13px;
+}
+
+.bubbles .bubble3{
+    width:114px;
+    height:72.5px;
+    background-image:url(../img/bubbles_left.png);
+    background-repeat:no-repeat;
+    position:absolute;
+    left:417px;
+    top:378px;
+    background-size:contain;
+}
+
+.bubbles .bubble3 p{
+    width:100%;
+    font-size:12px;
+    margin:0;
+    color:#848484;
+    padding-top:13px;
+    padding-left:13px;
+}
 
 /*-----------------------------------------------------*/
 /*division line*/
