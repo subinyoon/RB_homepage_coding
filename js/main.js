@@ -214,7 +214,7 @@ function showWrap(){
     
     $(document).scroll(function(){
         currentScroll = $(document).scrollTop();
-        console.log(currentScroll);
+        //console.log(currentScroll);
         
         if(currentScroll >= 220){
             $(".wrap_2").css({'animation':'moveWrap2 1s forwards'});
@@ -225,92 +225,24 @@ function showWrap(){
     });
 }
 /*-------------------------------------------------------*/
-
 /*portfolio us : filter*/
 function portfolioFilter(){
     $(".filter_wrap ul li").on('click', function(){
         
-        var i = $(this).index()+1;
-        console.log(i);
+        var index = $(this).index()+1;
         
-        if( i == 1){ //all
-            var remaining = $(".f_2, .f_3, .f_4, .f_5, .f_6");
-            
-            if((remaining).css('display') === 'none'){
-                $(remaining).css({'display':'block'});
-            }else{
-                $(remaining).css({'display':'block'});
-            }
-            
-           
-        }else if( i == 2){ //web
-            var remaining = $(".f_3, .f_4, .f_5, .f_6");
-            
-            if($(".f_"+i).css('display') === 'none'){
-                $(".f_"+i).css({'display':'block'});
-            }
-            
-            if((remaining).css('display') === 'block'){
-                $(remaining).css({'display':'none'});
-            }else{
-                $(remaining).css({'display':'none'});
-            }
+        var remaining = $(".f_2, .f_3, .f_4, .f_5, .f_6");
+        
+        $(remaining).css({'display':'none'});
+        
+        if( index === 1) {
+            $(remaining).css({'display':'block'});
+        } 
+        $(".f_"+index).css({'display':'block'});
 
-            
-        }else if( i == 3){ //uiux
-            var remaining = $(".f_2, .f_4, .f_5, .f_6");
-            
-            if($(".f_"+i).css('display') === 'none'){
-               $(".f_"+i).css({'display':'block'});
-            }
-            
-            if((remaining).css('display') === 'block'){
-                $(remaining).css({'display':'none'});
-            }else{
-                $(remaining).css({'display':'none'});
-            }
-
-        }else if(i == 4){ //interactive
-            
-            var remaining = $(".f_2, .f_3, .f_5, .f_6");
-            
-            if($(".f_"+i).css('display') === 'none'){
-               $(".f_"+i).css({'display':'block'});
-            }
-            
-            if((remaining).css('display') === 'block'){
-                $(remaining).css({'display':'none'});
-            }else{
-                $(remaining).css({'display':'none'});
-            }
-                  
-        }else if (i == 5){ //graphic
-            
-            var remaining = $(".f_2, .f_3, .f_4, .f_6");
-            
-            if($(".f_"+i).css('display') === 'none'){
-               $(".f_"+i).css({'display':'block'});
-            }
-            
-            if((remaining).css('display') === 'block'){
-                $(remaining).css({'display':'none'});
-            }else{
-                $(remaining).css({'display':'none'});
-            }
-            
-        }else if (i == 6){ //editorial
-            var remaining = $(".f_2, .f_3, .f_4, .f_5");
-            
-            if($(".f_"+i).css('display') === 'none'){
-               $(".f_"+i).css({'display':'block'});
-            }
-            
-            if((remaining).css('display') === 'block'){
-                $(remaining).css({'display':'none'});
-            }else{
-                $(remaining).css({'display':'none'});
-            }
-        }  
+        
+        //console.log(index);
+        
     }); // onclick END   
 }
 
