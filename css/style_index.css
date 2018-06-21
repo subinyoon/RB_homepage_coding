@@ -460,12 +460,16 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
 }
 
 .bubbles .bubble1 p{
+    overflow:hidden;
+    white-space:nowrap;
     width:100%;
     font-size:12px;
-    margin:0;
+    margin:0 auto;
     color:#848484;
-    text-align:center;
-    padding-top:15px;
+    text-align:left;
+    padding-top:16px;
+    padding-left:22px;
+    animation: typing 1s steps(20, end);
 }
 
 .bubbles .bubble2{
@@ -482,10 +486,27 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
 .bubbles .bubble2 p{
     width:100%;
     font-size:12px;
-    margin:0;
+    margin:0 auto;
     color:#848484;
+    padding-left:16px;
+}
+
+.bubbles .bubble2 p.title{
     padding-top:16px;
-    padding-left:13px;
+}
+
+.bubbles .bubble2 p.sub_title{
+    overflow:hidden;
+    white-space:nowrap;
+    animation: typing 1.2s steps(20, end);
+}
+
+.bubbles .bubble3 p{
+    width:100%;
+    font-size:12px;
+    margin:0 auto;
+    color:#848484;
+    padding-left:15px;
 }
 
 .bubbles .bubble3{
@@ -499,13 +520,19 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     background-size:contain;
 }
 
-.bubbles .bubble3 p{
-    width:100%;
-    font-size:12px;
-    margin:0;
-    color:#848484;
-    padding-top:13px;
-    padding-left:13px;
+.bubbles .bubble3 p.title{
+    padding-top:14px;
+}
+
+.bubbles .bubble3 p.sub_title{
+    overflow:hidden;
+    white-space:nowrap;
+    animation: typing 1.2s steps(20, end);
+}
+
+@keyframes typing{
+    from{width:0;}
+    to{width:100%;}
 }
 
 /*-----------------------------------------------------*/
