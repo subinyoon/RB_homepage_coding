@@ -457,6 +457,8 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     left:1032px;
     top:86px;
     background-size:contain;
+    animation: bubblemove 0.5s infinite ease-in-out;
+    display:none;
 }
 
 .bubbles .bubble1 p{
@@ -481,6 +483,8 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     left:1117px;
     top:325px;
     background-size:contain;
+    animation: bubblemove 0.5s infinite ease-in-out;
+    display:none;
 }
 
 .bubbles .bubble2 p{
@@ -501,23 +505,25 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     animation: typing 1.2s steps(20, end);
 }
 
-.bubbles .bubble3 p{
-    width:100%;
-    font-size:12px;
-    margin:0 auto;
-    color:#848484;
-    padding-left:15px;
-}
-
 .bubbles .bubble3{
     width:114px;
     height:72.5px;
     background-image:url(../img/bubbles_left.png);
     background-repeat:no-repeat;
     position:absolute;
-    left:417px;
+    left:418px;
     top:378px;
     background-size:contain;
+    animation: bubblemove 0.5s infinite ease-in-out;
+    display:none;
+}
+
+.bubbles .bubble3 p{
+    width:100%;
+    font-size:12px;
+    margin:0 auto;
+    color:#848484;
+    padding-left:15px;
 }
 
 .bubbles .bubble3 p.title{
@@ -535,6 +541,54 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     to{width:100%;}
 }
 
+@keyframes bubblemove{
+    0%{ transform:translateY(0px);}
+    50%{ transform:translateY(3px);}
+    100%{ transform:translateY(0px);}
+}
+
+/*bubble anchors*/
+.bubbles .anchor_wrap{
+    position:relative;
+}
+
+.bubbles .anchor{
+    width:13px;
+    height:13px;
+    position:absolute;
+    border-radius:10px;
+    border:0.5px solid #848484;
+    display:none;
+    z-index:9999;
+}
+
+.bubbles .anchor:hover{
+    cursor:pointer;
+}
+
+.bubbles .anchor1{
+    left:1033px;
+    top:148px;
+    animation:scaleanchor 1s infinite ease-in-out;
+}
+
+.bubbles .anchor2{
+    left:1119px;
+    top:403px;
+    animation:scaleanchor 1s infinite ease-in-out;
+}
+
+.bubbles .anchor3{
+    left:516px;
+    top:455px;
+    animation:scaleanchor 1s infinite ease-in-out;
+}
+
+@keyframes scaleanchor {
+    0%{transform:scale(1);}
+    50%{transform:scale(1.1);}
+    100%{transform:scale(1);}
+}
 /*-----------------------------------------------------*/
 /*division line*/
 

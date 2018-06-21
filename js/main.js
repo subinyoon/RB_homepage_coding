@@ -12,6 +12,7 @@ function landingPage(){
     showBoxes();
     showContactGraphic();
     showClientGraphic();
+    bubbleAppear();
     plusIcon();
     showContactBg();
     showGoToTop();
@@ -104,6 +105,34 @@ function showTexture(){
                 $(".texture_"+i).css({'display':'none'});
                 $(".solid_9").css({'display':'none'});
             }
+    });
+}
+
+/*landing speech bubbles*/
+function bubbleAppear(){
+    
+    $(".bubbles .anchor").stop().fadeOut();
+    $(".bubbles .allbub").stop().fadeOut();
+    
+    setTimeout(function(){
+        $(".bubbles .anchor").stop().fadeIn(2000, "linear", function(){
+            $(".bubbles .anchor").css({"display":"block"});
+        });
+    },5000);
+    
+    
+    $(".bubbles .anchor_wrap .anchor").on('mouseover', function(){
+        var i = $(this).index()+1;
+        //console.log(i);
+        $(".bubbles .bubble"+i).stop().fadeIn(500, "linear", function(){
+                $(".bubbles .bubble"+i).css({"display":"block"});
+            });
+    });
+    
+    $(".bubbles .anchor_wrap .anchor").on('mouseout', function(){
+        $(".bubbles .allbub").stop().fadeOut(500, "linear", function(){
+            $(".bubbles .allbub").css({"display":"none"});
+        });
     });
 }
 
