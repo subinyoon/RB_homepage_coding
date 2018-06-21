@@ -12,6 +12,7 @@ function landingPage(){
     showBoxes();
     showContactGraphic();
     showClientGraphic();
+    plusIcon();
     showContactBg();
     showGoToTop();
     showWrap();
@@ -34,7 +35,6 @@ function closeLightbox(){
         $(".light_box_wrap").css({"animation":"lightboxhide 0.3s forwards ease-in-out"});
     });
 }
-
 
 /*menu link---------------------------------------------*/
 function menuLink(){
@@ -147,6 +147,12 @@ function showClientGraphic(){
     });
 }
 
+function plusIcon(){
+    $(".wrap_2 .plus_icon").on('click', function(){
+        window.location.href='rb_portfolio.html';
+    });
+}
+
 /*landing: contact graphic*/
 function showContactGraphic(){
     
@@ -239,10 +245,8 @@ function portfolioFilter(){
             $(remaining).css({'display':'block'});
         } 
         $(".f_"+index).css({'display':'block'});
-
         
         //console.log(index);
-        
     }); // onclick END   
 }
 
@@ -268,5 +272,8 @@ function toDetail(){
     });
 
 } // 이부분은 상세페이지 더 나오면 디테일하게 잡을 것!!!!!
+
+/*-------------------------------------------------------*/
+
 
       

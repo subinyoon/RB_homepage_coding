@@ -28,7 +28,6 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     transform: translateY(50px);
     animation: none;
     padding-top:124px;
-    background-color: green;
 }
 
 @keyframes moveWrap{
@@ -179,9 +178,15 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
 .wrap .column2 .contents_4{
     height:435px;
     background:#e3e3e3;
-    background-image:url(../img/overtime_thumbnail.jpg);
+    background-image:url(../img/overtime_thumbnail.gif);
     background-repeat:no-repeat;
     background-size:contain;
+    opacity:0.9;
+}
+
+.wrap .column2 .contents_4:hover{
+    opacity:1;
+    animation: enlarge 0.3s forwards ease-in-out;
 }
 
 .wrap .column3 .contents_1{
@@ -224,7 +229,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
 }
 
 @keyframes enlarge{
-    to{transform: scale(1.01);}
+    to{transform: scale(1.005);}
 }
 
 /*filter onoff*/
