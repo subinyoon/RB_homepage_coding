@@ -314,6 +314,24 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     clear:both;
 }
 
+.wrap .portfolio_detail_wrap .inner_wrap .content_2_txt_wrap:after{ /*clearfix*/
+    content:"";
+    display:block;
+    clear:both;
+}
+
+.wrap .portfolio_detail_wrap .inner_wrap .content_3_txt_wrap:after{ /*clearfix*/
+    content:"";
+    display:block;
+    clear:both;
+}
+
+.wrap .portfolio_detail_wrap .inner_wrap .content_4_txt_wrap:after{ /*clearfix*/
+    content:"";
+    display:block;
+    clear:both;
+}
+
 .wrap .portfolio_detail_wrap .inner_wrap .content_2_wrap .box_3:after{ /*clearfix*/
     content:"";
     display:block;

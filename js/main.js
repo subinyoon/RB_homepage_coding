@@ -296,6 +296,10 @@ function toDetail(){
         window.location.href='rb_portfolio_detail_3.html';
     });
     
+    $(".portfolio_wrap .column3 .contents_1").on('click', function(){
+        window.location.href='rb_portfolio_detail_5.html';
+    });
+    
     $(".portfolio_wrap .column3 .contents_2").on('click', function(){
         window.location.href='rb_portfolio_detail_4.html';
     });

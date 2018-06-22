@@ -23,7 +23,7 @@ function setWinHeight(){
 function positionFixed(){
     var offset = window.pageYOffset;
         //console.log(offset);
-        console.log(window.innerHeight);
+        //console.log(window.innerHeight);
             
         if(offset >= 620){
                 

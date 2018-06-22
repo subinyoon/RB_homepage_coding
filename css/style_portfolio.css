@@ -140,7 +140,6 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
 
 .wrap .column1 .contents_2 .image{
     height:435px;
-    background:#e3e3e3;
     background-image:url(../img/poster2.jpg);
     background-repeat:no-repeat;
     background-size:contain;
@@ -177,7 +176,6 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
 
 .wrap .column2 .contents_4{
     height:435px;
-    background:#e3e3e3;
     background-image:url(../img/overtime_thumbnail.gif);
     background-repeat:no-repeat;
     background-size:contain;
@@ -190,8 +188,19 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
 }
 
 .wrap .column3 .contents_1{
-    height:400px;
-    background:#e3e3e3;
+    height:199px;
+    overflow:hidden;
+}
+
+.wrap .column3 .contents_1 .image{
+    height:199px;
+    background-image:url(../img/zeron_thumbnail.jpg);
+    background-repeat:no-repeat;
+    background-size:contain;
+}
+
+.wrap .column3 .contents_1 .image:hover{
+    animation: enlarge 0.3s forwards ease-in-out;
 }
 
 .wrap .column3 .contents_2{
@@ -201,7 +210,6 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
 
 .wrap .column3 .contents_2 .image{
     height:348px;
-    background:#e3e3e3;
     background-image:url(../img/bino6.jpg);
     background-repeat:no-repeat;
     background-size:contain;
@@ -213,7 +221,6 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
 
 .wrap .column3 .contents_3{
     height:308px;
-    background:#e3e3e3;
     background-image:url(../img/thumbnail_haya.jpg);
     background-repeat:no-repeat;
     background-size:cover;
