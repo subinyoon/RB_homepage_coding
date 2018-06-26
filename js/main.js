@@ -2,7 +2,6 @@ $(document).ready(function(){
     
     menuLink();
     landingPage();
-    aboutusPage();
     portfolioPage();
         
 }); //document ready END
@@ -13,15 +12,9 @@ function landingPage(){
     showContactGraphic();
     showClientGraphic();
     bubbleAppear();
-    plusIcon();
-    showContactBg();
     showGoToTop();
     showWrap();
     closeLightbox();
-}
-
-function aboutusPage(){
-    
 }
 
 function portfolioPage(){
@@ -41,16 +34,26 @@ function closeLightbox(){
 function menuLink(){
     $(".menu ul li").on('click', function(){
         var i = $(this).index()+1;
+        //console.log(i);
         
         if( i == 1){
             window.location.href='rb_portfolio.html';
         }else if( i == 2){
-            window.location.href='rb_aboutus.html';  
-        }else if (i == 3){
             var url = window.location.href;
             console.log(url);
+            
+            if( url == "http://127.0.0.1:58620/rb_index.html" || url == "http://127.0.0.1:58620/rb_index.html#aboutus_anchor" || url == "http://127.0.0.1:58620/rb_index.html#goto_contact" || url == "rb_index.html#goto_contact" || url == "rb_index.html#aboutus_anchor"){
+                $('html,body').stop().animate({
+                scrollTop: $("#aboutus_anchor").offset().top}, 600, 'swing');
+            }else{
+             window.location.href='rb_index.html#aboutus_anchor';
+            }     
+            
+        }else if (i == 3){
+            var url = window.location.href;
+            //console.log(url);
         
-            if( url == "http://127.0.0.1:54596/rb_index.html" || url == "http://127.0.0.1:54596/rb_index.html#goto_contact" ){
+            if( url == "http://127.0.0.1:58620/rb_index.html" || url == "http://127.0.0.1:58620/rb_index.html#goto_contact" || url == "http://127.0.0.1:58620/rb_index.html#aboutus_anchor" || url == "rb_index.html#goto_contact" || url == "rb_index.html#aboutus_anchor"){
                 $('html,body').stop().animate({
                 scrollTop: $(".wrap_3").offset().top}, 600, 'swing');
             }else{
@@ -176,12 +179,6 @@ function showClientGraphic(){
     });
 }
 
-function plusIcon(){
-    $(".wrap_2 .plus_icon").on('click', function(){
-        window.location.href='rb_portfolio.html';
-    });
-}
-
 /*landing: contact graphic*/
 function showContactGraphic(){
     
@@ -193,18 +190,6 @@ function showContactGraphic(){
            $(".form_wrap #graphic_contact").animate({'stroke-dashoffset':'0'}, 3000, 'swing');
             $(".form_wrap .graphic_solid_grey").animate({'opacity':'1'}, 4000, 'swing');
             $(".form_wrap .graphic_solid_red").animate({'opacity':'1'}, 5000, 'swing');
-        }
-    });
-}
-
-/*landing: contact bg*/
-function showContactBg(){
-    
-    $(document).scroll(function(){
-        var currentScroll = $(document).scrollTop();
-        //console.log(currentScroll);
-        if(currentScroll >= 970){
-            $(".contact_bg").animate({'opacity':'1'}, 1500, 'swing');
         }
     });
 }
@@ -230,32 +215,40 @@ function showGoToTop(){
 function showWrap(){
     
     var currentScroll = $(document).scrollTop();
-    //console.log(currentScroll);
+    console.log(currentScroll);
     
-    if(currentScroll <= 1546 && currentScroll >= 985){
+    if(currentScroll <= 1778 && currentScroll >= 1230){
         $(".wrap_3").css({'animation':'moveWrap3 1s forwards'}); 
+        $(".contact_bg").animate({'opacity':'1'}, 1500, 'swing');
+    }
+    
+    if(currentScroll <= 1231 && currentScroll >= 805){
+        $(".wrap_2 .aboutus_wrap .aboutus_skills").css({'animation':'moveWrap3 1s forwards'});
+        
+        setTimeout(function(){
+                $(".wrap_2 .aboutus_wrap .aboutus_txt_wrap").css({'animation':'moveWrap 1s forwards'}); 
+        },400); 
     }
     
     if(currentScroll >= 0){
-        $(".aboutus_wrap .aboutus_skills").css({'animation':'moveWrap 1s forwards'}); 
-        
-        setTimeout(function(){
-            $(".aboutus_wrap .aboutus_txt_wrap").css({'animation':'moveWrap 1s forwards'}); 
-        },150);
-        
-        
         $(".portfolio_wrap").css({'animation':'moveWrap 1s forwards'}); 
     }
     
     $(document).scroll(function(){
         currentScroll = $(document).scrollTop();
         //console.log(currentScroll);
-        
-        if(currentScroll >= 220){
-            $(".wrap_2").css({'animation':'moveWrap2 1s forwards'});
-        }
-        if(currentScroll >= 985){
+
+        if(currentScroll >= 1230){
             $(".wrap_3").css({'animation':'moveWrap3 1s forwards'});
+            $(".contact_bg").animate({'opacity':'1'}, 1500, 'swing');
+        }
+        
+        if(currentScroll >= 280){
+            $(".wrap_2 .aboutus_wrap .aboutus_skills").css({'animation':'moveWrap 1s forwards'}); 
+        
+            setTimeout(function(){
+                $(".wrap_2 .aboutus_wrap .aboutus_txt_wrap").css({'animation':'moveWrap 1s forwards'}); 
+            },400); 
         }
     });
 }
@@ -302,6 +295,10 @@ function toDetail(){
     
     $(".portfolio_wrap .column3 .contents_2").on('click', function(){
         window.location.href='rb_portfolio_detail_4.html';
+    });
+    
+    $(".portfolio_wrap .column1 .contents_4").on('click', function(){
+        window.location.href='rb_portfolio_detail_A.html';
     });
 
 } // 이부분은 상세페이지 더 나오면 디테일하게 잡을 것!!!!!
