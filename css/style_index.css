@@ -22,7 +22,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     width:1750px;
     height:806px;
     padding-top:40px;
-    opacity:0.8;
+    opacity:1;
     position:absolute;
     left:50%;
     margin-left:-875px;
@@ -534,20 +534,32 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     left:949px;
     top:352px;
     display:none;
-    opacity:1;
     z-index:52;
 }
 
 .graphic_wrap .graphic_main .texture_3{ /*defalut display none*/
-    width:612px;
-    height:538px;
-    background-image: url(../img/graphic_tex_4.png);
+    width:620px;
+    height:738px;
+    background-image: url(../img/graphic_theme_haya.png);
     background-repeat:no-repeat;
     background-size:contain;
     position:absolute;
-    left:518px;
-    top:150px;
+    left:507.5px;
+    top:37px;
     display:none;
+}
+
+.graphic_wrap .graphic_main .theme_3_1{ /*defalut display none*/
+    width:66px;
+    height:89px;
+    background-image: url(../img/graphic_theme_haya_circle.png);
+    background-repeat:no-repeat;
+    background-size:contain;
+    position:absolute;
+    left:1080px;
+    top:270px;
+    display:none;
+    animation: circlemove 5s ease-in-out infinite;
 }
 
 /*theme animations*/
@@ -611,6 +623,13 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     0%{left:1020px; top:420px;}
     80%{left:720px; top:600px;}
     100%{left:720px; top:600px;}
+}
+
+/*theme3*/
+@keyframes circlemove{
+    0%{left:1080px; top:270px;}
+    50%{left:985px; top:218px;}
+    100%{left:1080px; top:270px;}
 }
 /*-----------------------------------------------------*/
 
