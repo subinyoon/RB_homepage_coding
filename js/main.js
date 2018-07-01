@@ -81,24 +81,28 @@ function showTexture(){
                 $(".theme_2_1").css({'display':'block'});
                 $(".theme_2_2").css({'display':'block'});
                 $(".theme_2_3").css({'display':'block'});
+                $(".theme_2_4").css({'display':'block'});
                 $(".bubbles").css({'display':'none'});
                 
             }else if(i == 3){
                 $(".texture_"+i).css({'display':'block'});
-                //$(".solid_7").css({'display':'block'});
                 $(".solid_4").css({'display':'block'});
                 $(".theme_3_1").css({'display':'block'});
                 $(".bubbles").css({'display':'none'});
                 
             }else{
                 $(".texture_"+i).css({'display':'block'});
-                //$(".solid_2").css({'display':'block', 'animation':'none'});
                 $(".theme_1_1").css({'display':'block'});
                 $(".theme_1_2").css({'display':'block'});
                 $(".theme_1_3").css({'display':'block'});
                 $(".theme_1_4").css({'display':'block'});
                 $(".theme_1_5").css({'display':'block'});
+                $(".theme_1_6").css({'display':'block'});
+                $(".theme_1_7").css({'display':'block'});
+                $(".theme_1_8").css({'display':'block'});
+                $(".theme_1_9").css({'display':'block'});
                 $(".bubbles").css({'display':'none'});
+                $(".solid_1").css({'display':'none'});
             }
     });
         
@@ -112,23 +116,27 @@ function showTexture(){
                 $(".theme_2_1").css({'display':'none'});
                 $(".theme_2_2").css({'display':'none'});
                 $(".theme_2_3").css({'display':'none'});
+                $(".theme_2_4").css({'display':'none'});
                 $(".bubbles").css({'display':'block'});
 
             }else if(i == 3){
                 $(".texture_"+i).css({'display':'none'});
-                //$(".solid_7").css({'display':'none'});
                 $(".solid_4").css({'display':'none'});
                 $(".theme_3_1").css({'display':'none'});
                 $(".bubbles").css({'display':'block'});
             }else{
                 $(".texture_"+i).css({'display':'none'});
-                //$(".solid_2").css({'display':'block', 'animation':'solidmove 5s infinite ease-in-out'});
                 $(".theme_1_1").css({'display':'none'});
                 $(".theme_1_2").css({'display':'none'});
                 $(".theme_1_3").css({'display':'none'});
                 $(".theme_1_4").css({'display':'none'});
                 $(".theme_1_5").css({'display':'none'});
+                $(".theme_1_6").css({'display':'none'});
+                $(".theme_1_7").css({'display':'none'});
+                $(".theme_1_8").css({'display':'none'});
+                $(".theme_1_9").css({'display':'none'});
                 $(".bubbles").css({'display':'block'});
+                $(".solid_1").css({'display':'block'});
             }
     });
 }
