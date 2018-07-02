@@ -42,7 +42,7 @@ function menuLink(){
             var url = window.location.href;
             console.log(url);
             
-            if( url == "http://127.0.0.1:58620/rb_index.html" || url == "http://127.0.0.1:58620/rb_index.html#aboutus_anchor" || url == "http://127.0.0.1:58620/rb_index.html#goto_contact" || url == "rb_index.html#goto_contact" || url == "rb_index.html#aboutus_anchor"){
+            if( url == "http://13.125.147.113/rb_index.html" || url == "http://13.125.147.113/rb_index.html#aboutus_anchor" || url == "http://13.125.147.113/rb_index.html#goto_contact" || url == "rb_index.html#goto_contact" || url == "rb_index.html#aboutus_anchor"){
                 $('html,body').stop().animate({
                 scrollTop: $("#aboutus_anchor").offset().top}, 600, 'swing');
             }else{
@@ -53,7 +53,7 @@ function menuLink(){
             var url = window.location.href;
             //console.log(url);
         
-            if( url == "http://127.0.0.1:58620/rb_index.html" || url == "http://127.0.0.1:58620/rb_index.html#goto_contact" || url == "http://127.0.0.1:58620/rb_index.html#aboutus_anchor" || url == "rb_index.html#goto_contact" || url == "rb_index.html#aboutus_anchor"){
+            if( url == "http://13.125.147.113/rb_index.html" || url == "http://13.125.147.113/rb_index.html#goto_contact" || url == "http://13.125.147.113/rb_index.html#aboutus_anchor" || url == "rb_index.html#goto_contact" || url == "rb_index.html#aboutus_anchor"){
                 $('html,body').stop().animate({
                 scrollTop: $(".wrap_3").offset().top}, 600, 'swing');
             }else{
@@ -78,16 +78,31 @@ function showTexture(){
             
             if(i == 2){
                 $(".texture_"+i).css({'display':'block'});
-                $(".solid_8").css({'display':'block'});
+                $(".theme_2_1").css({'display':'block'});
+                $(".theme_2_2").css({'display':'block'});
+                $(".theme_2_3").css({'display':'block'});
+                $(".theme_2_4").css({'display':'block'});
+                $(".bubbles").css({'display':'none'});
                 
             }else if(i == 3){
                 $(".texture_"+i).css({'display':'block'});
-                $(".solid_7").css({'display':'block'});
                 $(".solid_4").css({'display':'block'});
+                $(".theme_3_1").css({'display':'block'});
+                $(".bubbles").css({'display':'none'});
                 
             }else{
                 $(".texture_"+i).css({'display':'block'});
-                $(".solid_9").css({'display':'block'});
+                $(".theme_1_1").css({'display':'block'});
+                $(".theme_1_2").css({'display':'block'});
+                $(".theme_1_3").css({'display':'block'});
+                $(".theme_1_4").css({'display':'block'});
+                $(".theme_1_5").css({'display':'block'});
+                $(".theme_1_6").css({'display':'block'});
+                $(".theme_1_7").css({'display':'block'});
+                $(".theme_1_8").css({'display':'block'});
+                $(".theme_1_9").css({'display':'block'});
+                $(".bubbles").css({'display':'none'});
+                $(".solid_1").css({'display':'none'});
             }
     });
         
@@ -98,15 +113,30 @@ function showTexture(){
             
             if(i == 2){
                 $(".texture_"+i).css({'display':'none'});
-                $(".solid_8").css({'display':'none'});
+                $(".theme_2_1").css({'display':'none'});
+                $(".theme_2_2").css({'display':'none'});
+                $(".theme_2_3").css({'display':'none'});
+                $(".theme_2_4").css({'display':'none'});
+                $(".bubbles").css({'display':'block'});
 
             }else if(i == 3){
-                $(".texture_"+i).css({'display':'none','opacity':'0.7'});
-                $(".solid_7").css({'display':'none'});
+                $(".texture_"+i).css({'display':'none'});
                 $(".solid_4").css({'display':'none'});
+                $(".theme_3_1").css({'display':'none'});
+                $(".bubbles").css({'display':'block'});
             }else{
                 $(".texture_"+i).css({'display':'none'});
-                $(".solid_9").css({'display':'none'});
+                $(".theme_1_1").css({'display':'none'});
+                $(".theme_1_2").css({'display':'none'});
+                $(".theme_1_3").css({'display':'none'});
+                $(".theme_1_4").css({'display':'none'});
+                $(".theme_1_5").css({'display':'none'});
+                $(".theme_1_6").css({'display':'none'});
+                $(".theme_1_7").css({'display':'none'});
+                $(".theme_1_8").css({'display':'none'});
+                $(".theme_1_9").css({'display':'none'});
+                $(".bubbles").css({'display':'block'});
+                $(".solid_1").css({'display':'block'});
             }
     });
 }
