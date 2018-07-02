@@ -5,13 +5,8 @@ $(document).ready(function(){
 }); //document ready END
 
 function portfolioDetailPage(){
-    //videoPlay();
     showIllustration();
 }
-
-/*function videoPlay(){
-    $('.bino_web .inner_gif').get(0).play();
-}*/
 
 function showIllustration(){
     
