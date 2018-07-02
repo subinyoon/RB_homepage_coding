@@ -7,11 +7,16 @@ $(function(){
             $landTarget,
             position,
             $symbol,
-            $symbolTarget = null;
+            $symbolTarget,
+            $spots,
+            $explain,
+            $exTarget= null;
     
         var top,
             landNum,
-            symbolNum = 0;
+            symbolNum,
+            exNum= 0;
+    
         var count = 1;
     
         $(document).ready(function(){
@@ -21,9 +26,11 @@ $(function(){
 
         // reset
         function init(){
+            $spots = $(".spot_group img");
             $lands = $(".land_group img");
             $background = $(".background");
             $symbol = $(".symbol_group img");
+            $explain = $(".explain_group div");
         }
         
     
@@ -32,13 +39,25 @@ $(function(){
                $landTarget = $(this); 
                 count += 1;
                 
-                if(count%2 ==0){
-                    onselect();
-                }else{
-                    offselect();
-                }
                 
+                onselect();
                 showSymbol();
+                showExplain();
+                
+                $background.one("click",function(){
+                    $exTarget.style.display ='none';
+                    $symbolTarget.style.display ='none';
+                    $symbolTarget.style.zIndex='-1';
+                    offselect();
+                    
+                });
+                
+                
+//                }else{
+//                    offselect();
+//                }
+                
+                
            });  
         }
     
@@ -53,18 +72,24 @@ $(function(){
                 opacity: 0.2
             });
 
+            $spots.css({
+                opacity: 0.2
+            });
+            
             $background.css({
-                display: 'block'
+                display: 'block',
+                "z-index": 3
             });
 
 //            $landTarget.attr("src",result);
-            
-            $landTarget.css({
+            setTimeout(function(){
+                $landTarget.css({
                 opacity: 1,
                 top: top+'px',
                 "z-index": 1
 
-            });
+                });  
+            },200);
             
             
             
@@ -81,8 +106,13 @@ $(function(){
                 opacity: 1
             });
             
+            $spots.css({
+                opacity: 1
+            });
+            
             $background.css({
-                display: 'none'
+                display: 'none',
+                "z-index": -1
             });
             
 //            $landTarget.attr("src",result);
@@ -90,129 +120,42 @@ $(function(){
             $landTarget.css({
                 top: top+'px',
                 "z-index": 0
-
             });
+            
+            
         
         }
     
         function showSymbol(){
-            landNum = $landTarget.attr("id");
-            $symbolTarget = $symbol.get(landNum-1);
-            symbolNum = $symbolTarget.getAttribute("id");
+            landNum = $landTarget.attr('id');
+            symbolNum = $symbol.eq(landNum-1).attr('id');
             
-            console.log("land = "+landNum);
-            console.log("symbol = "+symbolNum);
-            console.log($symbol.length);
-            console.log($symbolTarget);
+            $symbolTarget = $symbol.get(symbolNum-1);
             
-            if(symbolNum==landNum){
-                $symbolTarget.css({
-                    display: 'block',
-                    opacity: 1,
-                    "z-index": 2
-                });  
-            } 
+//            console.log("land = "+landNum);
+//            console.log("symbol = "+symbolNum);
+//            console.log($symbol.length);
+//            console.log($symbolTarget);
             
-//            $symbolTarget.one("click",function(){
-//                if($symbolTarget.hasClass("none")==true){
-//                    $symbolTarget.css({
-//                        display: 'none',
-//                        "z-index": -3
-//                    });  
-//                    offselect();
-//                    
-//                }
-//            })
+            setTimeout(function(){
+                $symbolTarget.style.zIndex="2";
+                $symbolTarget.style.display ="block";  
+            },200);
+                      
+        };
+    
+        function showExplain(){
+            landNum = $landTarget.attr('id');
+            exNum = $explain.eq(landNum-1).attr('id');
             
-            
-        }
-        
-        function show(){
-            
+            $exTarget = $explain.get(exNum-1);
+              
+            setTimeout(function(){
+                $exTarget.style.display = "block";
+            },500);
         }
     
     
     
-    
-    
-    
-        
-       
-        
-//        // event
-//        function initEvent(){
-//            $imges.on("mousedown",function(e){
-//             
-//                $dragTarget = $(this);
-//                drag = true;
-//                
-//                // start position
-//                var offset = $dragTarget.offset();
-//                startImgX = e.pageX - offset.left;
-//                startImgY = e.pageY - offset.top;
-//                
-//                // z index
-//                zIndex++;
-//                $dragTarget.css({
-//                    "z-index" : zIndex
-//                })
-//                
-//                
-//                activeDrag();
-//            })
-//            
-//        }
-//        
-//        function activeDrag(){
-//            // mousemove
-//            $(document).on("mousemove",function(e){
-//                if(drag==true){
-//                    // cancle
-//                    e.preventDefault();
-//                    
-//                    // mousePos
-//                    var endX = e.pageX - startImgX;
-//                    var endY = e.pageY - startImgY;
-//                    
-//                    // move
-//                    $dragTarget.offset({
-//                        left : endX,
-//                        top : endY
-//                    })
-//                    
-//                }
-//                
-//            });
-//            
-//            // mouseup
-//            $(document).on("mouseup",function(e){
-//                // drop pos
-//                drop(e.pageX,e.pageY);
-//                
-//                // event off
-//                $(document).off();
-//                
-//                // reset drag
-//                drag = false;
-//                $dragTarget = null;
-// 
-//            })
-//            
-//        }
-////        
-//        function drop(dropX,dropY){
-//            
-//            
-////            if(selectInfo.left<dropX && selectInfo.right>dropX){
-////                if(selectInfo.top<dropY && selectInfo.bottom>dropY){
-////                    $selectPanel.append($dragTarget);
-//                    
-//                    // off mouse event
-////                    $dragTarget.off();
-////                    $dragTarget = null;
-//                    
-////                    console.log(selectInfo);
-////                }
-////            }
-//        }
+  
 });

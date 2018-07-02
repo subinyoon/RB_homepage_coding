@@ -16,6 +16,8 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     height:1630px; /*이부분 페이지마다 다름*/
     position:relative;
     overflow:visible;
+    
+    background-color: green;
 }
 
 
