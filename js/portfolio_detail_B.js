@@ -146,9 +146,7 @@ $(function(){
     
         function showExplain(){
             landNum = $landTarget.attr('id');
-            exNum = $explain.eq(landNum-1).attr('id');
-            
-            $exTarget = $explain.get(exNum-1);
+            $exTarget = $explain.get(landNum-1);
               
             setTimeout(function(){
                 $exTarget.style.display = "block";
