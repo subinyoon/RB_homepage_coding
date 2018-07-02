@@ -27,15 +27,15 @@ function content1(){
         
         //get $(this).onclicked url
         var i = $(this).index()+1;
-            //console.log(i);
+            console.log(i);
         var div = $(this).attr('id');
-            //console.log(div);
+            console.log(div);
         var getUrl = getComputedStyle($('#'+div)[0]).getPropertyValue("background-image");
-            //console.log(getUrl);
+            console.log(getUrl);
         var sliceUrl = getUrl.slice(27,43);
-            //console.log(sliceUrl);
+            console.log(sliceUrl);
         var finalUrl = ".."+sliceUrl;
-            //console.log(finalUrl);
+            console.log(finalUrl);
         
         //action
         $(".content_1_wrap .box_1").css({'background-image':'url('+finalUrl+')'});
