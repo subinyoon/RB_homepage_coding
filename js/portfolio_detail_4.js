@@ -1,6 +1,7 @@
 $(document).ready(function(){
-
+    alert("load");
     portfolioDetailPage();
+    
     
 }); //document ready END
 

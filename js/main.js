@@ -45,7 +45,7 @@ function menuLink(){
             window.location.href='rb_portfolio.html';
         }else if( i == 2){
             var url = window.location.href;
-            console.log(url);
+            //console.log(url);
             
             if( url == "http://13.125.147.113/rb_index.html" || url == "http://13.125.147.113/rb_index.html#aboutus_anchor" || url == "http://13.125.147.113/rb_index.html#goto_contact" || url == "rb_index.html#goto_contact" || url == "rb_index.html#aboutus_anchor"){
                 $('html,body').stop().animate({
@@ -250,7 +250,7 @@ function showGoToTop(){
 function showWrap(){
     
     var currentScroll = $(document).scrollTop();
-    console.log(currentScroll);
+    //console.log(currentScroll);
     
     if(currentScroll <= 1778 && currentScroll >= 1230){
         $(".wrap_3").css({'animation':'moveWrap3 1s forwards'}); 
