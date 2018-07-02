@@ -21,7 +21,7 @@ function content1(){
             console.log(getfixUrl);
         var slicefixUrl = getfixUrl.slice(27,43);
             console.log(slicefixUrl);
-        var finalfixUrl = ".."+slicefixUrl;
+        var finalfixUrl = "../"+slicefixUrl;
             console.log(finalfixUrl);
 
         
@@ -34,7 +34,7 @@ function content1(){
             console.log(getUrl);
         var sliceUrl = getUrl.slice(27,43);
             console.log(sliceUrl);
-        var finalUrl = ".."+sliceUrl;
+        var finalUrl = "../"+sliceUrl;
             console.log(finalUrl);
         
         //action
