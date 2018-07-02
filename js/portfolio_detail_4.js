@@ -19,9 +19,9 @@ function showIllustration(){
 
         var getfixUrl = getComputedStyle($('#'+fixdiv)[0]).getPropertyValue("background-image");
             console.log(getfixUrl);
-        var slicefixUrl = getfixUrl.slice(27,40);
+        var slicefixUrl = getfixUrl.slice(27,41);
             console.log(slicefixUrl);
-        var finalfixUrl = "../"+slicefixUrl;
+        var finalfixUrl = ".."+slicefixUrl;
             console.log(finalfixUrl);
 
         
@@ -32,9 +32,9 @@ function showIllustration(){
             console.log(div);
         var getUrl = getComputedStyle($('#'+div)[0]).getPropertyValue("background-image");
             console.log(getUrl);
-        var sliceUrl = getUrl.slice(27,40);
+        var sliceUrl = getUrl.slice(27,41);
             console.log(sliceUrl);
-        var finalUrl = "../"+sliceUrl;
+        var finalUrl = ".."+sliceUrl;
             console.log(finalUrl);
         
         //action
