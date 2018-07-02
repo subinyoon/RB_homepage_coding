@@ -1,3 +1,5 @@
+(function($) { 
+
 $(document).ready(function(){
     alert("load");
     console.log("loaded")
@@ -40,4 +42,8 @@ function showIllustration(){
         $(".content_1_wrap .slide_"+i).css({'background-image':'url('+finalfixUrl+')'}); 
     });
 }
+
+})(jQuery);
+
+
       
