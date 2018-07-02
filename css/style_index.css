@@ -50,7 +50,6 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     margin-left:-500px;
     width:1010px;
     height:640px;
-    background:blue;
     z-index:9999;
     display:block;
     transform:translateY(50px);
@@ -73,13 +72,12 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     right:-12px;
     top:-12px;
     border-radius:1px;
-    background:red;
     border:1px solid rgba(132, 132, 132, 0.5);
     background:#f4f4f4;
     cursor:pointer;
 }
 
-/*close button*/
+/*close button txt*/
 .light_box_wrap .light_box_inner_wrap .close_btn p{
     margin:0;
     width:16px;
@@ -88,6 +86,33 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     margin: 0 auto;
     padding-top:4px;
     font-size:15px;
+    font-weight:100;
+    color:rgba(132, 132, 132, 0.9);
+}
+
+/*close one day button*/
+.light_box_wrap .light_box_inner_wrap .day_close_btn{
+    width:80px;
+    height:25px;
+    background:blue;
+    position:absolute;
+    right:25px;
+    top:-12px;
+    border-radius:1px;
+    border:1px solid rgba(132, 132, 132, 0.5);
+    background:#f4f4f4;
+    cursor:pointer;
+}
+
+/*close one day button txt*/
+.light_box_wrap .light_box_inner_wrap .day_close_btn p{
+    margin:0;
+    width:80px;
+    height:16px;
+    text-align:center;
+    margin: 0 auto;
+    padding-top:5px;
+    font-size:14px;
     font-weight:100;
     color:rgba(132, 132, 132, 0.9);
 }

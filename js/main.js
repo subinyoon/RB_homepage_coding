@@ -25,8 +25,13 @@ function portfolioPage(){
 /*light box---------------------------------------------*/
 function closeLightbox(){
     
+    if($(".light_box_wrap").css("display") == "block"){
+       $(".bubbles").css({"display":"none"});
+    }
+    
     $(".light_box_wrap .close_btn").on('click',function(){
         $(".light_box_wrap").css({"animation":"lightboxhide 0.3s forwards ease-in-out"});
+        $(".bubbles").css({"display":"block"});
     });
 }
 
@@ -309,27 +314,45 @@ function toDetail(){
     
     $(".portfolio_wrap .column1 .contents_2").on('click', function(){
         window.location.href='rb_portfolio_detail_1.html';
+        //bluest
     });
     
-    $(".portfolio_wrap .column3 .contents_3").on('click', function(){
-        window.location.href='rb_portfolio_detail_2.html';
+    $(".portfolio_wrap .column1 .contents_4").on('click', function(){
+        window.location.href='rb_portfolio_detail_B.html';
+        //hongik map
     });
     
     $(".portfolio_wrap .column2 .contents_4").on('click', function(){
         window.location.href='rb_portfolio_detail_3.html';
+        //overtime
+    });
+    
+    $(".portfolio_wrap .column2 .contents_1").on('click', function(){
+        window.location.href='rb_portfolio_detail_D.html';
+        //overtime
+    });
+    
+    $(".portfolio_wrap .column2 .contents_2").on('click', function(){
+        window.location.href='rb_portfolio_detail_A.html';
+        //overtime
     });
     
     $(".portfolio_wrap .column3 .contents_1").on('click', function(){
         window.location.href='rb_portfolio_detail_5.html';
+        //zeron
     });
     
     $(".portfolio_wrap .column3 .contents_2").on('click', function(){
         window.location.href='rb_portfolio_detail_4.html';
+        //bino
     });
     
-    $(".portfolio_wrap .column1 .contents_4").on('click', function(){
-        window.location.href='rb_portfolio_detail_A.html';
+    $(".portfolio_wrap .column3 .contents_4").on('click', function(){
+        window.location.href='rb_portfolio_detail_2.html';
+        //haya
     });
+    
+    
 
 } // 이부분은 상세페이지 더 나오면 디테일하게 잡을 것!!!!!
 

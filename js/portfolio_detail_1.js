@@ -16,13 +16,13 @@ function content1(){
         
         //get box1 fixed url
         var fixdiv = $(".content_1_wrap .box_1").attr('id');
-            //console.log(div);
+        //console.log(div);
         var getfixUrl = getComputedStyle($('#'+fixdiv)[0]).getPropertyValue("background-image");
             //console.log(getfixUrl);
         var slicefixUrl = getfixUrl.slice(27,43);
             //console.log(slicefixUrl);
         var finalfixUrl = ".."+slicefixUrl;
-            //console.log(finalfixUrl);
+            console.log(finalfixUrl);
 
         
         //get $(this).onclicked url
