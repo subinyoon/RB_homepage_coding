@@ -1,5 +1,6 @@
 $(document).ready(function(){
     alert("load");
+    console.log("loaded")
     portfolioDetailPage();
     
     
