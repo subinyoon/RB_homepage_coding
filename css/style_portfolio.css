@@ -129,8 +129,16 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
 
 /*contents details*/
 .wrap .column1 .contents_1{
-    height:280px;
-    background:#e3e3e3;
+    height:417px;
+    background:blue;
+    overflow:hidden;
+}
+
+.wrap .column1 .contents_1 .image{
+    height:417px;
+    background-image:url(../img/cube_thumnail.jpeg);
+    background-repeat:no-repeat;
+    background-size:contain;
 }
 
 .wrap .column1 .contents_2{
@@ -155,18 +163,44 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
 }
 
 .wrap .column1 .contents_4{
-    height:280px;
-    background:#e3e3e3;
+    height:307px;
+    overflow:hidden;
+    background:blue;
+}
+
+.wrap .column1 .contents_4 .image{
+    height:307px;
+    background-image:url(../img/map_thumnail.jpg);
+    background-repeat:no-repeat;
+    background-size:contain;
+}
+
+.wrap .column1 .contents_4 .image:hover{
+    animation: enlarge 0.3s forwards ease-in-out;
 }
 
 .wrap .column2 .contents_1{
-    height:280px;
-    background:#e3e3e3;
+    height:435px;
+    overflow:hidden;
+}
+
+.wrap .column2 .contents_1 .image{
+    height:435px;
+    background-image:url(../img/malevich_thumnail.png);
+    background-repeat:no-repeat;
+    background-size:contain;
+}
+
+.wrap .column2 .contents_1 .image:hover{
+    animation: enlarge 0.3s forwards ease-in-out;
 }
 
 .wrap .column2 .contents_2{
-    height:190px;
-    background:#e3e3e3;
+    height:308px;
+    background:blue;
+    background-image:url(../img/rooming_thumnail.jpg);
+    background-repeat:no-repeat;
+    background-size:contain;
 }
 
 .wrap .column2 .contents_3{
@@ -176,13 +210,18 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
 
 .wrap .column2 .contents_4{
     height:435px;
+    overflow:hidden;
+}
+
+.wrap .column2 .contents_4 .image{
+    height:435px;
     background-image:url(../img/overtime_thumbnail.gif);
     background-repeat:no-repeat;
     background-size:contain;
     opacity:0.9;
 }
 
-.wrap .column2 .contents_4:hover{
+.wrap .column2 .contents_4 .image:hover{
     opacity:1;
     animation: enlarge 0.3s forwards ease-in-out;
 }
@@ -221,12 +260,17 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
 
 .wrap .column3 .contents_3{
     height:308px;
+    background:#e5e5e5;
+}
+
+.wrap .column3 .contents_4{
+    height:308px;
     background-image:url(../img/thumbnail_haya.jpg);
     background-repeat:no-repeat;
     background-size:cover;
 }
 
-.wrap .column3 .contents_3:hover{
+.wrap .column3 .contents_4:hover{
     animation: hayafilter 1s forwards ease-in-out;
 }
 
