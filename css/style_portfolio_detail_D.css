@@ -13,7 +13,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
 .wrap{
     margin:0 auto;
     width:1366px;
-    height:6330px; /*이부분 페이지마다 다름*/
+    height:6180px; /*이부분 페이지마다 다름*/
     position:relative;
     overflow:visible;
 }
@@ -25,7 +25,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     height:640px;
     background:#dedede;
     position:absolute;
-    background-image:url(../img/malevich_header_2.jpg);
+    background-image:url(../img/malevich_header.jpg);
     background-repeat:no-repeat;
     background-position: center;
     background-size:cover;
@@ -49,7 +49,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
 }
 
 .wrap .portfolio_detail_wrap .inner_wrap .content_wrap .content_1_wrap .graphic{
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -68,13 +68,6 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     margin-bottom: 20px;
     overflow: hidden;
 }
-
-.wrap .portfolio_detail_wrap .inner_wrap .content_wrap .content_1_wrap .graphic .square_hole{
-    width: 100%;
-    height: 100%;
-    margin: 0 auto;
-}
-
 
 
 /*content 1 txt*/
