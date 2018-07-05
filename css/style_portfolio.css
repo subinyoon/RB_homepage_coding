@@ -106,6 +106,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
 .wrap .column{
     width:32.6%;
     float:left;
+    overflow:hidden;
 }
 
 .wrap .column .contents{
@@ -196,11 +197,19 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
 }
 
 .wrap .column2 .contents_2{
-    height:308px;
-    background:blue;
+    height:339px;
+    overflow:hidden;
+}
+
+.wrap .column2 .contents_2 .image{
+    height:339px;
     background-image:url(../img/rooming_thumnail.jpg);
     background-repeat:no-repeat;
     background-size:contain;
+}
+
+.wrap .column2 .contents_2 .image:hover{
+    animation: enlarge 0.3s ease-in-out forwards;
 }
 
 .wrap .column2 .contents_3{
