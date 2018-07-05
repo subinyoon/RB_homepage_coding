@@ -99,18 +99,31 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
 
 .wrap .portfolio_detail_wrap .inner_wrap .content_1_txt_wrap a{
     text-decoration: none;
-}
-.wrap .portfolio_detail_wrap .inner_wrap .content_1_txt_wrap .plus_link{
-    width: 30px;
-    top: 20px;
-    right: 150px;
-    opacity: 0.2;
-    position: absolute;
-    
+    display:block;
+    opacity:0.4;
 }
 
-.wrap .portfolio_detail_wrap .inner_wrap .content_1_txt_wrap .plus_link:hover{
-    opacity: 1;
+.wrap .portfolio_detail_wrap .inner_wrap .content_1_txt_wrap a .plus_link{
+    width: 20px;
+    top: 7px;
+    right: 0px;
+    position: absolute;
+}
+
+.wrap .portfolio_detail_wrap .inner_wrap .content_1_txt_wrap a .visit{
+    width: 60px;
+    margin:0;
+    top: 9.5px;
+    right: 14px;
+    position: absolute;
+    font-size:13px;
+    font-weight:500;
+    color:#0000fa;
+    opacity: 0.6;
+}
+
+.wrap .portfolio_detail_wrap .inner_wrap .content_1_txt_wrap a:hover{
+    opacity:1;
 }
 
 

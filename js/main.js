@@ -352,8 +352,16 @@ function toDetail(){
         //haya
     });
     
+    $(".portfolio_wrap .column1 .contents_3").on('click', function(){
+        window.location.href='rb_portfolio_detail_F.html';
+        //jbsat
+    });
     
-
+    $(".portfolio_wrap .column3 .contents_3").on('click', function(){
+        window.location.href='rb_portfolio_detail_E.html';
+        //qplace
+    });
+    
 } // 이부분은 상세페이지 더 나오면 디테일하게 잡을 것!!!!!
 
 /*-------------------------------------------------------*/
