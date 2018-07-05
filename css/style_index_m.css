@@ -892,8 +892,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
 
 /*about us*/
 .wrap_2{
-    margin:0 auto;
-    width:1366px;
+    width:400px;
     height:806px;
     position:relative;
     overflow:visible;
@@ -906,11 +905,12 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
 /*about us*/
 .aboutus_wrap{
     margin:0 auto;
-    width:942px;
+    width:100%;
     position:relative;
     overflow:visible;
     opacity:1;
     margin-top:154px;
+    background:red;
 }
 
 .aboutus_skills{
@@ -975,7 +975,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
 
 /*about us textbox*/
 .aboutus_txt_wrap{
-    width : 940px;
+    width : 400px;
     height : 335px;
     background:#fff;
     border:1px solid #848484;
@@ -1054,7 +1054,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     height:335px;
     background:#848484;
     position:absolute;
-    left:50%;
+    left:0;
     top:1610px;
     opacity:0.5;
 }
