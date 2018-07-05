@@ -27,7 +27,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     position:absolute;
     background-image:url(../img/rooming_header.jpg);
     background-repeat:no-repeat;
-    background-position: 0px -200px;
+    background-position: bottom;
     background-size:cover;
     opacity:0.8;
 }
