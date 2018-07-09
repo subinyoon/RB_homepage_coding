@@ -15,7 +15,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
 .wrap{
     margin:0 auto;
     width:1366px;
-    min-height: 1260px;
+    min-height: 1400px;
     height:auto; /*이부분 페이지마다 다름*/
     position:relative;
     overflow:visible;
@@ -27,10 +27,13 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     height:640px;
     background:#dedede;
     position:absolute;
-    background-image: ;
-    background-repeat:no-repeat;
-    background-size:cover;
-    opacity:0.9;
+    background-color: rgba(38, 38, 38, 0.37);
+    background-image: url('../img/font_header_3.jpg');
+    background-repeat:;
+    background-blend-mode: multiply;
+    background-size: 1100px;
+    background-position: -80px 0px;
+    opacity:0.8;
 }
 
 /*content 1 illustrations*/
@@ -308,11 +311,14 @@ input[type=range]:focus::-ms-fill-upper {
 /*    background: red; */
     width: auto;
     height: auto;
-    margin-top: 30px;
+    margin-top: 24px;
 }
 
 
 .style-preview .style-content .style-string span{
+    height: 300px;
+    margin-bottom: 30px;
+    overflow: scroll;
     font-size: 50px;
     font-family: 'Noto Sans KR', sans-serif;
     font-weight: 400;
@@ -327,9 +333,6 @@ input[type=range]:focus::-ms-fill-upper {
 [contenteditable=true]{
     outline: none;
 }
-
-
-
 
 /*content 1 txt*/
 .wrap .portfolio_detail_wrap .inner_wrap .content_1_txt_wrap{
@@ -358,160 +361,6 @@ input[type=range]:focus::-ms-fill-upper {
     padding-top:8px;
 }
 
-/*division2*/
-.wrap .portfolio_detail_wrap .inner_wrap .division_2{
-    width:736px;
-    height:1px;
-    opacity:0.2;
-    background:#848484;
-    margin-top:80px;
-}
-
-/*content2 webdesign*/
-.wrap .portfolio_detail_wrap .inner_wrap .content_2_wrap{
-    width:100%;
-    margin-top:80px;
-}
-
-.wrap .portfolio_detail_wrap .inner_wrap .content_2_wrap .web_mockup{
-    width:100%;
-    height:19.5px;
-    background-image:url(../img/web_window_mockup.jpg);
-    background-repeat:no-repeat;
-    background-size:contain;
-}
-
-.wrap .portfolio_detail_wrap .inner_wrap .content_2_wrap .bino_web{
-    width:100%;
-}
-
-/*content 2 txt*/
-.wrap .portfolio_detail_wrap .inner_wrap .content_2_txt_wrap{
-    width:736px;
-    height:47px;
-    margin-top:25px;
-    position:relative;
-}
-
-.wrap .portfolio_detail_wrap .inner_wrap .content_2_txt_wrap .content_title{
-    width:155px;
-    font-size:23px;
-    font-weight:bold;
-    margin:0;
-    display:block;
-    float:left;
-    padding-top:5px;
-}
-
-.wrap .portfolio_detail_wrap .inner_wrap .content_2_txt_wrap .content_txt{
-    font-size:11px;
-    margin:0;
-    width:210px;
-    line-height:1.82;
-    display:block;
-    float:left;
-    padding-top:11px;
-}
-
-/*division3*/
-.wrap .portfolio_detail_wrap .inner_wrap .division_3{
-    width:736px;
-    height:1px;
-    opacity:0.2;
-    background:#848484;
-    margin-top:80px;
-}
-
-/*content3 soundcloud*/
-.wrap .portfolio_detail_wrap .inner_wrap .content_3_wrap{
-    width:100%;
-    margin-top:80px;
-}
-
-/*content 3 txt*/
-.wrap .portfolio_detail_wrap .inner_wrap .content_3_txt_wrap{
-    width:736px;
-    height:47px;
-    margin-top:30px;
-    position:relative;
-}
-
-.wrap .portfolio_detail_wrap .inner_wrap .content_3_txt_wrap .content_title{
-    width:155px;
-    font-size:23px;
-    font-weight:bold;
-    margin:0;
-    display:block;
-    float:left;
-    padding-top:5px;
-}
-
-.wrap .portfolio_detail_wrap .inner_wrap .content_3_txt_wrap .content_txt{
-    font-size:11px;
-    margin:0;
-    width:280px;
-    line-height:1.82;
-    display:block;
-    float:left;
-    padding-top:11px;
-}
-
-/*division4*/
-.wrap .portfolio_detail_wrap .inner_wrap .division_4{
-    width:736px;
-    height:1px;
-    opacity:0.2;
-    background:#848484;
-    margin-top:80px;
-}
-
-/*content4 doc video*/
-.wrap .portfolio_detail_wrap .inner_wrap .content_4_wrap{
-    width:100%;
-    margin-top:80px;
-}
-
-.wrap .portfolio_detail_wrap .inner_wrap .content_4_wrap .bino_vid{
-    width:100%;
-    height:414px;
-    position:relative;
-}
-
-.wrap .portfolio_detail_wrap .inner_wrap .content_4_wrap .bino_vid iframe{
-    position:absolute;
-    top:0;
-    left:0;
-    width:100%;
-    height:100%;
-}
-
-/*content 4 txt*/
-.wrap .portfolio_detail_wrap .inner_wrap .content_4_txt_wrap{
-    width:736px;
-    height:47px;
-    margin-top:30px;
-    position:relative;
-}
-
-.wrap .portfolio_detail_wrap .inner_wrap .content_4_txt_wrap .content_title{
-    width:155px;
-    font-size:23px;
-    font-weight:bold;
-    margin:0;
-    display:block;
-    float:left;
-    padding-top:5px;
-}
-
-.wrap .portfolio_detail_wrap .inner_wrap .content_4_txt_wrap .content_txt{
-    font-size:11px;
-    margin:0;
-    width:210px;
-    line-height:1.82;
-    display:block;
-    float:left;
-    padding-top:11px;
-}
 
 /*-----------------------------------------------------*/
 
