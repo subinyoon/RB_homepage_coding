@@ -38,8 +38,8 @@ function content1(){
             console.log(finalUrl);
         
         //action
-        $(".content_1_wrap .box_1").css({'background-image':'url(http://studiorb.me'+finalUrl+')'});
-        $(".content_1_wrap .box_"+i).css({'background-image':'url(http://studiorb.me'+finalfixUrl+')'});
+        $(".content_1_wrap .box_1").css({'background-image':'url(img/'+finalUrl+')'});
+        $(".content_1_wrap .box_"+i).css({'background-image':'url(img/'+finalfixUrl+')'});
     });
 }
 
