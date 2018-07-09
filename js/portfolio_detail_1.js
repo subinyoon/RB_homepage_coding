@@ -19,7 +19,7 @@ function content1(){
             console.log(fixdiv);
         var getfixUrl = getComputedStyle($('#'+fixdiv)[0]).getPropertyValue("background-image");
             console.log(getfixUrl);
-        var slicefixUrl = getfixUrl.slice(27,42);
+        var slicefixUrl = getfixUrl.slice(27,43);
             console.log(slicefixUrl);
         var finalfixUrl = "../"+slicefixUrl;
             console.log(finalfixUrl);
