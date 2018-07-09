@@ -45,7 +45,7 @@ function menuLink(){
             window.location.href='rb_portfolio.html';
         }else if( i == 2){
             var url = window.location.href;
-            //console.log(url);
+            console.log("i=2 "+url);
             
             if( url == "http://studiorb.me/" || url == "http://studiorb.me/rb_index.html#aboutus_anchor" || url == "http://studiorb.me/rb_index.html#goto_contact" || url == "http://studiorb.me/rb_index.html#goto_contact" || url == "http://studiorb.me/rb_index.html#aboutus_anchor"){
                 $('html,body').stop().animate({
@@ -56,7 +56,7 @@ function menuLink(){
             
         }else if (i == 3){
             var url = window.location.href;
-            //console.log(url);
+            console.log("i=3 "+url);
         
             if( url == "http://studiorb.me/" || url == "http://studiorb.me/rb_index.html#goto_contact" || url == "http://studiorb.me/rb_index.html#aboutus_anchor" || url == "http://studiorb.me/rb_index.html#goto_contact" || url == "http://studiorb.me/rb_index.html#aboutus_anchor"){
                 $('html,body').stop().animate({
