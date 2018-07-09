@@ -13,7 +13,8 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
 .wrap{
     margin:0 auto;
     min-width:750px;
-    height:5550px; /*이부분 페이지마다 다름*/
+    width: 100%;
+    height:5800px; /*이부분 페이지마다 다름*/
     position:relative;
     overflow:visible;
 }
@@ -49,13 +50,14 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
 
 .wrap .portfolio_detail_wrap .inner_wrap .content_1_wrap .box_3{
     background-image:url(../img/poster1.jpg);
+    margin-bottom: 0px;
 }
 
 
 /*content 1 txt*/
 .wrap .portfolio_detail_wrap .inner_wrap .content_1_txt_wrap{
     width:100%;
-    margin-top:30px;
+    margin-top:50px;
     position:relative;
 }
 
@@ -65,7 +67,6 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     font-weight:bold;
     margin:0;
     display:block;
-    margin-top: 110px;
 }
 
 .wrap .portfolio_detail_wrap .inner_wrap .content_1_txt_wrap .content_txt{
@@ -75,7 +76,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     width: 77%;
     line-height:1.69;
     display:block;
-    margin-top:50px;
+    margin-top:30px;
 }
 
 /*division2*/
@@ -83,7 +84,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     min-width:610px;
     width:100%;
     height:1px;
-    opacity:0.2;
+    opacity:0.4;
     background:#848484;
     margin-top:90px;
 }
@@ -132,7 +133,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
 /*content 2 txt*/
 .wrap .portfolio_detail_wrap .inner_wrap .content_2_txt_wrap{
     width:100%;
-    margin-top:30px;
+    margin-top:50px;
     position:relative;
 }
 
@@ -142,7 +143,6 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     font-weight:bold;
     margin:0;
     display:block;
-    margin-top: 110px;
 }
 
 .wrap .portfolio_detail_wrap .inner_wrap .content_2_txt_wrap .content_txt{
@@ -152,7 +152,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     width: 77%;
     line-height:1.69;
     display:block;
-    margin-top:50px;
+    margin-top:30px;
 }
 
 /*-----------------------------------------------------*/
