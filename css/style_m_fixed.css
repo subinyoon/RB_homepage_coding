@@ -304,6 +304,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
 }
 
 .wrap .portfolio_detail_wrap .inner_wrap .project_info_wrap{
+    width: 100%;
     padding-top:80px;
 }
 
@@ -321,8 +322,8 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     width: 77%;
     float:left;
     padding-left:37px;
-    font-size:2.55em;
-    line-height:1.69;
+    font-size:2.25em;
+    line-height:1.6;
     word-break: keep-all;
 }
 
