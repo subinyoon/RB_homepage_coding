@@ -61,7 +61,7 @@ $(function(){
         
         fontSize = parseInt($preview.css("font-size"));
         lineHeight = parseInt($preview.css("line-height"));
-        console.log($infoSize);
+
     }
     
     function init2(){
@@ -74,8 +74,7 @@ $(function(){
         
         fontSize2 = parseInt($preview2.css("font-size"));
         lineHeight2 = parseInt($preview2.css("line-height"));
-        
-        console.log($infoSize2);
+   
     }
     
     
@@ -148,7 +147,7 @@ $(function(){
         elem3.addEventListener("input", rangeValue3);
         
 //        
-        var elem4 = document.querySelector('.font-size-slider-mj input[type="range"]');
+        var elem4 = document.querySelector('.line-height-slider-mj input[type="range"]');
 
         var rangeValue4 = function(){
             var newValue4 = elem4.value;
@@ -156,6 +155,7 @@ $(function(){
             target4.innerHTML = newValue4+"px";
         }
         elem4.addEventListener("input", rangeValue4);
+        
     }
 
     
@@ -198,10 +198,10 @@ $(function(){
                 $preview2.css({
                     lineHeight : v2 +"px"
                 });
-
             
             }
-        
+            
+            
         });
     }
     

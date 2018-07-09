@@ -13,7 +13,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
 .wrap{
     margin:0 auto;
     width:1366px;
-    height:5100px; /*이부분 페이지마다 다름*/
+    height:4150px; /*이부분 페이지마다 다름*/
     position:relative;
     overflow:visible;
 }
@@ -25,10 +25,9 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     height:640px;
     background:#dedede;
     position:absolute;
-    background-image:url(../img/vodana_header.jpg);
-    background-repeat:no-repeat;
+    background-image:url(../img/tnc_header.jpg);
+
     background-position: center;
-    background-size:cover;
     opacity:1;
 }
 
@@ -44,7 +43,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
 /*content 1 illustrations*/
 .wrap .portfolio_detail_wrap .inner_wrap .content_wrap .content_1_wrap{
     width:100%;
-    margin-top:40px;
+    margin-top:80px;
     position:relative;
 }
 
@@ -73,7 +72,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
 /*content 1 txt*/
 .wrap .portfolio_detail_wrap .inner_wrap .content_1_txt_wrap{
     width:100%;
-    margin-top:10px;
+    margin-top:30px;
     position:relative;
 }
 
@@ -139,7 +138,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
 /*content2 webdesign*/
 .wrap .portfolio_detail_wrap .inner_wrap .content_2_wrap{
     width:100%;
-    margin-top:80px;
+    margin-top:0px;
 }
 
 .wrap .portfolio_detail_wrap .inner_wrap .content_wrap .content_2_wrap .mockup_detail{
