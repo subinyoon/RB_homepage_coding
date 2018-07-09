@@ -38,7 +38,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0 auto;
-    margin-top: 110px; 
+    margin-top: 100px; 
 }
 
 .wrap .portfolio_detail_wrap .inner_wrap .content_1_wrap .box_1{
@@ -55,22 +55,25 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
 }
 
 
-/*content 1 txt*/
-.wrap .portfolio_detail_wrap .inner_wrap .content_1_txt_wrap{
+/*content txt common*/
+.wrap .portfolio_detail_wrap .inner_wrap .content_1_txt_wrap,
+.wrap .portfolio_detail_wrap .inner_wrap .content_2_txt_wrap{
     width:100%;
     margin-top:60px;
     position:relative;
 }
 
-.wrap .portfolio_detail_wrap .inner_wrap .content_1_txt_wrap .content_title{
+.wrap .portfolio_detail_wrap .inner_wrap .content_1_txt_wrap .content_title,
+.wrap .portfolio_detail_wrap .inner_wrap .content_2_txt_wrap .content_title{
     width:100%;
-    font-size:6em;
+    font-size:5.5em;
     font-weight:bold;
     margin:0;
     display:block;
 }
 
-.wrap .portfolio_detail_wrap .inner_wrap .content_1_txt_wrap .content_txt{
+.wrap .portfolio_detail_wrap .inner_wrap .content_1_txt_wrap .content_txt,
+.wrap .portfolio_detail_wrap .inner_wrap .content_2_txt_wrap .content_txt{
     font-size: 2.55em;
     margin:0;
     min-width: 470px;
@@ -82,18 +85,9 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
 }
 
 /*division2*/
-.wrap .portfolio_detail_wrap .inner_wrap .division_2{
-    min-width:610px;
-    width:100%;
-    height:1px;
-    opacity:0.4;
-    background:#848484;
-    margin-top:90px;
-}
-
 .wrap .portfolio_detail_wrap .inner_wrap .content_2_wrap{
     width:100%;
-    margin-top:110px;
+    margin-top:100px;
 /*    background-color: yellow;*/
 }
 
@@ -132,31 +126,6 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     float:right;
 }
 
-/*content 2 txt*/
-.wrap .portfolio_detail_wrap .inner_wrap .content_2_txt_wrap{
-    width:100%;
-    margin-top:60px;
-    position:relative;
-}
-
-.wrap .portfolio_detail_wrap .inner_wrap .content_2_txt_wrap .content_title{
-    width:100%;
-    font-size:6em;
-    font-weight:bold;
-    margin:0;
-    display:block;
-}
-
-.wrap .portfolio_detail_wrap .inner_wrap .content_2_txt_wrap .content_txt{
-    font-size: 2.55em;
-    margin:0;
-    min-width: 470px;
-    width: 77%;
-    line-height:1.69;
-    display:block;
-    margin-left: 3px;
-    margin-top:15px;
-}
 
 /*-----------------------------------------------------*/
 
