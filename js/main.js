@@ -47,7 +47,7 @@ function menuLink(){
             var url = window.location.href;
             //console.log(url);
             
-            if( url == "http://13.125.147.113/rb_index.html" || url == "http://13.125.147.113/rb_index.html#aboutus_anchor" || url == "http://13.125.147.113/rb_index.html#goto_contact" || url == "rb_index.html#goto_contact" || url == "rb_index.html#aboutus_anchor"){
+            if( url == "http://studiorb.me/" || url == "http://studiorb.me/rb_index.html#aboutus_anchor" || url == "http://studiorb.me/rb_index.html#goto_contact" || url == "http://studiorb.me/rb_index.html#goto_contact" || url == "http://studiorb.me/rb_index.html#aboutus_anchor"){
                 $('html,body').stop().animate({
                 scrollTop: $("#aboutus_anchor").offset().top}, 600, 'swing');
             }else{
@@ -58,7 +58,7 @@ function menuLink(){
             var url = window.location.href;
             //console.log(url);
         
-            if( url == "http://13.125.147.113/rb_index.html" || url == "http://13.125.147.113/rb_index.html#goto_contact" || url == "http://13.125.147.113/rb_index.html#aboutus_anchor" || url == "rb_index.html#goto_contact" || url == "rb_index.html#aboutus_anchor"){
+            if( url == "http://studiorb.me/" || url == "http://studiorb.me/rb_index.html#goto_contact" || url == "http://studiorb.me/rb_index.html#aboutus_anchor" || url == "http://studiorb.me/rb_index.html#goto_contact" || url == "http://studiorb.me/rb_index.html#aboutus_anchor"){
                 $('html,body').stop().animate({
                 scrollTop: $(".wrap_3").offset().top}, 600, 'swing');
             }else{
