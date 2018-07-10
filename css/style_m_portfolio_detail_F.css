@@ -98,7 +98,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
 }
 
 .wrap .portfolio_detail_wrap .inner_wrap .content_1_txt_wrap .plus_link{
-    width: 30px;
+    width: 35px;
     float: left;
 }
 
@@ -108,12 +108,12 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     
     float: left;
     width: 150px;
-    padding-top: 5px;
-    padding-left: 10px;
+    padding-top: 2px;
+    padding-left: 12px;
     
-    font-size:1.5em;
+    font-size:2.4em;
     font-weight:500;
-    color:#e59400;
+    color:#fa9000;
     opacity:0.7;
 }
 
