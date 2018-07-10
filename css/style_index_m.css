@@ -142,7 +142,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
 .graphic_wrap .graphic_main #linegraphic{
     width:750px;
     position:absolute;
-    top:560px;
+    top:550px;
     left:0px;
     opacity:0.8;
     stroke-dasharray: 1160;
@@ -158,7 +158,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     background-repeat:no-repeat;
     background-size:contain;
     position:absolute;
-    top:858px;
+    top:848px;
     left:112.4px;
     animation: solidonoff 1s infinite forwards;
     display:block;
@@ -171,7 +171,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     background-repeat:no-repeat;
     background-size:contain;
     position:absolute;
-    top:662.5px;
+    top:652.5px;
     left:316px;
     opacity:1;
     z-index:5;
@@ -186,7 +186,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     background-repeat:no-repeat;
     background-size:contain;
     position:absolute;
-    top:704.3px; 
+    top:694.3px; 
     left:316px;
     opacity:0;
     animation: solidonoff 1s infinite forwards;
@@ -199,7 +199,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     background-repeat:no-repeat;
     background-size:contain;
     position:absolute;
-    top:570.4px;
+    top:560.4px;
     left:436.5px;
     animation: solidonoff 1s infinite forwards;
 }
@@ -211,7 +211,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     background-repeat:no-repeat;
     background-size:contain;
     position:absolute;
-    top:814px;
+    top:804px;
     left:557px;
     animation: solidonoff 1s infinite forwards;
 }
@@ -223,7 +223,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     background-repeat:no-repeat;
     background-size:contain;
     position:absolute;
-    top:734.5px;
+    top:724.5px;
     left:420.5px;
     z-index:1;
     display:none;
@@ -236,7 +236,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     background-repeat:no-repeat;
     background-size:contain;
     position:absolute;
-    top:833.2px; 
+    top:823.2px; 
     left:584px;
     z-index:6;
     display:none;
@@ -256,7 +256,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     background-size:contain;
     position:absolute;
     left:100px;
-    top:750px;
+    top:740px;
     cursor:pointer;
     z-index:9999;
     opacity:0.8;
@@ -272,7 +272,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     background-size:contain;
     position:absolute;
     left:490px;
-    top:450px;
+    top:440px;
     cursor:pointer;
     z-index:9999;
     opacity:0.8;
@@ -288,7 +288,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     background-size:contain;
     position:absolute;
     left:611px;
-    top:703px;
+    top:693px;
     cursor:pointer;
     z-index:9999;
     opacity:0.8;
@@ -313,7 +313,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     background-size:contain;
     position:absolute;
     left:228px;
-    top:166px;
+    top:136px;
     opacity:0.8;
     animation: moveballoon 2.5s ease-in-out infinite;
 }
@@ -361,7 +361,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     background-size:contain;
     position:absolute;
     left:67px;
-    top:490px;
+    top:480px;
     z-index:160;
     display:none;
 }
@@ -374,7 +374,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     background-size:contain;
     position:absolute;
     left:500px;
-    top:730px;
+    top:720px;
     z-index:159;
     animation: ballmove1 6s ease-in-out infinite;
     display:none;
@@ -388,7 +388,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     background-size:contain;
     position:absolute;
     left:457px;
-    top:545px;
+    top:535px;
     z-index:159;
     animation: ballmove2 4s ease-in-out infinite;
     display:none;
@@ -402,7 +402,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     background-size:contain;
     position:absolute;
     left:85px;
-    top:740px;
+    top:730px;
     z-index:159;
     animation: floating 3s ease-in-out infinite;
     display:none;
@@ -416,7 +416,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     background-size:contain;
     position:absolute;
     left:75px;
-    top:698px;
+    top:688px;
     z-index:159;
     animation: floating2 3s ease-in-out infinite;
     display:none;
@@ -430,7 +430,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     background-size:contain;
     position:absolute;
     left:85px;
-    top:668px;
+    top:658px;
     z-index:159;
     display:none;
     animation: floating3 3s ease-in-out infinite;
@@ -444,7 +444,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     background-size:contain;
     position:absolute;
     left:415px;
-    top:670px;
+    top:660px;
     z-index:159;
     animation: floating 3s ease-in-out infinite;
     display:none;
@@ -458,7 +458,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     background-size:contain;
     position:absolute;
     left:430px;
-    top:632px;
+    top:622px;
     z-index:159;
     animation: floating2 3s ease-in-out infinite;
     display:none;
@@ -472,7 +472,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     background-size:contain;
     position:absolute;
     left:422px;
-    top:600px;
+    top:590px;
     z-index:159;
     animation: floating3 3s ease-in-out infinite;
     display:none;
@@ -486,7 +486,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     background-size:contain;
     position:absolute;
     left:410px;
-    top:575px;
+    top:565px;
     z-index:159;
     animation: floating3 3s ease-in-out infinite;
     display:none;
@@ -501,7 +501,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     background-size:contain;
     position:absolute;
     left:147px;
-    top:543px;
+    top:533px;
     display:none;
     z-index:53;
 }
@@ -514,7 +514,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     background-size:contain;
     position:absolute;
     left:486px;
-    top:825px;
+    top:815px;
     display:none;
 }
 
@@ -526,7 +526,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     background-size:contain;
     position:absolute;
     left:526px;
-    top:816px;
+    top:806px;
     display:none;
     z-index:1;
     animation: busmove 6s ease-in-out infinite;
@@ -540,7 +540,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     background-size:contain;
     position:absolute;
     left:473px;
-    top:763px;
+    top:753px;
     display:none;
     z-index:2;
 }
@@ -553,7 +553,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     background-size:contain;
     position:absolute;
     left:497px;
-    top:490px;
+    top:480px;
     display:none;
     z-index:52;
     animation: gemfloat 3s ease-in-out infinite;
@@ -567,7 +567,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     background-size:contain;
     position:absolute;
     left:154.5px;
-    top:495.5px;
+    top:485.5px;
     display:none;
 }
 
@@ -579,7 +579,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     background-size:contain;
     position:absolute;
     left:504px;
-    top:652px;
+    top:642px;
     display:none;
     animation: circlemove 5s ease-in-out infinite;
 }
@@ -625,9 +625,9 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
 
 /*theme2*/
 @keyframes busmove{
-    0%{left:526px; top:816px;}
-    80%{left:290px; top:955px;}
-    100%{left:290px; top:955px;}
+    0%{left:526px; top:806px;}
+    80%{left:290px; top:945px;}
+    100%{left:290px; top:945px;}
 }
 
 @keyframes gemfloat{
@@ -638,9 +638,9 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
 
 /*theme3*/
 @keyframes circlemove{
-    0%{left:504px; top:652px;}
-    50%{left:580px; top:695px;}
-    100%{left:504px; top:652px;}
+    0%{left:504px; top:642px;}
+    50%{left:580px; top:685px;}
+    100%{left:504px; top:642px;}
 }
 
 /*-----------------------------------------------------*/
