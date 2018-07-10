@@ -147,6 +147,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     opacity:0.5;
     stroke-dasharray: 1160;
     stroke-dashoffset: 1160;
+    z-index:3;
     animation: movePath 5s forwards ease-in;
 }
 
@@ -419,7 +420,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     position:absolute;
     left:147px;
     top:653px;
-    display:block;
+    display:none;
     z-index:53;
 }
 
@@ -432,7 +433,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     position:absolute;
     left:486px;
     top:935px;
-    display:block;
+    display:none;
 }
 
 .graphic_wrap .graphic_main .theme_2_2{ /*defalut display none*/
@@ -442,24 +443,24 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     background-repeat:no-repeat;
     background-size:contain;
     position:absolute;
-    left:1040px;
-    top:420px;
-    display:block;
-    z-index:51;
+    left:526px;
+    top:926px;
+    display:none;
+    z-index:1;
     animation: busmove 6s ease-in-out infinite;
 }
 
 .graphic_wrap .graphic_main .theme_2_3{ /*defalut display none*/
-    width:178px;
-    height:167px;
+    width:154px;
+    height:142px;
     background-image: url(../img/graphic_theme_map_tunnelwall.png);
     background-repeat:no-repeat;
     background-size:contain;
     position:absolute;
-    left:969px;
-    top:352px;
+    left:473px;
+    top:873px;
     display:none;
-    z-index:52;
+    z-index:2;
 }
 
 .graphic_wrap .graphic_main .theme_2_4{ /*defalut display none*/
@@ -469,34 +470,34 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     background-repeat:no-repeat;
     background-size:contain;
     position:absolute;
-    left:1000px;
-    top:45px;
+    left:497px;
+    top:600px;
     display:none;
     z-index:52;
     animation: gemfloat 3s ease-in-out infinite;
 }
 
 .graphic_wrap .graphic_main .texture_3{ /*defalut display none*/
-    width:620px;
-    height:738px;
-    background-image: url(../img/graphic_theme_haya.png);
+    width:470px;
+    height:708px;
+    background-image: url(../img/graphic_theme_haya_mobile.png);
     background-repeat:no-repeat;
     background-size:contain;
     position:absolute;
-    left:527.5px;
-    top:37px;
+    left:154.5px;
+    top:605.5px;
     display:none;
 }
 
 .graphic_wrap .graphic_main .theme_3_1{ /*defalut display none*/
-    width:66px;
-    height:89px;
+    width:55.5px;
+    height:80px;
     background-image: url(../img/graphic_theme_haya_circle.png);
     background-repeat:no-repeat;
     background-size:contain;
     position:absolute;
-    left:1100px;
-    top:270px;
+    left:504px;
+    top:762px;
     display:none;
     animation: circlemove 5s ease-in-out infinite;
 }
@@ -542,9 +543,9 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
 
 /*theme2*/
 @keyframes busmove{
-    0%{left:1040px; top:420px;}
-    80%{left:740px; top:600px;}
-    100%{left:740px; top:600px;}
+    0%{left:526px; top:926px;}
+    80%{left:290px; top:1065px;}
+    100%{left:290px; top:1065px;}
 }
 
 @keyframes gemfloat{
@@ -555,9 +556,9 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
 
 /*theme3*/
 @keyframes circlemove{
-    0%{left:1095px; top:270px;}
-    50%{left:1007px; top:218px;}
-    100%{left:1095px; top:270px;}
+    0%{left:504px; top:762px;}
+    50%{left:580px; top:805px;}
+    100%{left:504px; top:762px;}
 }
 
 /*-----------------------------------------------------*/
