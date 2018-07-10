@@ -144,7 +144,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     position:absolute;
     top:630px;
     left:0px;
-    opacity:0.5;
+    opacity:0.8;
     stroke-dasharray: 1160;
     stroke-dashoffset: 1160;
     z-index:3;
