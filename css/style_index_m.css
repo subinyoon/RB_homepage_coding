@@ -246,6 +246,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
 /*graphic pointers*/
 .graphic_wrap .graphic_main .graphic_pointers{
     position:relative;
+    opacity:0.8;
 }
 
 .graphic_wrap .graphic_main .graphic_pointers .pointer_1{
@@ -257,10 +258,9 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     position:absolute;
     left:100px;
     top:820px;
-    opacity:0.5;
     cursor:pointer;
     z-index:9999;
-    animation: movepointer 2s ease-in-out infinite; 
+    animation: movepointer 1s ease-in-out infinite; 
     display:block;
 }
 
@@ -273,10 +273,9 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     position:absolute;
     left:490px;
     top:520px;
-    opacity:0.5;
     cursor:pointer;
     z-index:9999;
-    animation: movepointer 2s ease-in-out infinite;
+    animation: movepointer 1s ease-in-out infinite;
     display:block;
 }
 
@@ -289,10 +288,9 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     position:absolute;
     left:611px;
     top:773px;
-    opacity:0.5;
     cursor:pointer;
     z-index:9999;
-    animation: movepointer 2s ease-in-out infinite;
+    animation: movepointer 1s ease-in-out infinite;
     display:block;
 }
 
@@ -314,7 +312,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     position:absolute;
     left:228px;
     top:146px;
-    opacity:0.5;
+    opacity:0.8;
     animation: moveballoon 2.5s ease-in-out infinite;
 }
 
@@ -739,10 +737,10 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     width:100%;
     margin:0;
     text-align:center;
-    font-size:2.2em;
+    font-size:2.3em;
     font-weight:bold;
     opacity:0.5;
-    padding-bottom:45px;
+    padding-bottom:35px;
 }
 
 /*subtitle*/
@@ -750,7 +748,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     width:100%;
     margin:0;
     text-align:center;
-    font-size:1.8em;
+    font-size:2.1em;
     line-height:1.64;
     opacity:0.5;
 
