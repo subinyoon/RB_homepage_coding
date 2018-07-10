@@ -302,8 +302,21 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     100%{transform:translateY(0);}
 }
 
-
 /*-----------------------------------------------------*/
+/*balloon graphic*/
+
+.graphic_wrap .graphic_main .balloon_graphic{
+    width:285px;
+    height:330px;
+    background:blue;
+    background-image:url(../img/graphic_mobile_balloon.png);
+    background-repeat:no-repeat;
+    background-size:contain;
+    position:absolute;
+    left:100px;
+    top:0;
+    
+}
 
 /*main graphic animation keyframes------------------------------*/
 
