@@ -41,7 +41,9 @@ function menuLink(){
         
         if( i == 2){
             window.location.href='rb_portfolio_m.html';
-        }else if( i == 3){
+        }
+        
+        if( i == 3){
             var url = window.location.href;
             console.log("i=2 "+url);
             
@@ -52,7 +54,8 @@ function menuLink(){
              window.location.href='rb_index.html_m#aboutus_anchor';
             }     
             
-        }else if (i == 4){
+        
+        }if(i == 4){
             var url = window.location.href;
             console.log("i=3 "+url);
         
