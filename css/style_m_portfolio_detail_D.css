@@ -11,7 +11,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
 /*reset end*/
 
 .wrap .portfolio_detail_wrap .title{
-   font-size:5em;
+   font-size:4.8em;
 }
 
 
@@ -34,7 +34,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     position:absolute;
     background-image:url(../img/malevich_header.jpg);
     background-repeat:no-repeat;
-    background-position: center;
+    background-position: center bottom;
     background-size:cover;
     opacity:0.9;
 }
@@ -58,11 +58,17 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
 }
 
 .wrap .portfolio_detail_wrap .inner_wrap .content_wrap .content_1_wrap .graphic img{
-    width: 170px;
-    height: 170px;
+    width: 180px;
+    height: 180px;
     margin-left: 30px;
     margin-bottom: 30px;
     overflow: hidden;
+}
+
+.wrap .portfolio_detail_wrap .inner_wrap .content_wrap .content_1_wrap .graphic .square_1,
+.wrap .portfolio_detail_wrap .inner_wrap .content_wrap .content_1_wrap .graphic .square_4,
+.wrap .portfolio_detail_wrap .inner_wrap .content_wrap .content_1_wrap .graphic .square_7{
+    margin-left: 0px;
 }
 
 
@@ -128,32 +134,34 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
 
 .wrap .portfolio_detail_wrap .inner_wrap .content_wrap .content_3_wrap .leaflet img{
     width: 100%;
-    mix-blend-mode: multiply;
 }
 
 .wrap .portfolio_detail_wrap .inner_wrap .content_wrap .content_3_wrap .num0{
-    height: 500px;
+    height: 407px;
     background: url('../img/Malevich/leaf_mock.jpg') no-repeat center;
-    background-size: contain;   
-    
+    background-size: contain;
+    mix-blend-mode: multiply;
 }
 
 .wrap .portfolio_detail_wrap .inner_wrap .content_wrap .content_3_wrap .num1{
     background: url('../img/Malevich/leaf_1.jpg') no-repeat;
     height: 916px;
     background-size: contain;
+    mix-blend-mode: multiply;
 }
 
 .wrap .portfolio_detail_wrap .inner_wrap .content_wrap .content_3_wrap .num2{
     background: url('../img/Malevich/leaf_2.jpg') no-repeat; 
     height: 916px;
     background-size: contain;
+    mix-blend-mode: multiply;
 }
 
 .wrap .portfolio_detail_wrap .inner_wrap .content_wrap .content_3_wrap .num3{
     background: url('../img/Malevich/leaf_3.jpg') no-repeat;
     height: 916px;
     background-size: contain;
+    mix-blend-mode: multiply;
 }
 
 
