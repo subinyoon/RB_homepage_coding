@@ -28,7 +28,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
 
 .wrap .wrap_fixed_1 .menu ul li{
     opacity:0.5;
-    font-size:30px;
+    font-size:2.1em;
 }
 
 .wrap .wrap_fixed_1 .menu ul li:hover{

@@ -4,7 +4,7 @@ font-family: 'Noto Sans KR', sans-serif;
 
 /*reset*/
 *{margin:0; padding:0;}
-body{font-size:14px; background-color:#f4f4f4; position:relative; overflow-x:hidden;}
+body{width:750px; font-size:14px; background-color:#f4f4f4; position:relative; overflow-x:hidden;}
 a{text-decoration:none; color:#000000;}
 ul, li{list-style:none; margin:0; padding:0;}
 p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
@@ -20,14 +20,15 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
 
 .graphic_wrap{
     width:750px;
-    height:1334px;
+    height:1294px;
     padding-top:40px;
     opacity:1;
     position:absolute;
     left:50%;
     top:0;
     margin-left:-375px;
-    overflow:visible;
+    overflow:hidden;
+    background:#e2e2e2;
 }
 
 /*division line*/
@@ -142,7 +143,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
 .graphic_wrap .graphic_main #linegraphic{
     width:750px;
     position:absolute;
-    top:670px;
+    top:630px;
     left:0px;
     opacity:0.5;
     stroke-dasharray: 1160;
@@ -158,7 +159,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     background-repeat:no-repeat;
     background-size:contain;
     position:absolute;
-    top:968px;
+    top:928px;
     left:112.4px;
     animation: solidonoff 1s infinite forwards;
     display:block;
@@ -171,7 +172,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     background-repeat:no-repeat;
     background-size:contain;
     position:absolute;
-    top:772.5px;
+    top:732.5px;
     left:316px;
     opacity:1;
     z-index:5;
@@ -186,7 +187,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     background-repeat:no-repeat;
     background-size:contain;
     position:absolute;
-    top:814.3px; 
+    top:774.3px; 
     left:316px;
     opacity:0;
     animation: solidonoff 1s infinite forwards;
@@ -199,7 +200,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     background-repeat:no-repeat;
     background-size:contain;
     position:absolute;
-    top:680.4px;
+    top:640.4px;
     left:436.5px;
     animation: solidonoff 1s infinite forwards;
 }
@@ -211,7 +212,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     background-repeat:no-repeat;
     background-size:contain;
     position:absolute;
-    top:924px;
+    top:884px;
     left:557px;
     animation: solidonoff 1s infinite forwards;
 }
@@ -223,7 +224,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     background-repeat:no-repeat;
     background-size:contain;
     position:absolute;
-    top:844.5px;
+    top:804.5px;
     left:420.5px;
     z-index:1;
     display:none;
@@ -236,7 +237,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     background-repeat:no-repeat;
     background-size:contain;
     position:absolute;
-    top:943.2px; 
+    top:903.2px; 
     left:584px;
     z-index:6;
     display:none;
@@ -256,7 +257,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     background-size:contain;
     position:absolute;
     left:100px;
-    top:860px;
+    top:820px;
     opacity:0.5;
     cursor:pointer;
     z-index:9999;
@@ -272,7 +273,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     background-size:contain;
     position:absolute;
     left:490px;
-    top:560px;
+    top:520px;
     opacity:0.5;
     cursor:pointer;
     z-index:9999;
@@ -288,7 +289,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     background-size:contain;
     position:absolute;
     left:611px;
-    top:813px;
+    top:773px;
     opacity:0.5;
     cursor:pointer;
     z-index:9999;
@@ -308,14 +309,14 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
 .graphic_wrap .graphic_main .balloon_graphic{
     width:285px;
     height:330px;
-    background:blue;
     background-image:url(../img/graphic_mobile_balloon.png);
     background-repeat:no-repeat;
     background-size:contain;
     position:absolute;
-    left:100px;
-    top:0;
-    
+    left:228px;
+    top:146px;
+    opacity:0.5;
+    animation: moveballoon 2.5s ease-in-out infinite;
 }
 
 /*main graphic animation keyframes------------------------------*/
@@ -342,6 +343,12 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     100% {opacity:0;}
 }
 
+@keyframes moveballoon {
+	0% {transform: translateY(0);}
+	50% {transform: translateY(20px);}
+	100% {transform: translateY(0);}
+}
+
 /*-----------------------------------------------------*/
 
 /*main graphic texture*/
@@ -355,7 +362,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     background-size:contain;
     position:absolute;
     left:67px;
-    top:600px;
+    top:560px;
     z-index:160;
     display:none;
 }
@@ -368,7 +375,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     background-size:contain;
     position:absolute;
     left:500px;
-    top:840px;
+    top:800px;
     z-index:159;
     animation: ballmove1 6s ease-in-out infinite;
     display:none;
@@ -382,7 +389,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     background-size:contain;
     position:absolute;
     left:457px;
-    top:655px;
+    top:615px;
     z-index:159;
     animation: ballmove2 4s ease-in-out infinite;
     display:none;
@@ -396,7 +403,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     background-size:contain;
     position:absolute;
     left:85px;
-    top:850px;
+    top:810px;
     z-index:159;
     animation: floating 3s ease-in-out infinite;
     display:none;
@@ -410,7 +417,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     background-size:contain;
     position:absolute;
     left:75px;
-    top:808px;
+    top:768px;
     z-index:159;
     animation: floating2 3s ease-in-out infinite;
     display:none;
@@ -424,7 +431,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     background-size:contain;
     position:absolute;
     left:85px;
-    top:778px;
+    top:738px;
     z-index:159;
     display:none;
     animation: floating3 3s ease-in-out infinite;
@@ -438,7 +445,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     background-size:contain;
     position:absolute;
     left:415px;
-    top:780px;
+    top:740px;
     z-index:159;
     animation: floating 3s ease-in-out infinite;
     display:none;
@@ -452,7 +459,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     background-size:contain;
     position:absolute;
     left:430px;
-    top:742px;
+    top:702px;
     z-index:159;
     animation: floating2 3s ease-in-out infinite;
     display:none;
@@ -466,7 +473,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     background-size:contain;
     position:absolute;
     left:422px;
-    top:710px;
+    top:670px;
     z-index:159;
     animation: floating3 3s ease-in-out infinite;
     display:none;
@@ -480,7 +487,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     background-size:contain;
     position:absolute;
     left:410px;
-    top:685px;
+    top:645px;
     z-index:159;
     animation: floating3 3s ease-in-out infinite;
     display:none;
@@ -495,7 +502,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     background-size:contain;
     position:absolute;
     left:147px;
-    top:653px;
+    top:613px;
     display:none;
     z-index:53;
 }
@@ -508,7 +515,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     background-size:contain;
     position:absolute;
     left:486px;
-    top:935px;
+    top:895px;
     display:none;
 }
 
@@ -520,7 +527,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     background-size:contain;
     position:absolute;
     left:526px;
-    top:926px;
+    top:886px;
     display:none;
     z-index:1;
     animation: busmove 6s ease-in-out infinite;
@@ -534,7 +541,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     background-size:contain;
     position:absolute;
     left:473px;
-    top:873px;
+    top:833px;
     display:none;
     z-index:2;
 }
@@ -547,7 +554,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     background-size:contain;
     position:absolute;
     left:497px;
-    top:600px;
+    top:560px;
     display:none;
     z-index:52;
     animation: gemfloat 3s ease-in-out infinite;
@@ -561,7 +568,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     background-size:contain;
     position:absolute;
     left:154.5px;
-    top:605.5px;
+    top:565.5px;
     display:none;
 }
 
@@ -573,7 +580,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     background-size:contain;
     position:absolute;
     left:504px;
-    top:762px;
+    top:722px;
     display:none;
     animation: circlemove 5s ease-in-out infinite;
 }
@@ -619,9 +626,9 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
 
 /*theme2*/
 @keyframes busmove{
-    0%{left:526px; top:926px;}
-    80%{left:290px; top:1065px;}
-    100%{left:290px; top:1065px;}
+    0%{left:526px; top:886px;}
+    80%{left:290px; top:1025px;}
+    100%{left:290px; top:1025px;}
 }
 
 @keyframes gemfloat{
@@ -632,9 +639,9 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
 
 /*theme3*/
 @keyframes circlemove{
-    0%{left:504px; top:762px;}
-    50%{left:580px; top:805px;}
-    100%{left:504px; top:762px;}
+    0%{left:504px; top:722px;}
+    50%{left:580px; top:765px;}
+    100%{left:504px; top:722px;}
 }
 
 /*-----------------------------------------------------*/
@@ -647,16 +654,17 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     opacity:0.7;
     background:#848484;
     position:absolute;
-    top:1765px;
+    top:2765px;
 }
 
 /*about us*/
 .wrap_2{
     margin:0 auto;
-    width:1366px;
-    height:806px;
+    width:750px;
+    height:1711px;
     position:relative;
     overflow:visible;
+    padding-top:210px;
 }
 
 @keyframes moveWrap2{
@@ -666,25 +674,58 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
 /*about us*/
 .aboutus_wrap{
     margin:0 auto;
-    width:942px;
+    width:700px;
     position:relative;
     overflow:visible;
     opacity:1;
-    margin-top:154px;
+}
+
+/*about us textbox*/
+.aboutus_txt_wrap{
+    width:100%;
+    opacity:0;
+    transform: translateY(50px);
+    animation: none;
+}
+
+.aboutus_txt_wrap .txt{
+    font-size:2.25em;
+    line-height:1.3em;
+    text-align:center;
+    opacity:0.6;
+    margin:0;
+}
+
+/*line*/
+.aboutus_txt_wrap .line_wrap{
+    width:100%;
+    height:92px;
+    padding-top:35px;
+    opacity:0.6;
+}
+
+.aboutus_txt_wrap .line_wrap .box{
+    width:49.8%;
+    height:92px;
+    float:left;
+}
+
+.aboutus_txt_wrap .line_wrap .box2{
+    border-left:1px solid #848484;
 }
 
 .aboutus_skills{
     width:100%;
-    height:172px;
+    height:299px;
     margin-top:0px;
-    margin-bottom:70px;
+    margin-bottom:15px;
     opacity:0;
     transform: translateY(50px);
     animation: none;
 }
 
 .aboutus_skills .skill_box{
-    width:33.25%;
+    width:100%;
     float:left;
     height:172px;
 }
@@ -721,63 +762,13 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     padding-top:7px;
     padding-bottom:12px;
     opacity:0.6;
+    background:blue;
 }
 
 .aboutus_skills .skill_box .line_wrap .box{
     width:49.8%;
     height:28px;
     float:left;
-}
-
-.aboutus_skills .skill_box .line_wrap .box2{
-    border-left:1px solid #848484;
-}
-
-/*about us textbox*/
-.aboutus_txt_wrap{
-    width : 940px;
-    height : 335px;
-    background:#fff;
-    border:1px solid #848484;
-    opacity:0;
-    transform: translateY(50px);
-    animation: none;
-}
-
-.aboutus_txt_wrap .txt_1{
-    font-size:14px;
-    line-height:23px;
-    text-align:center;
-    opacity:0.6;
-    margin:64px 0 0 0;
-}
-
-.aboutus_txt_wrap .txt_2{
-    font-size:14px;
-    line-height:23px;
-    text-align:center;
-    opacity:0.6;
-    margin:0;
-    font-weight:bold;
-}
-
-/*line*/
-.aboutus_txt_wrap .line_wrap{
-    width:100%;
-    height:32px;
-    padding-top:13px;
-    padding-bottom:13px;
-    opacity:0.6;
-}
-
-.aboutus_txt_wrap .line_wrap .box{
-    width:49.8%;
-    height:32px;
-    float:left;
-}
-
-.aboutus_txt_wrap .line_wrap .box2{
-    border-left:1px solid #848484;
 }
 
 /*about us graphic*/
@@ -806,17 +797,6 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     top:460px;
     opacity:0;
     animation: fillsolid 5s forwards;
-}
-
-/*vertical line*/
-.vertical_line{
-    width:1px;
-    height:335px;
-    background:#848484;
-    position:absolute;
-    left:50%;
-    top:1610px;
-    opacity:0.5;
 }
 
 /*main graphic animation keyframes----------------------*/
@@ -856,7 +836,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     height:984px;
     background:#fff;
     position:absolute;
-    top:1766px;
+    top:2766px;
     opacity:0;
 }
 
