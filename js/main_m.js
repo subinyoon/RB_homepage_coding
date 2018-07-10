@@ -40,107 +40,143 @@ function menuLink(){
         //console.log(i);
         
         if( i == 1){
-            window.location.href='rb_portfolio.html';
-        }else if( i == 2){
+            window.location.href='rb_index_m.html';
+        }
+        
+        if( i == 2){
+            window.location.href='rb_portfolio_m.html';
+        }
+        
+        if( i == 3){
             var url = window.location.href;
-            console.log("i=2 "+url);
+            console.log("i=3 "+url);
             
-            if( url == "http://studiorb.me/" || url == "http://studiorb.me/rb_index.html#aboutus_anchor" || url == "http://studiorb.me/rb_index.html#goto_contact" || url == "http://studiorb.me/rb_index.html#goto_contact" || url == "http://studiorb.me/rb_index.html#aboutus_anchor"){
+            if( url == "http://studiorb.me/rb_index_m.html" || url == "http://studiorb.me/rb_index_m.html#aboutus_anchor" || url == "http://studiorb.me/rb_index_m.html#goto_contact" || url == "http://studiorb.me/rb_index_m.html#goto_contact" || url == "http://studiorb.me/rb_index_m.html#aboutus_anchor"){
                 $('html,body').stop().animate({
                 scrollTop: $("#aboutus_anchor").offset().top}, 600, 'swing');
             }else{
-             window.location.href='rb_index.html#aboutus_anchor';
+             window.location.href='rb_index_m.html#aboutus_anchor';
             }     
             
-        }else if (i == 3){
-            var url = window.location.href;
-            console.log("i=3 "+url);
         
-            if( url == "http://studiorb.me/" || url == "http://studiorb.me/rb_index.html#goto_contact" || url == "http://studiorb.me/rb_index.html#aboutus_anchor" || url == "http://studiorb.me/rb_index.html#goto_contact" || url == "http://studiorb.me/rb_index.html#aboutus_anchor"){
+        }if(i == 4){
+            var url = window.location.href;
+            console.log("i=4 "+url);
+        
+            if( url == "http://studiorb.me/rb_index_m.html" || url == "http://studiorb.me/rb_index_m.html#goto_contact" || url == "http://studiorb.me/rb_index_m.html#aboutus_anchor" || url == "http://studiorb.me/rb_index_m.html#goto_contact" || url == "http://studiorb.me/rb_index_m.html#aboutus_anchor"){
                 $('html,body').stop().animate({
                 scrollTop: $(".wrap_3").offset().top}, 600, 'swing');
             }else{
-             window.location.href='rb_index.html#goto_contact';
+             window.location.href='rb_index_m.html#goto_contact';
             }        
         }
     });
     
-    /*rb left nav logo : clicked*/
-    $(".wrap_fixed_2 .nav_1 .mid, .wrap_fixed_2 .nav_2 .mid").on('click', function(){
-        window.location.href='rb_index.html';
+    /*logo : clicked*/
+    $(".wrap .wrap_fixed_1 .menu ul .logo").on('click', function(){
+        window.location.href='rb_index_m.html';
     });
 }
 
 /*-------------------------------------------------------*/
-/*landing: main graphic*/
+/*mobile landing: main graphic*/
 function showTexture(){
-    $(".menu ul li").on('mouseover', function(){
-            var i = $(this).index()+1;
-            //console.log(i);
-            $(".solid_2").css({'display':'none'});
-            
-            if(i == 2){
-                $(".texture_"+i).css({'display':'block'});
-                $(".theme_2_1").css({'display':'block'});
-                $(".theme_2_2").css({'display':'block'});
-                $(".theme_2_3").css({'display':'block'});
-                $(".theme_2_4").css({'display':'block'});
-                $(".bubbles").css({'display':'none'});
-                
-            }else if(i == 3){
-                $(".texture_"+i).css({'display':'block'});
-                $(".solid_4").css({'display':'block'});
-                $(".theme_3_1").css({'display':'block'});
-                $(".bubbles").css({'display':'none'});
-                
-            }else{
-                $(".texture_"+i).css({'display':'block'});
-                $(".theme_1_1").css({'display':'block'});
-                $(".theme_1_2").css({'display':'block'});
-                $(".theme_1_3").css({'display':'block'});
-                $(".theme_1_4").css({'display':'block'});
-                $(".theme_1_5").css({'display':'block'});
-                $(".theme_1_6").css({'display':'block'});
-                $(".theme_1_7").css({'display':'block'});
-                $(".theme_1_8").css({'display':'block'});
-                $(".theme_1_9").css({'display':'block'});
-                $(".bubbles").css({'display':'none'});
-                $(".solid_1").css({'display':'none'});
-            }
-    });
+    $(".graphic_main .graphic_pointers li").on('click', function(){
         
-    $(".menu ul li").on('mouseout', function(){
-            var i = $(this).index()+1;
-            //console.log(i);
-            $(".solid_2").css({'display':'block'});
+        var i = $(this).index()+1;
+        console.log(i);
+        $(".solid_2").css({'display':'none'});
+        $(".graphic_wrap .graphic_main .graphic_pointers .pointer_1").css({"display":"block"});
+        $(".graphic_wrap .graphic_main .graphic_pointers .pointer_2").css({"display":"block"});
+        $(".graphic_wrap .graphic_main .graphic_pointers .pointer_3").css({"display":"block"});
+        
+        if( i == 1){
+            $(".texture_"+i).css({'display':'block'});
+            $(".theme_1_1").css({'display':'block'});
+            $(".theme_1_2").css({'display':'block'});
+            $(".theme_1_3").css({'display':'block'});
+            $(".theme_1_4").css({'display':'block'});
+            $(".theme_1_5").css({'display':'block'});
+            $(".theme_1_6").css({'display':'block'});
+            $(".theme_1_7").css({'display':'block'});
+            $(".theme_1_8").css({'display':'block'});
+            $(".theme_1_9").css({'display':'block'});
+            $(".solid_1").css({'display':'none'});
             
-            if(i == 2){
-                $(".texture_"+i).css({'display':'none'});
-                $(".theme_2_1").css({'display':'none'});
-                $(".theme_2_2").css({'display':'none'});
-                $(".theme_2_3").css({'display':'none'});
-                $(".theme_2_4").css({'display':'none'});
-                $(".bubbles").css({'display':'block'});
-
-            }else if(i == 3){
-                $(".texture_"+i).css({'display':'none'});
-                $(".solid_4").css({'display':'none'});
-                $(".theme_3_1").css({'display':'none'});
-                $(".bubbles").css({'display':'block'});
-            }else{
-                $(".texture_"+i).css({'display':'none'});
-                $(".theme_1_1").css({'display':'none'});
-                $(".theme_1_2").css({'display':'none'});
-                $(".theme_1_3").css({'display':'none'});
-                $(".theme_1_4").css({'display':'none'});
-                $(".theme_1_5").css({'display':'none'});
-                $(".theme_1_6").css({'display':'none'});
-                $(".theme_1_7").css({'display':'none'});
-                $(".theme_1_8").css({'display':'none'});
-                $(".theme_1_9").css({'display':'none'});
-                $(".bubbles").css({'display':'block'});
-                $(".solid_1").css({'display':'block'});
-            }
+            //texture2 off
+            $(".texture_2").css({'display':'none'});
+            $(".theme_2_1").css({'display':'none'});
+            $(".theme_2_2").css({'display':'none'});
+            $(".theme_2_3").css({'display':'none'});
+            $(".theme_2_4").css({'display':'none'});
+            
+            //texture3 off
+            $(".texture_3").css({'display':'none'});
+            $(".solid_4").css({'display':'none'});
+            $(".theme_3_1").css({'display':'none'});
+            
+            //pointers off
+            $(".graphic_wrap .graphic_main .graphic_pointers .pointer_"+i).css({"display":"none"});
+            
+        }
+        
+        if(i == 2){
+            $(".texture_"+i).css({'display':'block'});
+            $(".theme_2_1").css({'display':'block'});
+            $(".theme_2_2").css({'display':'block'});
+            $(".theme_2_3").css({'display':'block'});
+            $(".theme_2_4").css({'display':'block'});
+            
+            //texture1 off
+            $(".texture_1").css({'display':'none'});
+            $(".theme_1_1").css({'display':'none'});
+            $(".theme_1_2").css({'display':'none'});
+            $(".theme_1_3").css({'display':'none'});
+            $(".theme_1_4").css({'display':'none'});
+            $(".theme_1_5").css({'display':'none'});
+            $(".theme_1_6").css({'display':'none'});
+            $(".theme_1_7").css({'display':'none'});
+            $(".theme_1_8").css({'display':'none'});
+            $(".theme_1_9").css({'display':'none'});
+            $(".solid_1").css({'display':'block'});
+            
+            //texture3 off
+            $(".texture_3").css({'display':'none'});
+            $(".solid_4").css({'display':'none'});
+            $(".theme_3_1").css({'display':'none'});
+            
+            //pointers off
+            $(".graphic_wrap .graphic_main .graphic_pointers .pointer_"+i).css({"display":"none"});
+        }
+        
+        if(i == 3){
+            $(".texture_"+i).css({'display':'block'});
+            $(".solid_4").css({'display':'block'});
+            $(".theme_3_1").css({'display':'block'});
+            
+            //texture1 off
+            $(".texture_1").css({'display':'none'});
+            $(".theme_1_1").css({'display':'none'});
+            $(".theme_1_2").css({'display':'none'});
+            $(".theme_1_3").css({'display':'none'});
+            $(".theme_1_4").css({'display':'none'});
+            $(".theme_1_5").css({'display':'none'});
+            $(".theme_1_6").css({'display':'none'});
+            $(".theme_1_7").css({'display':'none'});
+            $(".theme_1_8").css({'display':'none'});
+            $(".theme_1_9").css({'display':'none'});
+            $(".solid_1").css({'display':'block'});
+            
+            //texture2 off
+            $(".texture_2").css({'display':'none'});
+            $(".theme_2_1").css({'display':'none'});
+            $(".theme_2_2").css({'display':'none'});
+            $(".theme_2_3").css({'display':'none'});
+            $(".theme_2_4").css({'display':'none'});
+            
+            //pointers off
+            $(".graphic_wrap .graphic_main .graphic_pointers .pointer_"+i).css({"display":"none"});
+        }
     });
 }
 
