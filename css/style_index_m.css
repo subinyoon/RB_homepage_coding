@@ -653,6 +653,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     position:relative;
     overflow:visible;
     padding-top:210px;
+    overflow-x:hidden;
 }
 
 @keyframes moveWrap2{
@@ -806,6 +807,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     position:absolute;
     top:3170px;
     opacity:0;
+    overflow-x:hidden;
 }
 
 .wrap_3{
@@ -854,7 +856,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     opacity:0.6;
     line-height:1.62em;
     font-size:2.25em;
-    padding-top:65px;
+    padding-top:45px;
     padding-bottom:7px;
 }
 
@@ -875,7 +877,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     width:87%;
     height:500px;
     margin: 0 auto;
-    margin-top:77px; 
+    margin-top:97px; 
 }
 
 .wrap_3 .form_box{
@@ -964,7 +966,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     border-bottom:1px solid #848484;
     font-size:2.25em;
     font-weight:500;
-    margin-top:49px;
+    margin-top:59px;
     opacity:0.6;
     float:right;
 }
