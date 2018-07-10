@@ -280,8 +280,8 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
 }
 
 .wrap .portfolio_detail_wrap .inner_wrap .content_wrap .content_1_wrap .sym_18{
-    top: 0px;
-    left: 0px;
+    top: 290px;
+    left: 420px;
 }
 
 .wrap .portfolio_detail_wrap .inner_wrap .content_wrap .content_1_wrap .sym_19{
@@ -290,8 +290,8 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
 }
 
 .wrap .portfolio_detail_wrap .inner_wrap .content_wrap .content_1_wrap .sym_20{
-    top: 0px;
-    left: 0px;
+    top: 360px;
+    left: 255px;
 }
 
 
@@ -309,6 +309,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
 }
 
 .wrap .portfolio_detail_wrap .inner_wrap .content_wrap .content_1_wrap .explain_group .explain p{
+    display: block;
     width: 100px;
     margin: 0 auto;
     font-size: 10px;

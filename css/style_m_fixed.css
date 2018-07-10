@@ -283,12 +283,13 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
 }
 
 .wrap .portfolio_detail_wrap .title{
+    widows: 100%;
     display:block;
-    font-size:6em;
+    font-size:5.4em;
     font-weight:900;
     letter-spacing:-0.5px;
     color:#525252;
-    line-height:27px;
+    line-height:14px;
     margin:0;
     padding-top:90px;
 }

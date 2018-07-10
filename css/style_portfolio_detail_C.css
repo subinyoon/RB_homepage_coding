@@ -27,12 +27,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     height:640px;
     background:#dedede;
     position:absolute;
-    background-color: rgba(38, 38, 38, 0.37);
-    background-image: url('../img/font_header_3.jpg');
-    background-repeat:;
-    background-blend-mode: multiply;
-    background-size: 1100px;
-    background-position: -80px 0px;
+    background-color: rgba(38, 38, 38, 0.57);
     opacity:0.8;
 }
 
