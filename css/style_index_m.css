@@ -242,6 +242,69 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     display:none;
 }
 
+/*-----------------------------------------------------*/
+/*graphic pointers*/
+.graphic_wrap .graphic_main .graphic_pointers{
+    position:relative;
+}
+
+.graphic_wrap .graphic_main .graphic_pointers .pointer_1{
+    width:23px;
+    height:47px;
+    background-image:url(../img/graphic_mobile_pointers.png);
+    background-repeat:no-repeat;
+    background-size:contain;
+    position:absolute;
+    left:100px;
+    top:860px;
+    opacity:0.5;
+    cursor:pointer;
+    z-index:9999;
+    animation: movepointer 2s ease-in-out infinite; 
+    display:block;
+}
+
+.graphic_wrap .graphic_main .graphic_pointers .pointer_2{
+    width:23px;
+    height:47px;
+    background-image:url(../img/graphic_mobile_pointers.png);
+    background-repeat:no-repeat;
+    background-size:contain;
+    position:absolute;
+    left:490px;
+    top:560px;
+    opacity:0.5;
+    cursor:pointer;
+    z-index:9999;
+    animation: movepointer 2s ease-in-out infinite;
+    display:block;
+}
+
+.graphic_wrap .graphic_main .graphic_pointers .pointer_3{
+    width:23px;
+    height:47px;
+    background-image:url(../img/graphic_mobile_pointers.png);
+    background-repeat:no-repeat;
+    background-size:contain;
+    position:absolute;
+    left:611px;
+    top:813px;
+    opacity:0.5;
+    cursor:pointer;
+    z-index:9999;
+    animation: movepointer 2s ease-in-out infinite;
+    display:block;
+}
+
+@keyframes movepointer{
+    0%{transform:translateY(0);}
+    50%{transform:translateY(20px);}
+    100%{transform:translateY(0);}
+}
+
+
+/*-----------------------------------------------------*/
+
 /*main graphic animation keyframes------------------------------*/
 
 @keyframes movePath{
