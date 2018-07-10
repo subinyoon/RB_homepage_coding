@@ -49,19 +49,19 @@ function menuLink(){
         
         if( i == 3){
             var url = window.location.href;
-            console.log("i=2 "+url);
+            console.log("i=3 "+url);
             
             if( url == "http://studiorb.me/rb_index_m.html" || url == "http://studiorb.me/rb_index_m.html#aboutus_anchor" || url == "http://studiorb.me/rb_index_m.html#goto_contact" || url == "http://studiorb.me/rb_index_m.html#goto_contact" || url == "http://studiorb.me/rb_index_m.html#aboutus_anchor"){
                 $('html,body').stop().animate({
                 scrollTop: $("#aboutus_anchor").offset().top}, 600, 'swing');
             }else{
-             window.location.href='rb_index.html_m#aboutus_anchor';
+             window.location.href='rb_index_m.html#aboutus_anchor';
             }     
             
         
         }if(i == 4){
             var url = window.location.href;
-            console.log("i=3 "+url);
+            console.log("i=4 "+url);
         
             if( url == "http://studiorb.me/rb_index_m.html" || url == "http://studiorb.me/rb_index_m.html#goto_contact" || url == "http://studiorb.me/rb_index_m.html#aboutus_anchor" || url == "http://studiorb.me/rb_index_m.html#goto_contact" || url == "http://studiorb.me/rb_index_m.html#aboutus_anchor"){
                 $('html,body').stop().animate({
