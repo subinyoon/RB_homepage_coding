@@ -10,6 +10,12 @@ ul, li{list-style:none; margin:0; padding:0;}
 p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
 /*reset end*/
 
+.wrap .portfolio_detail_wrap .title{
+   font-size:5em;
+}
+
+
+
 .wrap{
     margin:0 auto;
     min-width:750px;
