@@ -39,9 +39,9 @@ function menuLink(){
         var i = $(this).index()+1;
         //console.log(i);
         
-        if( i == 1){
+        if( i == 2){
             window.location.href='rb_portfolio_m.html';
-        }else if( i == 2){
+        }else if( i == 3){
             var url = window.location.href;
             console.log("i=2 "+url);
             
@@ -52,7 +52,7 @@ function menuLink(){
              window.location.href='rb_index.html_m#aboutus_anchor';
             }     
             
-        }else if (i == 3){
+        }else if (i == 4){
             var url = window.location.href;
             console.log("i=3 "+url);
         
