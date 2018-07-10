@@ -28,7 +28,6 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     top:0;
     margin-left:-375px;
     overflow:hidden;
-    background:#e2e2e2;
 }
 
 /*division line*/
@@ -716,9 +715,6 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
 
 .aboutus_skills{
     width:100%;
-    height:299px;
-    margin-top:0px;
-    margin-bottom:15px;
     opacity:0;
     transform: translateY(50px);
     animation: none;
@@ -726,12 +722,16 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
 
 .aboutus_skills .skill_box{
     width:100%;
-    float:left;
     height:172px;
+    border-top:1px solid #848484;
+    border-bottom:1px solid #848484;
+    margin-top:15px;
+    padding-top:50px;
+    padding-bottom:85px;
 }
 
 .aboutus_skills .skill_1{
-    border-right:1px solid #848484;
+    margin-top:0px;
 }
 
 /*title*/
@@ -739,10 +739,10 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     width:100%;
     margin:0;
     text-align:center;
-    font-size:18px;
+    font-size:2.2em;
     font-weight:bold;
     opacity:0.5;
-    padding-top:19px;
+    padding-bottom:45px;
 }
 
 /*subtitle*/
@@ -750,25 +750,10 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     width:100%;
     margin:0;
     text-align:center;
-    font-size:14px;
+    font-size:1.8em;
     line-height:1.64;
-    font-weight:bold;
     opacity:0.5;
-}
 
-/*line*/
-.aboutus_skills .skill_box .line_wrap{
-    width:100%;
-    padding-top:7px;
-    padding-bottom:12px;
-    opacity:0.6;
-    background:blue;
-}
-
-.aboutus_skills .skill_box .line_wrap .box{
-    width:49.8%;
-    height:28px;
-    float:left;
 }
 
 /*about us graphic*/
@@ -810,24 +795,6 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
 
 @keyframes fillsolid {
 	to { opacity:1;}
-}
-/*-----------------------------------------------------*/
-.aboutus_skills:after{ /*clearfix*/
-    content:"";
-    display:block;
-    clear:both;
-}
-
-.aboutus_skills .skill_box .line_wrap:after{ /*clearfix*/
-    content:"";
-    display:block;
-    clear:both;
-}
-
-.aboutus_txt_wrap .line_wrap:after{ /*clearfix*/
-    content:"";
-    display:block;
-    clear:both;
 }
 /*-----------------------------------------------------*/
 
