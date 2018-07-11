@@ -18,7 +18,7 @@ function showIllustration(){
             console.log(getfixUrl);
         var slicefixUrl = getfixUrl.slice(27,37);
             console.log(slicefixUrl);
-        var finalfixUrl = ".."+slicefixUrl;
+        var finalfixUrl = slicefixUrl;
             console.log(finalfixUrl);
 
         
@@ -31,7 +31,7 @@ function showIllustration(){
             console.log(getUrl);
         var sliceUrl = getUrl.slice(27,37);
             console.log(sliceUrl);
-        var finalUrl = ".."+sliceUrl;
+        var finalUrl = sliceUrl;
             console.log(finalUrl);
         
         //action
