@@ -69,50 +69,57 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
 
 
 .wrap .portfolio_detail_wrap .inner_wrap .content_wrap .content_1_wrap .style-preview .style-info{
-    float: left;
-    width: 100px;
-    margin: 55px 30px 15px 0px;
-    text-align: right;
-    
-    background: blue;
+    width: 100%;
+    margin: 25px 30px 15px 0px;
+/*    background: blue;*/
 }
 
 .wrap .portfolio_detail_wrap .inner_wrap .content_wrap .content_1_wrap .style-preview .style-info .style-title,
 .wrap .portfolio_detail_wrap .inner_wrap .content_wrap .content_1_wrap .style-preview .style-info .style-title-detail{
     font-weight: 700;
-    font-size: 20px;
-    line-height: 24px;
+    font-size: 3em;
+    line-height: 1.2;
     display: block;
     width: 100%;
-    clear: both;
+    
 
 /*    background: yellow;   */
 }
 
+.wrap .portfolio_detail_wrap .inner_wrap .content_wrap .content_1_wrap .style-preview .style-info .style-title{
+    width: 100px;
+    float: left;
+}
+
+
 .wrap .portfolio_detail_wrap .inner_wrap .content_wrap .content_1_wrap #nanumM .style-info .style-title{
+    font-size: 2.6em;
     font-weight: 900;
     padding-top: 2px;
+
     
 /*    background-color: forestgreen;*/
 }
 
 
 .wrap .portfolio_detail_wrap .inner_wrap .content_wrap .content_1_wrap .style-preview .style-info .block{
-    float: right;
     background: black;
     text-align: center;
-    width: 50px;
-    height: 20px;
-    margin: 0;
-    padding: 0;
-    margin-bottom: 5px;
-
+    width: 80px;
+    height: 30px;
+    
+    margin-right: 20px;
+    margin-top: 5px;
+    
+    float: left;
+    
 }
 
 .wrap .portfolio_detail_wrap .inner_wrap .content_wrap .content_1_wrap .style-preview .style-info .style-title-detail{
     margin: 0 auto;
     margin-top: -1px;
-    font-size: 12px;
+    font-size: 1.4em;
+    line-height: 1.8;
     font-weight: 350;
     color: #e3e3e3;
 }
