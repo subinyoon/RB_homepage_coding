@@ -226,7 +226,7 @@ function showWrap(){
     
     $(document).scroll(function(){
         currentScroll = $(document).scrollTop();
-        console.log(currentScroll);
+        //console.log(currentScroll);
 
         if(currentScroll >= 2000){
             $(".wrap_3").css({'animation':'moveWrap3 1s forwards'});
