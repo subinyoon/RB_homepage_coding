@@ -207,7 +207,7 @@ function showWrap(){
     var currentScroll = $(document).scrollTop();
     //console.log(currentScroll);
     
-    if(currentScroll <= 3378 && currentScroll >= 2450){
+    if(currentScroll <= 3210 && currentScroll >= 2200){
         $(".wrap_3").css({'animation':'moveWrap3 1s forwards'}); 
         $(".contact_bg").animate({'opacity':'1'}, 1500, 'swing');
     }
@@ -225,10 +225,10 @@ function showWrap(){
     }
     
     $(document).scroll(function(){
-        currentScroll = $(document).scrollTop();
-        //console.log(currentScroll);
+        //currentScroll = $(document).scrollTop();
+        console.log(currentScroll);
 
-        if(currentScroll >= 2450){
+        if(currentScroll >= 2200){
             $(".wrap_3").css({'animation':'moveWrap3 1s forwards'});
             $(".contact_bg").animate({'opacity':'1'}, 1500, 'swing');
         }
