@@ -856,7 +856,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     opacity:0.6;
     line-height:1.62em;
     font-size:2.25em;
-    padding-top:85px;
+    padding-top:65px;
     padding-bottom:7px;
 }
 
@@ -948,15 +948,15 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     width:100%;
     height:1px;
     position:absolute;
-    top:586px;
+    top:566px;
     opacity:1;
     background:#848484;
 }
 
-.wrap_3 .underline .line_2{top:635px;}
-.wrap_3 .underline .line_3{top:684px;}
-.wrap_3 .underline .line_4{top:733px;}
-.wrap_3 .underline .line_5{top:782px;}
+.wrap_3 .underline .line_2{top:615px;}
+.wrap_3 .underline .line_3{top:664px;}
+.wrap_3 .underline .line_4{top:713px;}
+.wrap_3 .underline .line_5{top:762px;}
 
 /*send button*/
 .wrap_3  .form_wrap .form_button{
