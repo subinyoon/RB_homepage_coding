@@ -181,16 +181,20 @@ function showTexture(){
 /*landing: contact gototop*/
 function showGoToTop(){
     
+    $(".gototop_wrap").click(function() {
+            $('html,body').stop().animate({
+                scrollTop: $(".graphic_wrap").offset().top}, 500, 'swing');
+        });
+    
     $(document).scroll(function(){
         var currentScroll = $(document).scrollTop();
+        
         console.log(currentScroll);
+        
         if(currentScroll >= 1254){
-            $(".gototop").animate({'opacity':'0.7'}, 1000, 'swing');
-            
-            $(".gototop").click(function() {
-                $('html,body').stop().animate({
-                    scrollTop: $(".graphic_wrap").offset().top}, 500, 'swing');
-            });
+            $(".gototop_wrap").fadeIn();
+        }else{
+            $(".gototop_wrap").fadeOut();
         }
     });
 }
