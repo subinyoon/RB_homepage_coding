@@ -931,10 +931,10 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     width:100%;
     margin:0;
     text-align:center;
-    font-size:18px;
+    font-size:22px;
     font-weight:bold;
     opacity:0.5;
-    padding-top:19px;
+    padding-top:13px;
 }
 
 /*subtitle*/
@@ -942,9 +942,8 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     width:100%;
     margin:0;
     text-align:center;
-    font-size:14px;
+    font-size:17px;
     line-height:1.64;
-    font-weight:bold;
     opacity:0.5;
 }
 
@@ -978,16 +977,16 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
 }
 
 .aboutus_txt_wrap .txt_1{
-    font-size:14px;
-    line-height:23px;
+    font-size:17px;
+    line-height:26.5px;
     text-align:center;
     opacity:0.6;
     margin:64px 0 0 0;
 }
 
 .aboutus_txt_wrap .txt_2{
-    font-size:14px;
-    line-height:23px;
+    font-size:17px;
+    line-height:26.5px;
     text-align:center;
     opacity:0.6;
     margin:0;
@@ -1138,7 +1137,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     text-align:center;
     opacity:0.6;
     line-height:1.64;
-    font-size:14px;
+    font-size:17px;
     padding-top:120px;
     padding-bottom:7px;
 }
