@@ -95,7 +95,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
 
 /*------------------------------*/
 
-/*menu off*/
-.wrap .wrap_fixed_1 .menu{
+/*menu off (display only logo)*/
+.wrap .wrap_fixed_1 .menu .menu1, .wrap .wrap_fixed_1 .menu .menu2, .wrap .wrap_fixed_1 .menu .menu3{
     display:none;
 }

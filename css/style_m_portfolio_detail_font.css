@@ -295,7 +295,7 @@ input[type=range]::-webkit-slider-thumb {
 
 /*------------------------------*/
 
-/*menu off*/
-.wrap .wrap_fixed_1 .menu{
+/*menu off (display only logo)*/
+.wrap .wrap_fixed_1 .menu .menu1, .wrap .wrap_fixed_1 .menu .menu2, .wrap .wrap_fixed_1 .menu .menu3{
     display:none;
 }
