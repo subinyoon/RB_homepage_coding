@@ -12,7 +12,7 @@
 }
 .prettydropdown > ul {
   position: absolute;
-  top: 0px;
+  top: 11px;
     float: right;
   background: none;
   border: none;
@@ -130,10 +130,10 @@
 }
 .prettydropdown.arrow > ul > li.selected:before {
   border-top-color: #a9a9a9; /* Arrow color */
-    top: 6px;
+    top: 0px;
 }
 .prettydropdown.arrow > ul > li.selected:after {
-  top: 1px;/* Chevron thickness */
+  top: -5px;/* Chevron thickness */
     border-top-color: #f0f0f0;/* Match background colour */
     
 }
