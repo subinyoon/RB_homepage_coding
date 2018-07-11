@@ -269,5 +269,9 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     display:none;
 }
 
+.portfolio_wrap{
+    min-height:1000px;
+}
+
 
 
