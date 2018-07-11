@@ -675,7 +675,6 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     overflow:visible;
     padding-top:130px;
     overflow-x:hidden;
-    background:red;
 }
 
 @keyframes moveWrap2{
