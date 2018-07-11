@@ -147,6 +147,10 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
 
 
 /*portfolio detail*/
+.wrap{
+    overflow-x: hidden;
+}
+
 
 .wrap .portfolio_detail_wrap{
     margin:0 auto;

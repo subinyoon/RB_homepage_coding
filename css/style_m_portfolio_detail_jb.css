@@ -14,9 +14,8 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     margin:0 auto;
     min-width:750px;
     width: 100%;
-    height:6500px; /*이부분 페이지마다 다름*/
+    height:6520px; /*이부분 페이지마다 다름*/
     position:relative;
-    overflow:visible;
 }
 
 /*main header image*/
