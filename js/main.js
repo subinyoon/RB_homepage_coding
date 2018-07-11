@@ -315,55 +315,75 @@ function portfolioFilter(){
 /*portfolio : linking to portfolio detail*/
 function toDetail(){
     
-    $(".portfolio_wrap .column1 .contents_2").on('click', function(){
-        window.location.href='rb_portfolio_detail_1.html';
-        //bluest
-    });
-    
-    $(".portfolio_wrap .column1 .contents_4").on('click', function(){
-        window.location.href='rb_portfolio_detail_B.html';
+    $(".portfolio_wrap .column1 .contents_1").on('click', function(){
+        window.location.href='rb_portfolio_detail_map.html';
         //hongik map
     });
     
-    $(".portfolio_wrap .column2 .contents_4").on('click', function(){
-        window.location.href='rb_portfolio_detail_3.html';
-        //overtime
+    $(".portfolio_wrap .column1 .contents_2").on('click', function(){
+        window.location.href='rb_portfolio_detail_bluest.html';
+        //bluest
     });
     
+    $(".portfolio_wrap .column1 .contents_3").on('click', function(){
+        window.location.href='rb_portfolio_detail_jb.html';
+        //jb sat
+    });
+    
+    $(".portfolio_wrap .column1 .contents_4").on('click', function(){
+        window.location.href='rb_portfolio_detail_font.html';
+        //서체관리자
+    });
+    
+    $(".portfolio_wrap .column1 .contents_5").on('click', function(){
+        window.location.href='rb_portfolio_detail_tnc.html';
+        //tnc
+    });
+    
+    
+    
     $(".portfolio_wrap .column2 .contents_1").on('click', function(){
-        window.location.href='rb_portfolio_detail_D.html';
+        window.location.href='rb_portfolio_detail_overtime.html';
         //overtime
     });
     
     $(".portfolio_wrap .column2 .contents_2").on('click', function(){
-        window.location.href='rb_portfolio_detail_A.html';
-        //overtime
+        window.location.href='rb_portfolio_detail_rooming.html';
+        //rooming
     });
     
+    $(".portfolio_wrap .column2 .contents_3").on('click', function(){
+        window.location.href='rb_portfolio_detail_malevich.html';
+        //malevich
+    });
+    
+    $(".portfolio_wrap .column2 .contents_4").on('click', function(){
+        window.location.href='rb_portfolio_detail_vodana.html';
+        //vodana
+    });
+    
+    
+    
     $(".portfolio_wrap .column3 .contents_1").on('click', function(){
-        window.location.href='rb_portfolio_detail_5.html';
-        //zeron
+        window.location.href='rb_portfolio_detail_zeron_1.html';
+        //zeron_1
     });
     
     $(".portfolio_wrap .column3 .contents_2").on('click', function(){
-        window.location.href='rb_portfolio_detail_4.html';
+        window.location.href='rb_portfolio_detail_bino.html';
         //bino
     });
     
+    $(".portfolio_wrap .column3 .contents_3").on('click', function(){
+        window.location.href='rb_portfolio_detail_qplace.html';
+        //qplace
+    });
+    
     $(".portfolio_wrap .column3 .contents_4").on('click', function(){
-        window.location.href='rb_portfolio_detail_2.html';
+        window.location.href='rb_portfolio_detail_haya.html';
         //haya
     });
     
-    $(".portfolio_wrap .column1 .contents_3").on('click', function(){
-        window.location.href='rb_portfolio_detail_F.html';
-        //jbsat
-    });
-    
-    $(".portfolio_wrap .column3 .contents_3").on('click', function(){
-        window.location.href='rb_portfolio_detail_E.html';
-        //qplace
-    });
     
 } // 이부분은 상세페이지 더 나오면 디테일하게 잡을 것!!!!!
 
