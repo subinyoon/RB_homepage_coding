@@ -673,7 +673,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     height:1711px;
     position:relative;
     overflow:visible;
-    padding-top:210px;
+    padding-top:140px;
     overflow-x:hidden;
 }
 
@@ -704,6 +704,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     text-align:center;
     opacity:0.6;
     margin:0;
+    padding-bottom:70px;
 }
 
 /*line*/
