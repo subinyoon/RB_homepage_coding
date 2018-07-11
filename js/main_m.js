@@ -35,7 +35,7 @@ function closeLightbox(){
 function menuLink(){
     $(".menu ul li").on('click', function(){
         var i = $(this).index()+1;
-        //console.log(i);
+        console.log(i);
         
         if( i == 1){
             window.location.href='rb_index_m.html';
