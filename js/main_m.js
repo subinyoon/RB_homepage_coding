@@ -47,7 +47,7 @@ function menuLink(){
         
         if( i == 3){
             var url = window.location.href;
-            console.log("i=3 "+url);
+            //console.log("i=3 "+url);
             
             if( url == "http://studiorb.me/rb_index_m.html" || url == "http://studiorb.me/rb_index_m.html#aboutus_anchor" || url == "http://studiorb.me/rb_index_m.html#goto_contact"){
                 $('html,body').stop().animate({
@@ -59,7 +59,7 @@ function menuLink(){
         
         }if(i == 4){
             var url = window.location.href;
-            console.log("i=4 "+url);
+            //console.log("i=4 "+url);
         
             if( url == "http://studiorb.me/rb_index_m.html" || url == "http://studiorb.me/rb_index_m.html#goto_contact" || url == "http://studiorb.me/rb_index_m.html#aboutus_anchor"){
                 $('html,body').stop().animate({
@@ -82,7 +82,7 @@ function showTexture(){
     $(".graphic_main .graphic_pointers li").on('click', function(){
         
         var i = $(this).index()+1;
-        console.log(i);
+        //console.log(i);
         $(".solid_2").css({'display':'none'});
         $(".graphic_wrap .graphic_main .graphic_pointers .pointer_1").css({"display":"block"});
         $(".graphic_wrap .graphic_main .graphic_pointers .pointer_2").css({"display":"block"});
@@ -205,7 +205,7 @@ function showGoToTop(){
 function showWrap(){
     
     var currentScroll = $(document).scrollTop();
-    console.log(currentScroll);
+    //console.log(currentScroll);
     
     if(currentScroll <= 3378 && currentScroll >= 2450){
         $(".wrap_3").css({'animation':'moveWrap3 1s forwards'}); 
@@ -253,12 +253,15 @@ function portfolioFilter(){
         
         $(remaining).css({'display':'none'});
         
-        if( index === 1) {
+        if( index == 1) {
             $(remaining).css({'display':'block'});
-        } 
-        $(".f_"+index).css({'display':'block'});
+            $(".no_filter").css({"display":"block"});
+        }
         
-        //console.log(index);
+        if(index != 1){
+            $(".f_"+index).css({'display':'block'});
+            $(".no_filter").css({"display":"none"});
+        }
     }); // onclick END   
 }
 
@@ -267,54 +270,74 @@ function portfolioFilter(){
 /*portfolio : linking to portfolio detail*/
 function toDetail(){
     
+    
+    //column 1
+    
+    $(".portfolio_wrap .column1 .contents_1").on('click', function(){
+        window.location.href='rb_m_portfolio_detail_vodana.html';
+        //vodana
+    });
+    
     $(".portfolio_wrap .column1 .contents_2").on('click', function(){
-        window.location.href='rb_portfolio_detail_1.html';
+        window.location.href='rb_m_portfolio_detail_bluest.html';
         //bluest
     });
     
+    $(".portfolio_wrap .column1 .contents_3").on('click', function(){
+        window.location.href='rb_m_portfolio_detail_tnc.html';
+        //tnc
+    });
+    
     $(".portfolio_wrap .column1 .contents_4").on('click', function(){
-        window.location.href='rb_portfolio_detail_B.html';
-        //hongik map
+        window.location.href='rb_m_portfolio_detail_map.html';
+        //map
     });
     
-    $(".portfolio_wrap .column2 .contents_4").on('click', function(){
-        window.location.href='rb_portfolio_detail_3.html';
-        //overtime
+    $(".portfolio_wrap .column1 .contents_5").on('click', function(){
+        window.location.href='rb_m_portfolio_detail_qplace.html';
+        //qplace
     });
-    
-    $(".portfolio_wrap .column2 .contents_1").on('click', function(){
-        window.location.href='rb_portfolio_detail_D.html';
-        //overtime
-    });
-    
-    $(".portfolio_wrap .column2 .contents_2").on('click', function(){
-        window.location.href='rb_portfolio_detail_A.html';
-        //overtime
-    });
-    
-    $(".portfolio_wrap .column3 .contents_1").on('click', function(){
-        window.location.href='rb_portfolio_detail_5.html';
-        //zeron
-    });
-    
-    $(".portfolio_wrap .column3 .contents_2").on('click', function(){
-        window.location.href='rb_portfolio_detail_4.html';
-        //bino
-    });
-    
-    $(".portfolio_wrap .column3 .contents_4").on('click', function(){
-        window.location.href='rb_portfolio_detail_2.html';
+
+    $(".portfolio_wrap .column1 .contents_6").on('click', function(){
+        window.location.href='rb_m_portfolio_detail_haya.html';
         //haya
     });
     
-    $(".portfolio_wrap .column1 .contents_3").on('click', function(){
-        window.location.href='rb_portfolio_detail_F.html';
-        //jbsat
+    $(".portfolio_wrap .column1 .contents_7").on('click', function(){
+        window.location.href='rb_m_portfolio_detail_font.html';
+        //haya
     });
     
-    $(".portfolio_wrap .column3 .contents_3").on('click', function(){
-        window.location.href='rb_portfolio_detail_E.html';
-        //qplace
+    //column 2
+    
+    $(".portfolio_wrap .column2 .contents_1").on('click', function(){
+        window.location.href='rb_m_portfolio_detail_malevich.html';
+        //malevich
+    });
+    
+    $(".portfolio_wrap .column2 .contents_2").on('click', function(){
+        window.location.href='rb_m_portfolio_detail_rooming.html';
+        //rooming
+    });
+    
+    $(".portfolio_wrap .column2 .contents_3").on('click', function(){
+        window.location.href='rb_m_portfolio_detail_jb.html';
+        //jb academy
+    });
+    
+    $(".portfolio_wrap .column2 .contents_4").on('click', function(){
+        window.location.href='rb_m_portfolio_detail_overtime.html';
+        //overtime
+    });
+    
+    $(".portfolio_wrap .column2 .contents_5").on('click', function(){
+        window.location.href='rb_m_portfolio_detail_zeron_1.html';
+        //zeron_1
+    });
+
+    $(".portfolio_wrap .column2 .contents_6").on('click', function(){
+        window.location.href='rb_m_portfolio_detail_bino.html';
+        //bino
     });
     
 } // 이부분은 상세페이지 더 나오면 디테일하게 잡을 것!!!!!

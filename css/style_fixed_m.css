@@ -17,6 +17,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     position:absolute;
     top:36px;
     left:25px;
+    z-index:9999;
 }
 
 .wrap .wrap_fixed_1 .menu{
@@ -47,6 +48,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     background-image:url(../img/logo.png);
     background-repeat:no-repeat;
     background-size:contain;
+    cursor:pointer;
 }
 
 /*-----------------------------------------------*/
