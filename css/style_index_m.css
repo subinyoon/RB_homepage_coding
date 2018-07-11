@@ -312,7 +312,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     background-repeat:no-repeat;
     background-size:contain;
     position:absolute;
-    left:258px;
+    left:248px;
     top:126px;
     opacity:0.8;
     animation: moveballoon 2.5s ease-in-out infinite;
