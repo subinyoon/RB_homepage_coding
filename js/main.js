@@ -8,9 +8,7 @@ $(document).ready(function(){
 
 function landingPage(){
     showTexture();
-    showBoxes();
     showContactGraphic();
-    showClientGraphic();
     bubbleAppear();
     showGoToTop();
     showWrap();
@@ -177,46 +175,6 @@ function bubbleAppear(){
     });
 }
 
-/*landing: client hover*/
-function showBoxes(){
-    $(".client_boxes .row_1 .boxes").on('mouseover', function(){
-            var i = $(this).index()+1;
-            //console.log(i);
-            $(".box_"+i).css({'background':'#fff', 'cursor':'pointer'});
-    });
-    
-    $(".client_boxes .row_2 .boxes").on('mouseover', function(){
-            var i = $(this).index()+1;
-            //console.log(i);
-            $(".box_"+(i+3)).css({'background':'#fff', 'cursor':'pointer'});
-    });
-    
-    $(".client_boxes .row_1 .boxes").on('mouseout', function(){
-            var i = $(this).index()+1;
-            //console.log(i);
-            $(".box_"+i).css({'background':'#f4f4f4'});
-    });
-    
-    $(".client_boxes .row_2 .boxes").on('mouseout', function(){
-            var i = $(this).index()+1;
-            //console.log(i);
-            $(".box_"+(i+3)).css({'background':'#f4f4f4'});
-    });
-}
-
-/*landing: client graphic*/
-function showClientGraphic(){
-    
-    $(document).scroll(function(){
-        var currentScroll = $(document).scrollTop();
-        //console.log(currentScroll);
-        if(currentScroll >= 540){
-            $("#client_line").animate({'stroke-dashoffset':'0'}, 3000, 'swing');
-            $("#client_line_2").animate({'stroke-dashoffset':'0'}, 3500, 'swing');
-        }
-    });
-}
-
 /*landing: contact graphic*/
 function showContactGraphic(){
     
@@ -301,10 +259,17 @@ function portfolioFilter(){
         
         $(remaining).css({'display':'none'});
         
-        if( index === 1) {
+        if(index == 1) {
             $(remaining).css({'display':'block'});
-        } 
-        $(".f_"+index).css({'display':'block'});
+            $(".no_filter").css({"display":"block"});
+            
+        }
+        
+        if(index != 1){
+            $(".f_"+index).css({'display':'block'});
+            $(".no_filter").css({"display":"none"});
+        }
+        
         
         //console.log(index);
     }); // onclick END   
