@@ -158,4 +158,11 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     clear:both;
 }
 
+/*------------------------------*/
+
+/*menu off*/
+.wrap .wrap_fixed_1 .menu{
+    display:none;
+}
+
 

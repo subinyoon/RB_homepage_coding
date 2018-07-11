@@ -266,8 +266,6 @@ input[type=range]::-webkit-slider-thumb {
     outline: none;
 }
 
-
-
 /*-----------------------------------------------------*/
 
 .wrap .portfolio_detail_wrap .inner_wrap .project_info_wrap:after{ /*clearfix*/
@@ -293,4 +291,11 @@ input[type=range]::-webkit-slider-thumb {
     content:"";
     display:block;
     clear:both;
+}
+
+/*------------------------------*/
+
+/*menu off*/
+.wrap .wrap_fixed_1 .menu{
+    display:none;
 }
