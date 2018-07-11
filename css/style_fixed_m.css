@@ -13,7 +13,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
 /*menu*/ /*------------------------------*/
 
 .wrap .wrap_fixed_1{
-    width:100%;
+    width:750px;
     position:absolute;
     top:36px;
     left:25px;
