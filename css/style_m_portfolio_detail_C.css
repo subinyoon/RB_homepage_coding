@@ -14,7 +14,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     margin:0 auto;
     min-width:750px;
     width: 100%;
-    height:3500px; /*이부분 페이지마다 다름*/
+    height:3000px; /*이부분 페이지마다 다름*/
     position:relative;
     overflow:visible;
 }
@@ -33,18 +33,19 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     opacity:0.8;
 }
 
+
 .wrap .portfolio_detail_wrap .inner_wrap .content_1_wrap{
     width:100%;
     margin-top:0px;
 }
 
-.wrap .portfolio_detail_wrap .inner_wrap .content_wrap .content_1_wrap .style-preview{
+.wrap .portfolio_detail_wrap .inner_wrap .content_wrap .content_1_wrap .style-preview,
+.wrap .portfolio_detail_wrap .inner_wrap .content_wrap .content_1_wrap #nanumM{
     position: relative;
     width: 100%;
     height: auto;
     min-height: 330px;
-    float: left;
-    margin-bottom: 10px;
+    margin-top: 50px;
 /*
     
     border-top: 1px solid rgba(0, 0, 0,0.1);
@@ -52,14 +53,6 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
 /*    background: greenyellow;*/
 }
 
-.wrap .portfolio_detail_wrap .inner_wrap .content_wrap .content_1_wrap #notoSans{
-
-}
-
-
-.wrap .portfolio_detail_wrap .inner_wrap .content_wrap .content_1_wrap #nanumM{
-    border-top: 1px solid rgba(0, 0, 0,0.1);
-}
 
 .wrap .portfolio_detail_wrap .inner_wrap .content_wrap .content_1_wrap #nanumM .style-title,
 .wrap .portfolio_detail_wrap .inner_wrap .content_wrap .content_1_wrap #nanumM .style-string-preview{
@@ -157,26 +150,27 @@ input[type=range]:focus {
 /* bar */
 input[type=range]::-webkit-slider-runnable-track {
   width: 100%;
-  height: 3px;
+  height: 4px;
   cursor: pointer;
   animate: 0.2s;
   box-shadow: 0px 0px 0px #000000;
   background: #b9b9b9;
   border-radius: 1px;
   border: 0px solid #000000;
-    margin: 20px 0px;
+    margin: 0px 0px;
 }
 /* button */
 input[type=range]::-webkit-slider-thumb {
   box-shadow: 0px 0px 0px #000000;
-  border: 5px solid #454545;
-  height: 20px;
-  width: 20px;
+  border: 5px solid #5c5c5c;
+  height: 25px;
+  width: 25px;
   border-radius: 25px;
-  background: #f4f4f4;
+  background: #ebebeb;
   cursor: pointer;
   -webkit-appearance: none;
-  margin-top: -7px;
+  margin-top: -9px;
+    z-index: 1;
 }
 
 
@@ -188,6 +182,7 @@ input[type=range]::-webkit-slider-thumb {
 
 .style-preview .style-content .style-control .font-size div{
     width: 285px;
+    height: 70px;
     position: relative;
     float: left; 
 /*    background: yellow;*/
@@ -203,16 +198,18 @@ input[type=range]::-webkit-slider-thumb {
 .style-preview .style-content .style-control .font-size .font-size-text,
 .style-preview .style-content .style-control .font-size .line-height-text{
     display: block;
-    width: 85px;
+    width: 120px;
+    height: 25px;
     background: rgba(0, 0, 0,0.1);
-    font-size: 11px;
+    font-size: 1.2em;
+    line-height: 1.7;
     font-weight: 600;
-    color : #000000;
-    margin-bottom: -2px;
+    color : #3c3c3c;
+    margin-bottom: 15px;
     text-align: center;
  
     float: left;
-    margin-right: 10px;
+    margin-right: 15px;
 }
 
 .style-preview .style-content .style-control .font-size .font-size-info,
@@ -222,7 +219,8 @@ input[type=range]::-webkit-slider-thumb {
     float: left;
     width: 35px;
 /*    margin-top: 2.5px;*/
-    font-size: 11px;
+    font-size: 1.2em;
+    line-height: 1.7;
     color: #828282;
 
 }
@@ -239,15 +237,17 @@ input[type=range]::-webkit-slider-thumb {
 
 .style-preview .style-content .style-string{
 /*    background: red; */
-    width: auto;
-    height: auto;
-    margin-top: 24px;
+    width: 100%;
+    height: 500px;
+    margin-top: 75px;
+    border: 1px solid #bcbcbc;
+    border-radius: 3px;
 }
 
 
 .style-preview .style-content .style-string span{
-    height: 300px;
-    margin-bottom: 30px;
+    width: 580px;
+    height: 485px;
     overflow: scroll;
     font-size: 50px;
     font-family: 'Noto Sans KR', sans-serif;
@@ -255,6 +255,9 @@ input[type=range]::-webkit-slider-thumb {
     line-height: 50px;
     display: block;
     min-height: 50px;
+/*    margin-left: 20px;*/
+    margin: 0 auto;
+    margin-top: 15px;
 /*    background: yellow;*/
     
 }

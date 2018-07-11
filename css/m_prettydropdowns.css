@@ -22,7 +22,7 @@
   list-style-type: none;
   margin: 0;
   padding: 0;
-    left: 0px;
+    right: 25px;
   text-align: right;
     
   -webkit-user-select: none; /* Chrome all / Safari all */
@@ -108,15 +108,16 @@
   position: absolute;
   top: 0px;
   bottom: 0;
-  right: -6px;
-  height: 14px;
+    right: -10px;
+    width: 15px;
+  height: 10px;
    
-  border: 4.8px solid transparent; /* Arrow size */
+  border: 7px solid transparent; /* Arrow size */
   box-sizing: border-box;
   content: '';
   display: block;
   margin: auto;
-   transform: rotate(270deg);
+/*   transform: rotate(270deg);*/
     
 /*    background: orange;*/
     
@@ -124,13 +125,12 @@
 .prettydropdown.arrow.small > ul > li.selected:before, .prettydropdown.arrow.small > ul > li.selected:after {
   top: 4px;
   height: 8px;
-  border-width: 4px;
+  border-width: 5px;
    
 }
 .prettydropdown.arrow > ul > li.selected:before {
   border-top-color: #a9a9a9; /* Arrow color */
-    right: -8px;
-    top: 1px;
+    top: 6px;
 }
 .prettydropdown.arrow > ul > li.selected:after {
   top: 1px;/* Chevron thickness */
