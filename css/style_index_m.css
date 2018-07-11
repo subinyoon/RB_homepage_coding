@@ -802,7 +802,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
 
 .contact_bg{
     width:100%;
-    height:1220px;
+    height:1205px;
     background:#fff;
     position:absolute;
     top:3170px;
@@ -813,7 +813,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
 .wrap_3{
     margin:0 auto;
     width:700px;
-    height:984px;
+    height:969px;
     position:relative;
     overflow:visible;
     transform: translateY(50px);
@@ -856,7 +856,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     opacity:0.6;
     line-height:1.62em;
     font-size:2.25em;
-    padding-top:65px;
+    padding-top:80px;
     padding-bottom:7px;
 }
 
@@ -948,15 +948,15 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     width:100%;
     height:1px;
     position:absolute;
-    top:566px;
+    top:581px;
     opacity:1;
     background:#848484;
 }
 
-.wrap_3 .underline .line_2{top:615px;}
-.wrap_3 .underline .line_3{top:664px;}
-.wrap_3 .underline .line_4{top:713px;}
-.wrap_3 .underline .line_5{top:762px;}
+.wrap_3 .underline .line_2{top:630px;}
+.wrap_3 .underline .line_3{top:679px;}
+.wrap_3 .underline .line_4{top:728px;}
+.wrap_3 .underline .line_5{top:777px;}
 
 /*send button*/
 .wrap_3  .form_wrap .form_button{
