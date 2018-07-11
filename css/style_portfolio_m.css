@@ -193,7 +193,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
 
 .wrap .column1 .contents_7 .image{
     height:340px;
-    border:1px solid rgb(132, 132, 132, 0.3);
+    border:1px solid rgb(132, 132, 132, 0.1);
     background-image:url(../img/font_thumnail.jpg);
 }
 
@@ -270,7 +270,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
 }
 
 .portfolio_wrap{
-    min-height:1000px;
+    min-height:900px;
 }
 
 
