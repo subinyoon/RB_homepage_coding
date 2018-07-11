@@ -181,6 +181,8 @@ function showTexture(){
 /*landing: contact gototop*/
 function showGoToTop(){
     
+    $(".gototop_wrap").fadeOut(10);
+    
     $(".gototop_wrap").click(function() {
             $('html,body').stop().animate({
                 scrollTop: $(".graphic_wrap").offset().top}, 500, 'swing');
@@ -192,9 +194,9 @@ function showGoToTop(){
         console.log(currentScroll);
         
         if(currentScroll >= 1254){
-            $(".gototop_wrap").fadeIn(2000);
+            $(".gototop_wrap").fadeIn(500);
         }else{
-            $(".gototop_wrap").fadeOut(2000);
+            $(".gototop_wrap").fadeOut(500);
         }
     });
 }
