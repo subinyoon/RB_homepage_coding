@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport"user-scalable=no, content="width=device-width, initial-scale=0">
+<meta name="apple-mobile-web-app-capable" content="yes" />    
+<title>스튜디오 빨간벽돌</title>
+    
+<link rel="stylesheet" href="./css/normalize.css">
+<link rel="stylesheet" href="./css/style_m_fixed.css">  
+<link rel="stylesheet" href="./css/prettydropdowns.css">
+<link rel="stylesheet" href="./css/style_m_portfolio_detail_C.css">
+
+<script src="./js/vendor/jquery-3.3.1.min.js"></script>
+<script src="./js/main.js"></script>
+    
+<script src="./js/vendor/jquery.prettydropdowns.js"></script>
+<script src="./js/m_portfolio_detail_C.js"></script>
+</head>
+    
+<body>
+    <div class="back_button"></div>
+    <div class="main_image"></div>
+    
+    <div class="wrap">
+        <div class="wrap_fixed_1">
+            <div class="menu">
+                <ul>
+                    <li class="menu1">Projects</li>
+                    <li class="menu2">About Us</li>
+                    <li class="menu3">Contact</li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="wrap_fixed_2">
+            
+            <div class="nav_1">
+                <div class="top">
+                    <div class="boxes"></div>
+                    <div class="boxes border_box"></div>
+                </div>
+                <div class="mid"></div>
+                <div class="bot">
+                    <div class="boxes"></div>
+                    <div class="boxes border_box"></div>
+                </div>
+            </div>
+            
+            <div class="position_relative">
+                <div class="inner_wrap">
+                    <div class="nav_2">
+                        <div class="top">
+                            <div class="boxes"></div>
+                            <div class="boxes border_box"></div>
+                        </div>
+                        <div class="mid"></div>
+                        <div class="bot">
+                            <div class="boxes"></div>
+                            <div class="boxes border_box"></div>
+                        </div>
+                    </div>
+                </div> <!--inner_wrap END-->
+            </div> <!--position relative-->
+        </div> <!--wrap_fixed_2 END-->
+    
+        <div class="portfolio_detail_wrap">
+            <div class="inner_wrap">
+                
+                <div class="content_wrap">
+                    <p class="title">서체 미리보기</p>
+                    <p class="subtitle">-- interactive coding<br> -- html5 / css3 / javascript<br></p>
+
+                    <div class="project_info_wrap">
+                        <div class="line"></div>
+                        <div class="txt_box">
+                        보다 편한 디지털 본문 작업을 위해 자주 사용하는 오픈소스 서체의 실시간 미리보기를 제작하였다. 사용할 텍스트를 입력한 뒤,서체 크기와 항송을 실시간으로 조절할 수 있다. 또한, 서체 스타일을 변경할 수 있어 서체의 두께 조절 역시 가능하다.
+                        </div>
+                    </div>
+
+                    <div class="division"></div>
+
+                    <div class="content_1_wrap">
+                        <!-- Noto Sans CJK kr -->
+                        <div class="style-preview" id= "notoSans">
+                            <div class="style-info">
+                                <div class="block">
+                                    <span class="style-title-detail">CJKkr</span>
+                                </div>
+                                <span class="style-title">Noto Sans</span>
+                                
+                                <select id="font-style">
+                                    <option value="100">THIN</option>
+                                    <option value="300">LIGHT</option>
+                                    <option value="350">DEMILIGHT</option>
+                                    <option value="400" selected="selected">REGULAR</option>
+                                    <option value="500">MEDIUM</option>
+                                    <option value="700">BOLD</option>
+                                    <option value="900">BLACK</option>
+                                    
+                                </select>
+                            </div>
+                                
+                            <div class="style-content">
+                                <div class="style-control">
+                                    <span class="font-size">
+                                        <!-- font size -->
+                                        <div class="font-size-slider">
+                                            <span class="font-size-text">FONT-SIZE</span>
+                                            <span class="font-size-info">50px</span>
+                                            <input type="range" id="font-size-slidebar" max="110" min="10" step="1" value="50">
+                                        </div>
+
+                    <!--                     line height -->
+                                        <div class="line-height-slider">
+                                            <span class="line-height-text">LINE-HEIGHT</span>
+                                            <span class="line-height-info">50px</span>
+                                            <input type="range" id="line-height-slidebar" max="110" min="10" value="50">
+                                        </div>
+
+                                    </span>
+                                </div>
+                                <div class="style-string">
+                                    <span class="style-string-preview" contenteditable="true">Noto Sans</span>
+                                </div>
+                            </div>
+                        </div> <!-- noto sans END -->  
+                        
+                        <!-- Nanum Myung -->
+                        <div class="style-preview" id="nanumM">
+                            <div class="style-info">
+                                 <div class="block">
+                                    <span class="style-title-detail">Sandoll</span>
+                                </div>
+                                <span class="style-title">나눔명조</span>
+
+                                <select id="font-style2">
+                                    <option value="400" selected="selected">REGULAR</option>
+                                    <option value="700">BOLD</option>
+                                    <option value="900">EXTRA-BOLD</option>
+
+                                </select>
+                            </div>
+
+                            <div class="style-content">
+                                <div class="style-control">
+                                    <span class="font-size">
+                                        <!-- font size -->
+                                        <div class="font-size-slider-mj .slider-mj">
+                                            <span class="font-size-text">FONT-SIZE</span>
+                                            <span class="font-size-info-mj">50px</span>
+                                            <input type="range" id="font-size-slidebar" max="110" min="10" step="1" value="50">
+                                        </div>
+
+                    <!--                     line height -->
+                                        <div class="line-height-slider-mj .slider-mj2">
+                                            <span class="line-height-text">LINE-HEIGHT</span>
+                                            <span class="line-height-info-mj">50px</span>
+                                            <input type="range" id="line-height-slidebar" max="110" min="10" value="50">
+                                        </div>
+
+                                    </span>
+                                </div>
+                                <div class="style-string">
+                                    <span class="style-string-preview nanumMJ" contenteditable="true">산돌 나눔 명조체</span>
+                                </div>
+                            </div> 
+                        </div><!-- nanum END -->
+                    </div>
+                   
+                </div><!--contentwrap END-->
+            </div><!--innerwrap END-->
+        </div><!--portfolio_detail_wrap END-->
+    </div><!--wrap END--> 
+    
+<!--
+    <div class="footer_wrap">
+        <div class="division"></div> 
+        
+        <div class="footer">
+            <div class="txt">
+                <p>(c) all rights reserved by Studio Red_Brick</p>
+            </div>
+
+            <div class="txt txt2">
+                <p>(04074) Republic of Korea, Seoul, Mapo-gu, SangSu-dong, 338-1 102</p>
+            </div>
+
+            <div class="txt txt3">
+                <p>bbalganbyukdol@gmail.com // +82-10-9182-6193</p>
+            </div>
+        </div>
+    </div> footerwrap END
+-->
+    
+</body>
+</html>

@@ -439,15 +439,13 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
 }
 
 /*content txt common*/
-.wrap .portfolio_detail_wrap .inner_wrap .content_1_txt_wrap,
-.wrap .portfolio_detail_wrap .inner_wrap .content_2_txt_wrap{
+.wrap .portfolio_detail_wrap .inner_wrap .content_1_txt_wrap{
     width:100%;
     margin-top:60px;
     position:relative;
 }
 
-.wrap .portfolio_detail_wrap .inner_wrap .content_1_txt_wrap .content_title,
-.wrap .portfolio_detail_wrap .inner_wrap .content_2_txt_wrap .content_title{
+.wrap .portfolio_detail_wrap .inner_wrap .content_1_txt_wrap .content_title{
     width:100%;
     font-size:5.5em;
     font-weight:bold;
@@ -455,8 +453,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     display:block;
 }
 
-.wrap .portfolio_detail_wrap .inner_wrap .content_1_txt_wrap .content_txt,
-.wrap .portfolio_detail_wrap .inner_wrap .content_2_txt_wrap .content_txt{
+.wrap .portfolio_detail_wrap .inner_wrap .content_1_txt_wrap .content_txt{
     font-size: 2.25em;
     margin:0;
     min-width: 470px;
@@ -465,6 +462,10 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     display:block;
     margin-left: 3px;
     margin-top:15px;
+}
+
+.wrap .portfolio_detail_wrap .inner_wrap .content_1_txt_wrap .tip{
+    color: #9f9f9f;
 }
 
 

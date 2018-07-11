@@ -108,7 +108,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     
     float: left;
     width: 150px;
-    padding-top: 2px;
+    padding-top: 0px;
     padding-left: 12px;
     
     font-size:2.4em;
