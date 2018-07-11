@@ -159,10 +159,6 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     background-size:contain;
 }
 
-.wrap .column1 .contents_2 .image:hover{
-    animation: enlarge 0.3s forwards ease-in-out;
-}
-
 .wrap .column1 .contents_3{
     height:290px;
     overflow:hidden;
@@ -174,9 +170,6 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     background-image:url(../img/tnc_thumnail.png);
     background-repeat:no-repeat;
     background-size:contain;
-}
-.wrap .column1 .contents_3 .image:hover{
-    animation: enlarge 0.3s forwards ease-in-out;
 }
 
 .wrap .column1 .contents_4{
@@ -192,10 +185,6 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     background-size:contain;
 }
 
-.wrap .column1 .contents_4 .image:hover{
-    animation: enlarge 0.3s forwards ease-in-out;
-}
-
 .wrap .column1 .contents_5{
     height:398px;
     overflow:hidden;
@@ -209,8 +198,30 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     background-size:contain;
 }
 
-.wrap .column1 .contents_5 .image:hover{
-    animation: enlarge 0.3s forwards ease-in-out;
+.wrap .column1 .contents_6{
+    height:404px;
+    overflow:hidden;
+    background:blue;
+}
+
+.wrap .column1 .contents_6 .image{
+    height:341px;
+    background-image:url(../img/thumbnail_haya.jpg);
+    background-repeat:no-repeat;
+    background-size:contain;
+}
+
+.wrap .column1 .contents_7{
+    height:403px;
+    overflow:hidden;
+    background:blue;
+}
+
+.wrap .column1 .contents_7 .image{
+    height:340px;
+    background-image:url(../img/font_thumnail.jpg);
+    background-repeat:no-repeat;
+    background-size:contain;
 }
 
 .wrap .column2 .contents_1{
@@ -226,10 +237,6 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     background-size:contain;
 }
 
-.wrap .column2 .contents_1 .image:hover{
-    animation: enlarge 0.3s forwards ease-in-out;
-}
-
 .wrap .column2 .contents_2{
     height:436px;
     overflow:hidden;
@@ -243,10 +250,6 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     background-size:contain;
 }
 
-.wrap .column2 .contents_2 .image:hover{
-    animation: enlarge 0.3s ease-in-out forwards;
-}
-
 .wrap .column2 .contents_3{
     height:432px;
     background:blue;
@@ -258,10 +261,6 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     background-image:url(../img/jb_thumbnail.jpg);
     background-repeat:no-repeat;
     background-size:contain;
-}
-
-.wrap .column2 .contents_3 .image:hover{
-    animation: enlarge 0.3s ease-in-out forwards;
 }
 
 .wrap .column2 .contents_4{
@@ -278,11 +277,6 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     opacity:0.9;
 }
 
-.wrap .column2 .contents_4 .image:hover{
-    opacity:1;
-    animation: enlarge 0.3s forwards ease-in-out;
-}
-
 .wrap .column2 .contents_5{
     height:283px;
     overflow:hidden;
@@ -297,84 +291,19 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     opacity:0.9;
 }
 
-.wrap .column2 .contents_5 .image:hover{
-    opacity:1;
-    animation: enlarge 0.3s forwards ease-in-out;
-}
-
-.wrap .column3 .contents_1{
-    height:199px;
+.wrap .column2 .contents_6{
+    height:447px;
     overflow:hidden;
+    background:blue;
 }
 
-.wrap .column3 .contents_1 .image{
-    height:199px;
-    background-image:url(../img/zeron_thumbnail.jpg);
+.wrap .column2 .contents_6 .image{
+    height:384px;
+    background-image:url(../img/bino1.jpg);
     background-repeat:no-repeat;
     background-size:contain;
+    opacity:0.9;
 }
-
-.wrap .column3 .contents_1 .image:hover{
-    animation: enlarge 0.3s forwards ease-in-out;
-}
-
-.wrap .column3 .contents_2{
-    height:348px;
-    overflow:hidden;
-}
-
-.wrap .column3 .contents_2 .image{
-    height:348px;
-    background-image:url(../img/bino6.jpg);
-    background-repeat:no-repeat;
-    background-size:contain;
-}
-
-.wrap .column3 .contents_2 .image:hover{
-    animation: enlarge 0.3s forwards ease-in-out;
-}
-
-.wrap .column3 .contents_3{
-    height:303px;
-    overflow:hidden;
-}
-
-.wrap .column3 .contents_3 .image{
-    height:303px;
-    background-image:url(../img/qplace_thumbnail.jpg);
-    background-repeat:no-repeat;
-    background-size:contain;
-}
-
-.wrap .column3 .contents_3 .image:hover{
-    animation: enlarge 0.3s forwards ease-in-out;
-}
-
-.wrap .column3 .contents_4{
-    height:308px;
-    background-image:url(../img/thumbnail_haya.jpg);
-    background-repeat:no-repeat;
-    background-size:cover;
-}
-
-.wrap .column3 .contents_4:hover{
-    animation: hayafilter 1s forwards ease-in-out;
-}
-
-/*portfolio thumbnail animations*/
-@keyframes hayafilter{
-    to{filter:invert(100%);}
-}
-
-@keyframes enlarge{
-    to{transform: scale(1.005);}
-}
-
-/*filter onoff*/
-.wrap .column .f_editorial{display:block;}
-.wrap .column .f_graphic{display:block;}
-.wrap .column .f_web{display:block;}
-.wrap .column .f_uiux{display:block;}
 
 /*-----------------------------------------------------*/
 .wrap .filter_wrap .filter_list:after{ /*clearfix*/
