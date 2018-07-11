@@ -50,6 +50,10 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
  
 }
 
+.wrap .portfolio_detail_wrap .inner_wrap .content_1_wrap{
+    margin-top: 90px;
+}
+
 .wrap .portfolio_detail_wrap .inner_wrap .content_1_wrap .animation_wrap{
     width:100%;
     height:900px;

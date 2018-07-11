@@ -143,18 +143,21 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
 }
 /*-----------------------------------------------*/
 
+
 /*portfolio detail*/
 
 .wrap .portfolio_detail_wrap{
     margin:0 auto;
-    width:1000px;
+/*    width:700px;*/
+    min-width:700px;
+    width:93.3333%;
     height:360px;
     position:relative;
     overflow:visible;
     opacity:1;
     transform: translateY(0px);
     animation: none;
-    padding-top:280px;
+    padding-top:260px;
 }
 
 @keyframes moveWrap{
@@ -163,39 +166,43 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
 
 .wrap .portfolio_detail_wrap .inner_wrap{
     width:100%;
-    height:360px;
+    height:240px;
     background:#f4f4f4;
     position:relative;
 }
 
 .wrap .portfolio_detail_wrap .inner_wrap .content_wrap{
-    width:736px;
+/*    width:610px;*/
+    min-width:610px;
+    width:81.3333%;
     margin:0 auto;
 }
 
 .wrap .portfolio_detail_wrap .title{
+    widows: 100%;
     display:block;
-    font-size:50px;
+    font-size:6em;
     font-weight:900;
     letter-spacing:-0.5px;
     color:#525252;
-    line-height:27px;
+    line-height:14px;
     margin:0;
-    padding-top:97px;
+    padding-top:90px;
 }
 
 .wrap .portfolio_detail_wrap .subtitle{
-    font-size:16px;
+    font-size:2.45em;
     font-weight:300;
     color:#525252;
-    line-height:1.3;
+    line-height:1.4;
     margin:0;
     margin-left:97px;
-    padding-top:25px;
+    padding-top:60px;
 }
 
 .wrap .portfolio_detail_wrap .inner_wrap .project_info_wrap{
-    padding-top:50px;
+    width: 100%;
+    padding-top:80px;
 }
 
 .wrap .portfolio_detail_wrap .inner_wrap .project_info_wrap .line{
@@ -203,29 +210,33 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     height:50px;
     border-top:1px solid #848484;
     float:left;
-    margin-top:4px;
+    margin-top:15px;
 }
 
 .wrap .portfolio_detail_wrap .inner_wrap .project_info_wrap .txt_box{
-    width:257px;
+/*    width:470px;*/
+    min-width: 470px;
+    width: 77%;
     float:left;
     padding-left:37px;
-    font-size:11px;
-    line-height:1.82;
+    font-size:2.25em;
+    line-height:1.6;
+    word-break: keep-all;
 }
 
 /*division1*/
-.wrap .portfolio_detail_wrap .inner_wrap .division_1{
-    width:736px;
+.wrap .portfolio_detail_wrap .inner_wrap .division{
+    min-width:610px;
+    width:100%;
     height:1px;
-    opacity:0.2;
+    opacity:0.6;
     background:#848484;
-    margin-top:63px;
+    margin-top:70px;
 }
 
 .wrap .portfolio_detail_wrap .inner_wrap .content_1_wrap{
     width:100%;
-    margin-top:51px;
+    margin-top:70px;
     position:relative;
 }
 

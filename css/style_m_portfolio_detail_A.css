@@ -14,7 +14,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     margin:0 auto;
     min-width:750px;
     width: 100%;
-    height:1500px; /*이부분 페이지마다 다름*/
+    height:5500px; /*이부분 페이지마다 다름*/
     position:relative;
     overflow:visible;
 }
@@ -26,17 +26,23 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     height:500px;
     background:#dedede;
     position:absolute;
-    background-image:url(../img/overtime_header.jpg);
+    background-image:url(../img/rooming_header.jpg);
     background-repeat:no-repeat;
+    background-position: bottom;
     background-size:cover;
+    opacity:0.8;
 }
 
 .wrap .portfolio_detail_wrap .inner_wrap .content_1_wrap{
-    width:100%;
-    height:777px;
-    background-color: #848484;
     margin-top: 90px;
 }
+
+.wrap .portfolio_detail_wrap .inner_wrap .content_1_wrap .empty{
+    width:610px;
+    height:400px;
+    background: #acacac;
+}
+
 
 
 
@@ -64,6 +70,10 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     display:block;
     margin-left: 3px;
     margin-top:15px;
+}
+
+.wrap .portfolio_detail_wrap .inner_wrap .content_1_txt_wrap .tip{
+    color: #9f9f9f;
 }
 
 
