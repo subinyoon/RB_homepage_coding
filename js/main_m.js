@@ -8,8 +8,6 @@ $(document).ready(function(){
 
 function landingPage(){
     showTexture();
-    showContactGraphic();
-    showClientGraphic();
     showGoToTop();
     showWrap();
     closeLightbox();
@@ -180,47 +178,25 @@ function showTexture(){
     });
 }
 
-/*landing: client graphic*/
-function showClientGraphic(){
+/*landing: contact gototop*/
+function showGoToTop(){
     
-    $(document).scroll(function(){
-        var currentScroll = $(document).scrollTop();
-        //console.log(currentScroll);
-        if(currentScroll >= 540){
-            $("#client_line").animate({'stroke-dashoffset':'0'}, 3000, 'swing');
-            $("#client_line_2").animate({'stroke-dashoffset':'0'}, 3500, 'swing');
-        }
-    });
-}
-
-/*landing: contact graphic*/
-function showContactGraphic(){
+    $(".gototop_wrap").fadeOut(10);
+    
+    $(".gototop_wrap").click(function() {
+            $('html,body').stop().animate({
+                scrollTop: $(".graphic_wrap").offset().top}, 500, 'swing');
+        });
     
     $(document).scroll(function(){
         var currentScroll = $(document).scrollTop();
         
-        //console.log(currentScroll);
-        if(currentScroll >= 1360){
-           $(".form_wrap #graphic_contact").animate({'stroke-dashoffset':'0'}, 3000, 'swing');
-            $(".form_wrap .graphic_solid_grey").animate({'opacity':'1'}, 4000, 'swing');
-            $(".form_wrap .graphic_solid_red").animate({'opacity':'1'}, 5000, 'swing');
-        }
-    });
-}
-
-/*landing: contact gototop*/
-function showGoToTop(){
-    
-    $(document).scroll(function(){
-        var currentScroll = $(document).scrollTop();
-        //console.log(currentScroll);
-        if(currentScroll >= 1280){
-            $(".wrap_3 .gototop").animate({'opacity':'0.7'}, 1000, 'swing');
-            
-            $(".wrap_3 .gototop").click(function() {
-                $('html,body').stop().animate({
-                    scrollTop: $(".graphic_wrap").offset().top}, 500, 'swing');
-            });
+        console.log(currentScroll);
+        
+        if(currentScroll >= 1254){
+            $(".gototop_wrap").fadeIn(500);
+        }else{
+            $(".gototop_wrap").fadeOut(500);
         }
     });
 }
