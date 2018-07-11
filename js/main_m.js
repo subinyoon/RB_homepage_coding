@@ -192,9 +192,9 @@ function showGoToTop(){
         console.log(currentScroll);
         
         if(currentScroll >= 1254){
-            $(".gototop_wrap").fadeIn();
+            $(".gototop_wrap").fadeIn(2000);
         }else{
-            $(".gototop_wrap").fadeOut();
+            $(".gototop_wrap").fadeOut(2000);
         }
     });
 }
