@@ -53,7 +53,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
 /*footer*/
 
 .footer_wrap{
-    width:100%;
+    width:750px;
     position:relative;
     margin-top:0px;
 }
