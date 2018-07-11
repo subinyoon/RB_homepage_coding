@@ -42,6 +42,30 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
 }
 
 /*-----------------------------------------------------*/
+/*mobile gototop btn*/
+
+.gototop_wrap{
+    width:28px;
+    height:217.5px;
+    position:absolute;
+    left:700px;
+    top:1000px;
+    opacity:1;
+    
+    z-index:9999;
+}
+
+.gototop_wrap .gototop_btn{
+    width:100%;
+    height:217.5px;
+    position:fixed;
+    background-image:url(../img/mobile_gototop.png);
+    background-repeat:no-repeat;
+    background-size:contain;
+    
+}
+
+/*-----------------------------------------------------*/
 
 /*lightbox*/
 .light_box_wrap{
@@ -823,30 +847,6 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
 
 @keyframes moveWrap3 {
     to{transform: translateY(0); opacity:1;}
-}
-
-.wrap_3 .gototop{
-    width:28px;
-    height:217.5px;
-    background-image:url(../img/mobile_gototop.png);
-    background-repeat:no-repeat;
-    background-size:contain;
-    position:absolute;
-    left:677px;
-    top:910px;
-    opacity:0;
-    transform:translateY(5px);
-    animation: gototop 1s infinite ease-out;
-}
-
-@keyframes gototop{
-    0%{transform:translateY(0px);}
-    70%{transform:translateY(5px)}
-    100%{transform:translateY(0px)}
-}
-
-.wrap_3 .gototop:hover{
-    cursor:pointer;
 }
 
 .wrap_3 .contact_txt{
