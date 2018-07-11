@@ -207,12 +207,12 @@ function showWrap(){
     var currentScroll = $(document).scrollTop();
     console.log(currentScroll);
     
-    if(currentScroll <= 3378 && currentScroll >= 2510){
+    if(currentScroll <= 3378 && currentScroll >= 2450){
         $(".wrap_3").css({'animation':'moveWrap3 1s forwards'}); 
         $(".contact_bg").animate({'opacity':'1'}, 1500, 'swing');
     }
     
-    if(currentScroll <= 2360 && currentScroll >= 600){
+    if(currentScroll <= 2360 && currentScroll >= 400){
         $(".wrap_2 .aboutus_wrap .aboutus_txt_wrap").css({'animation':'moveWrap3 1s forwards'});
         
         setTimeout(function(){
@@ -228,12 +228,12 @@ function showWrap(){
         currentScroll = $(document).scrollTop();
         //console.log(currentScroll);
 
-        if(currentScroll >= 2510){
+        if(currentScroll >= 2450){
             $(".wrap_3").css({'animation':'moveWrap3 1s forwards'});
             $(".contact_bg").animate({'opacity':'1'}, 1500, 'swing');
         }
         
-        if(currentScroll >= 600){
+        if(currentScroll >= 400){
             $(".wrap_2 .aboutus_wrap .aboutus_txt_wrap").css({'animation':'moveWrap 1s forwards'}); 
         
             setTimeout(function(){
