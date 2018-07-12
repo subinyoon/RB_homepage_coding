@@ -3,6 +3,7 @@ $(document).ready(function(){
     menuLink();
     landingPage();
     portfolioPage();
+    snsLink();
         
 }); //document ready END
 
@@ -343,6 +344,13 @@ function toDetail(){
 } // 이부분은 상세페이지 더 나오면 디테일하게 잡을 것!!!!!
 
 /*-------------------------------------------------------*/
+
+/*sns link*/
+function snsLink(){
+    $(".footer .sns_wrap .sns_1").on('click', function(){
+       window.location.href='https://www.behance.net/red_brick';    
+    });
+}
 
 
       
