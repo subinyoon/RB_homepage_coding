@@ -36,12 +36,6 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     margin-top: 90px;
 }
 
-.wrap .portfolio_detail_wrap .inner_wrap .content_1_wrap .empty{
-    width:610px;
-    height:400px;
-    background: #acacac;
-}
-
 /*content txt common*/
 .wrap .portfolio_detail_wrap .inner_wrap .content_1_txt_wrap{
     width:100%;
