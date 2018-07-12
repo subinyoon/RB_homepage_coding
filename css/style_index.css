@@ -1115,7 +1115,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     background-size:contain;
     position:absolute;
     left:1305px;
-    top:310px;
+    top:350px;
     opacity:0;
     transform:translateY(5px);
     animation: gototop 1s infinite ease-out;
@@ -1226,23 +1226,23 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     width:730px;
     height:1px;
     position:absolute;
-    top:368px;
+    top:385px;
     opacity:1;
     background:#848484;
 }
 
-.wrap_3 .underline .line_2{top:393px;}
-.wrap_3 .underline .line_3{top:418px;}
-.wrap_3 .underline .line_4{top:443px;}
-.wrap_3 .underline .line_5{top:468px;}
-.wrap_3 .underline .line_6{top:493px;}
-.wrap_3 .underline .line_7{top:518px;}
-.wrap_3 .underline .line_8{top:543px;}
-.wrap_3 .underline .line_9{top:568px;}
-.wrap_3 .underline .line_10{top:593px;}
-.wrap_3 .underline .line_11{top:618px;}
-.wrap_3 .underline .line_12{top:643px;}
-.wrap_3 .underline .line_13{top:668px;}
+.wrap_3 .underline .line_2{top:410px;}
+.wrap_3 .underline .line_3{top:435px;}
+.wrap_3 .underline .line_4{top:460px;}
+.wrap_3 .underline .line_5{top:485px;}
+.wrap_3 .underline .line_6{top:510px;}
+.wrap_3 .underline .line_7{top:535px;}
+.wrap_3 .underline .line_8{top:560px;}
+.wrap_3 .underline .line_9{top:585px;}
+.wrap_3 .underline .line_10{top:610px;}
+.wrap_3 .underline .line_11{top:635px;}
+.wrap_3 .underline .line_12{top:660px;}
+.wrap_3 .underline .line_13{top:685px;}
 
 /*send button*/
 .wrap_3  .form_wrap .form_button{
@@ -1251,7 +1251,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     border-bottom:1px solid #848484;
     font-size:16px;
     font-weight:500;
-    margin-top:29px;
+    margin-top:32px;
     opacity:0.6;
     float:right;
 }
@@ -1264,7 +1264,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     background-repeat:no-repeat;
     background-size:contain;
     position:absolute;
-    top:605px;
+    top:625px;
     left:210px;
     opacity:0;
 }
@@ -1276,7 +1276,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     background-repeat:no-repeat;
     background-size:contain;
     position:absolute;
-    top:723px;
+    top:743px;
     left:156px;
     opacity:0;
 }
@@ -1284,7 +1284,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
 .wrap_3 .form_wrap #graphic_contact{
     width:250px;
     position:absolute;
-    top:595px;
+    top:615px;
     left:210px;
     opacity:0.6;
     stroke-dasharray: 200;
