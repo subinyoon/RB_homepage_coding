@@ -11,7 +11,7 @@ function portfolioDetailPage(){
 function showIllustration(){
     
     
-    $(".inner_wrap .content_wrap .content_1_wrap .slides").on('click touchstart', function(){
+    $(".inner_wrap .content_wrap .content_1_wrap .slides").click(function(){
         //get slide1 fixed url
         var fixdiv = $(".content_1_wrap .slide_1").attr('id');
 
