@@ -20,7 +20,6 @@ function showIllustration(){
             //console.log(slicefixUrl);
         var finalfixUrl = slicefixUrl;
             //console.log(finalfixUrl);
-
         
         //get $(this).onclicked url
         var i = $(this).index()+1;
