@@ -1291,16 +1291,6 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     stroke-dashoffset: 200;
 }
 
-.wrap_3 .contact_img_guide{
-    background:red;
-    width:8px;
-    height:64px;
-    position:absolute;
-    top:919px;
-    left:996px;
-    display:block;
-}
-
 /*-------------------------------------------------------------*/
 
 .wrap_3 .form_box:after{ /*clearfix*/

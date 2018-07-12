@@ -97,34 +97,45 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
 
 /*division line*/
 .division_1{top:848px;}
-.division_2{top:1827px;}
+.division_2{top:1733px;}
+
+/*about us*/
+.aboutus_wrap{margin-top:80px;}    
 
 /*vertical line*/
-.vertical_line{top:1600px;}
-.contact_bg{top:1828px;}
+.vertical_line{top:1506px;}
     
+    
+/*contact*/
+.contact_bg{top:1734px; height:904px;}
+.wrap_3{height:760px;}
+.wrap_3 .contact_txt{padding-top:90px;}    
+
 /*contact lines*/
-.wrap_3 .underline .lines{top:385px;}
-.wrap_3 .underline .line_2{top:410px;}
-.wrap_3 .underline .line_3{top:435px;}
-.wrap_3 .underline .line_4{top:460px;}
-.wrap_3 .underline .line_5{top:485px;}
-.wrap_3 .underline .line_6{top:510px;}
-.wrap_3 .underline .line_7{top:535px;}
-.wrap_3 .underline .line_8{top:560px;}
-.wrap_3 .underline .line_9{top:585px;}
-.wrap_3 .underline .line_10{top:610px;}
-.wrap_3 .underline .line_11{top:635px;}
-.wrap_3 .underline .line_12{top:660px;}
-.wrap_3 .underline .line_13{top:685px;}
+.wrap_3 .underline .lines{top:335px;}
+.wrap_3 .underline .line_2{top:360px;}
+.wrap_3 .underline .line_3{top:385px;}
+.wrap_3 .underline .line_4{top:410px;}
+.wrap_3 .underline .line_5{top:435px;}
+.wrap_3 .underline .line_6{top:460px;}
+.wrap_3 .underline .line_7{top:485px;}
+.wrap_3 .underline .line_8{top:510px;}
+.wrap_3 .underline .line_9{top:535px;}
+.wrap_3 .underline .line_10{top:560px;}
+.wrap_3 .underline .line_11{top:585px;}
+.wrap_3 .underline .line_12{top:610px;}
+.wrap_3 .underline .line_13{top:635px;}
+
+/*form*/
+.wrap_3 .form_wrap{margin-top:57px;}
 
 /*send button*/
 .wrap_3  .form_wrap .form_button{margin-top:30px;}
     
 /*go to top btn*/
-.wrap_3 .gototop{top:350px;}
+.wrap_3 .gototop{top:290px;}
     
 /*graphic contact*/
-.wrap_3 .form_wrap .graphic_solid_grey {top:625px;}
-.wrap_3 .form_wrap .graphic_solid_red {top:743px;}
-.wrap_3 .form_wrap #graphic_contact{top:615px;}
+.wrap_3 .form_wrap .graphic_solid_grey {top:525px;}
+.wrap_3 .form_wrap .graphic_solid_red {top:643px;}
+.wrap_3 .form_wrap #graphic_contact{top:515px;}
