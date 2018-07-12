@@ -281,71 +281,71 @@ function portfolioFilter(){
 function toDetail(){
     
     $(".portfolio_wrap .column1 .contents_1").on('click', function(){
-        window.location.href='rb_portfolio_detail_map.html';
+        window.location.href='pc_ptd_map.html';
         //hongik map
     });
     
     $(".portfolio_wrap .column1 .contents_2").on('click', function(){
-        window.location.href='rb_portfolio_detail_bluest.html';
+        window.location.href='pc_ptd_bluest.html';
         //bluest
     });
     
     $(".portfolio_wrap .column1 .contents_3").on('click', function(){
-        window.location.href='rb_portfolio_detail_jb.html';
+        window.location.href='pc_ptd_jb.html';
         //jb sat
     });
     
     $(".portfolio_wrap .column1 .contents_4").on('click', function(){
-        window.location.href='rb_portfolio_detail_font.html';
+        window.location.href='pc_ptd_font.html';
         //서체관리자
     });
     
     $(".portfolio_wrap .column1 .contents_5").on('click', function(){
-        window.location.href='rb_portfolio_detail_tnc.html';
+        window.location.href='pc_ptd_tnc.html';
         //tnc
     });
     
     
     
     $(".portfolio_wrap .column2 .contents_1").on('click', function(){
-        window.location.href='rb_portfolio_detail_overtime.html';
+        window.location.href='pc_ptd_overtime.html';
         //overtime
     });
     
     $(".portfolio_wrap .column2 .contents_2").on('click', function(){
-        window.location.href='rb_portfolio_detail_rooming.html';
+        window.location.href='pc_ptd_rooming.html';
         //rooming
     });
     
     $(".portfolio_wrap .column2 .contents_3").on('click', function(){
-        window.location.href='rb_portfolio_detail_malevich.html';
+        window.location.href='pc_ptd_malevich.html';
         //malevich
     });
     
     $(".portfolio_wrap .column2 .contents_4").on('click', function(){
-        window.location.href='rb_portfolio_detail_vodana.html';
+        window.location.href='pc_ptd_vodana.html';
         //vodana
     });
     
     
     
     $(".portfolio_wrap .column3 .contents_1").on('click', function(){
-        window.location.href='rb_portfolio_detail_zeron_1.html';
+        window.location.href='pc_ptd_zeron_1.html';
         //zeron_1
     });
     
     $(".portfolio_wrap .column3 .contents_2").on('click', function(){
-        window.location.href='rb_portfolio_detail_bino.html';
+        window.location.href='pc_ptd_bino.html';
         //bino
     });
     
     $(".portfolio_wrap .column3 .contents_3").on('click', function(){
-        window.location.href='rb_portfolio_detail_qplace.html';
+        window.location.href='pc_ptd_qplace.html';
         //qplace
     });
     
     $(".portfolio_wrap .column3 .contents_4").on('click', function(){
-        window.location.href='rb_portfolio_detail_haya.html';
+        window.location.href='pc_ptd_haya.html';
         //haya
     });
     
