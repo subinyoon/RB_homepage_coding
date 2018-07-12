@@ -35,8 +35,8 @@ function showIllustration(){
             console.log(finalUrl);
         
         //action
-        $(".content_1_wrap .slide_1").css({'background-image':'url(img'+finalUrl+')'});
-        $(".content_1_wrap .slide_"+i).css({'background-image':'url(img'+finalfixUrl+')'}); 
+        $(".content_1_wrap .slide_1").css({'background-image':'url(img/'+finalUrl+')'});
+        $(".content_1_wrap .slide_"+i).css({'background-image':'url(img/'+finalfixUrl+')'}); 
     });
 }
 
