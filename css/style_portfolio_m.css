@@ -273,5 +273,18 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     min-height:900px;
 }
 
+.wrap .wrap_fixed_1{
+    width:80px;
+    position:absolute;
+    top:36px;
+    left:25px;
+}
+
+.wrap .wrap_fixed_1 .menu{
+    width:80px;
+    line-height:2.9em;
+    border:none;
+    z-index:9999;
+}
 
 

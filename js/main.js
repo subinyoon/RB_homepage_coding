@@ -8,9 +8,7 @@ $(document).ready(function(){
 
 function landingPage(){
     showTexture();
-    showBoxes();
     showContactGraphic();
-    showClientGraphic();
     bubbleAppear();
     showGoToTop();
     showWrap();
@@ -177,46 +175,6 @@ function bubbleAppear(){
     });
 }
 
-/*landing: client hover*/
-function showBoxes(){
-    $(".client_boxes .row_1 .boxes").on('mouseover', function(){
-            var i = $(this).index()+1;
-            //console.log(i);
-            $(".box_"+i).css({'background':'#fff', 'cursor':'pointer'});
-    });
-    
-    $(".client_boxes .row_2 .boxes").on('mouseover', function(){
-            var i = $(this).index()+1;
-            //console.log(i);
-            $(".box_"+(i+3)).css({'background':'#fff', 'cursor':'pointer'});
-    });
-    
-    $(".client_boxes .row_1 .boxes").on('mouseout', function(){
-            var i = $(this).index()+1;
-            //console.log(i);
-            $(".box_"+i).css({'background':'#f4f4f4'});
-    });
-    
-    $(".client_boxes .row_2 .boxes").on('mouseout', function(){
-            var i = $(this).index()+1;
-            //console.log(i);
-            $(".box_"+(i+3)).css({'background':'#f4f4f4'});
-    });
-}
-
-/*landing: client graphic*/
-function showClientGraphic(){
-    
-    $(document).scroll(function(){
-        var currentScroll = $(document).scrollTop();
-        //console.log(currentScroll);
-        if(currentScroll >= 540){
-            $("#client_line").animate({'stroke-dashoffset':'0'}, 3000, 'swing');
-            $("#client_line_2").animate({'stroke-dashoffset':'0'}, 3500, 'swing');
-        }
-    });
-}
-
 /*landing: contact graphic*/
 function showContactGraphic(){
     
@@ -301,10 +259,17 @@ function portfolioFilter(){
         
         $(remaining).css({'display':'none'});
         
-        if( index === 1) {
+        if(index == 1) {
             $(remaining).css({'display':'block'});
-        } 
-        $(".f_"+index).css({'display':'block'});
+            $(".no_filter").css({"display":"block"});
+            
+        }
+        
+        if(index != 1){
+            $(".f_"+index).css({'display':'block'});
+            $(".no_filter").css({"display":"none"});
+        }
+        
         
         //console.log(index);
     }); // onclick END   
@@ -315,55 +280,75 @@ function portfolioFilter(){
 /*portfolio : linking to portfolio detail*/
 function toDetail(){
     
-    $(".portfolio_wrap .column1 .contents_2").on('click', function(){
-        window.location.href='rb_portfolio_detail_1.html';
-        //bluest
-    });
-    
-    $(".portfolio_wrap .column1 .contents_4").on('click', function(){
-        window.location.href='rb_portfolio_detail_B.html';
+    $(".portfolio_wrap .column1 .contents_1").on('click', function(){
+        window.location.href='rb_portfolio_detail_map.html';
         //hongik map
     });
     
-    $(".portfolio_wrap .column2 .contents_4").on('click', function(){
-        window.location.href='rb_portfolio_detail_3.html';
-        //overtime
+    $(".portfolio_wrap .column1 .contents_2").on('click', function(){
+        window.location.href='rb_portfolio_detail_bluest.html';
+        //bluest
     });
     
+    $(".portfolio_wrap .column1 .contents_3").on('click', function(){
+        window.location.href='rb_portfolio_detail_jb.html';
+        //jb sat
+    });
+    
+    $(".portfolio_wrap .column1 .contents_4").on('click', function(){
+        window.location.href='rb_portfolio_detail_font.html';
+        //서체관리자
+    });
+    
+    $(".portfolio_wrap .column1 .contents_5").on('click', function(){
+        window.location.href='rb_portfolio_detail_tnc.html';
+        //tnc
+    });
+    
+    
+    
     $(".portfolio_wrap .column2 .contents_1").on('click', function(){
-        window.location.href='rb_portfolio_detail_D.html';
+        window.location.href='rb_portfolio_detail_overtime.html';
         //overtime
     });
     
     $(".portfolio_wrap .column2 .contents_2").on('click', function(){
-        window.location.href='rb_portfolio_detail_A.html';
-        //overtime
+        window.location.href='rb_portfolio_detail_rooming.html';
+        //rooming
     });
     
+    $(".portfolio_wrap .column2 .contents_3").on('click', function(){
+        window.location.href='rb_portfolio_detail_malevich.html';
+        //malevich
+    });
+    
+    $(".portfolio_wrap .column2 .contents_4").on('click', function(){
+        window.location.href='rb_portfolio_detail_vodana.html';
+        //vodana
+    });
+    
+    
+    
     $(".portfolio_wrap .column3 .contents_1").on('click', function(){
-        window.location.href='rb_portfolio_detail_5.html';
-        //zeron
+        window.location.href='rb_portfolio_detail_zeron_1.html';
+        //zeron_1
     });
     
     $(".portfolio_wrap .column3 .contents_2").on('click', function(){
-        window.location.href='rb_portfolio_detail_4.html';
+        window.location.href='rb_portfolio_detail_bino.html';
         //bino
     });
     
+    $(".portfolio_wrap .column3 .contents_3").on('click', function(){
+        window.location.href='rb_portfolio_detail_qplace.html';
+        //qplace
+    });
+    
     $(".portfolio_wrap .column3 .contents_4").on('click', function(){
-        window.location.href='rb_portfolio_detail_2.html';
+        window.location.href='rb_portfolio_detail_haya.html';
         //haya
     });
     
-    $(".portfolio_wrap .column1 .contents_3").on('click', function(){
-        window.location.href='rb_portfolio_detail_F.html';
-        //jbsat
-    });
-    
-    $(".portfolio_wrap .column3 .contents_3").on('click', function(){
-        window.location.href='rb_portfolio_detail_E.html';
-        //qplace
-    });
     
 } // 이부분은 상세페이지 더 나오면 디테일하게 잡을 것!!!!!
 
