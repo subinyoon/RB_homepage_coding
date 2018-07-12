@@ -17,6 +17,12 @@ function setWinHeight(){
     var numHeight = Number(strHeight); 
     var sumHeight = numHeight+winHeight;
     
+    console.log(winHeight);
+    console.log(getHeight);
+    console.log(strHeight);
+    console.log(numHeight);
+    console.log(sumHeight);
+    
     $(".wrap .graphic_image").css({"height":sumHeight});
 }
 
