@@ -17,7 +17,7 @@ function showIllustration(){
 
         var getfixUrl = getComputedStyle($('#'+fixdiv)[0]).getPropertyValue("background-image");
             //console.log(getfixUrl);
-        var slicefixUrl = getfixUrl.slice(27,37);
+        var slicefixUrl = getfixUrl.slice(27,36);
             //console.log(slicefixUrl);
         var finalfixUrl = slicefixUrl;
             //console.log(finalfixUrl);
@@ -29,14 +29,14 @@ function showIllustration(){
             //console.log(div);
         var getUrl = getComputedStyle($('#'+div)[0]).getPropertyValue("background-image");
             //console.log(getUrl);
-        var sliceUrl = getUrl.slice(27,37);
+        var sliceUrl = getUrl.slice(27,36);
             //console.log(sliceUrl);
         var finalUrl = sliceUrl;
             //console.log(finalUrl);
         
         //action
-        $(".content_1_wrap .slide_1").css({'background-image':'url(img'+finalUrl+')'});
-        $(".content_1_wrap .slide_"+i).css({'background-image':'url(img'+finalfixUrl+')'}); 
+        $(".content_1_wrap .slide_1").css({'background-image':'url(img/'+finalUrl+')'});
+        $(".content_1_wrap .slide_"+i).css({'background-image':'url(img/'+finalfixUrl+')'}); 
     });
 }
 

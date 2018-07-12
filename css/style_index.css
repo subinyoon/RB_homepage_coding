@@ -13,15 +13,15 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
 .wrap{
     margin:0 auto;
     width:1366px;
-    height:806px;
+    height:888px;
     position:relative;
     overflow:hidden;
 }
 
 .graphic_wrap{
-    width:1750px;
-    height:806px;
-    padding-top:40px;
+    width:1800px;
+    height:888px;
+    padding-top:0px;
     opacity:1;
     position:absolute;
     left:50%;
@@ -37,7 +37,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     opacity:0.7;
     background:#848484;
     position:absolute;
-    top:806px;
+    top:888px;
 }
 
 /*-----------------------------------------------------*/
@@ -141,7 +141,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
 .graphic_wrap .graphic_main #mid_1{
     width:242px;
     position:absolute;
-    top:247px;
+    top:327px;
     left:727px;
     stroke-dasharray: 160;
     stroke-dashoffset: 160;
@@ -149,19 +149,19 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
 }
 
 .graphic_wrap .graphic_main #mid_long_top{
-    width:820px;
+    width:888px;
     position:absolute;
-    top:-40px;
-    left:149px;
-    stroke-dasharray: 1680;
-    stroke-dashoffset: 1680;
+    top:1px;
+    left:81px;
+    stroke-dasharray: 1760;
+    stroke-dashoffset: 1760;
     animation: movePath 6s forwards ease-in;
 }
 
 .graphic_wrap .graphic_main #mid_long_bot{
-    width:1010px;
+    width:1076px;
     position:absolute;
-    top:-41px;
+    top:2px;
     left:727px;
     stroke-dasharray: 4560;
     stroke-dashoffset: 4560;
@@ -171,7 +171,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
 .graphic_wrap .graphic_main #left_2{
     width:81px;
     position:absolute;
-    top:475px;
+    top:555px;
     left:514px;
     stroke-dasharray: 320;
     stroke-dashoffset: 320;
@@ -182,7 +182,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
 .graphic_wrap .graphic_main #left_1_1{
     width:241px;
     position:absolute;
-    top:415px;
+    top:495px;
     left:541px;
     stroke-dasharray: 1000;
     stroke-dashoffset: 1000;
@@ -193,7 +193,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
 .graphic_wrap .graphic_main #left_long{
     width:241px;
     position:absolute;
-    top:369px;
+    top:449px;
     left:541px;
     stroke-dasharray: 1900;
     stroke-dashoffset: 1900;
@@ -203,7 +203,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
 .graphic_wrap .graphic_main #top_1{
     width:137px;
     position:absolute;
-    top:123px;
+    top:203px;
     left:925px;
     stroke-dasharray: 500;
     stroke-dashoffset: 500;
@@ -213,7 +213,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
 .graphic_wrap .graphic_main #top_2{
     width:137px;
     position:absolute;
-    top:155px;
+    top:235px;
     left:925px;
     stroke-dasharray: 400;
     stroke-dashoffset: 400;
@@ -223,7 +223,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
 .graphic_wrap .graphic_main #right_1{
     width:242px;
     position:absolute;
-    top:317px;
+    top:397px;
     left:905px;
     stroke-dasharray: 780;
     stroke-dashoffset: 780;
@@ -234,7 +234,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
 .graphic_wrap .graphic_main #right_2{
     width:81px;
     position:absolute;
-    top:410px;
+    top:490px;
     left:1066px;
     stroke-dasharray: 100;
     stroke-dashoffset: 100;
@@ -245,7 +245,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
 .graphic_wrap .graphic_main #mid_cylinder{
     width:124px;
     position:absolute;
-    top:232px;
+    top:312px;
     left:782px;
     opacity:0.5;
     stroke-dashoffset: 0;
@@ -259,7 +259,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     background-repeat:no-repeat;
     background-size:contain;
     position:absolute;
-    top:475px;
+    top:555px;
     left:514px;
     z-index:4;
     animation: solidonoff2 1s infinite forwards;
@@ -273,7 +273,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     background-repeat:no-repeat;
     background-size:contain;
     position:absolute;
-    top:232px;
+    top:312px;
     left:782px;
     opacity:1;
     animation: solidmove 5s infinite ease-in-out;
@@ -288,7 +288,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     background-repeat:no-repeat;
     background-size:contain;
     position:absolute;
-    top:281px; 
+    top:361px; 
     left:782px;
     opacity:0;
     animation: solidonoff2 1s infinite forwards;
@@ -301,7 +301,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     background-repeat:no-repeat;
     background-size:contain;
     position:absolute;
-    top:123px;
+    top:203px;
     left:925px;
     animation: solidonoff2 1s infinite forwards;
 }
@@ -313,7 +313,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     background-repeat:no-repeat;
     background-size:contain;
     position:absolute;
-    top:410px;
+    top:490px;
     left:1066px;
     animation: solidonoff2 1s infinite forwards;
 }
@@ -325,7 +325,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     background-repeat:no-repeat;
     background-size:contain;
     position:absolute;
-    top:317px;
+    top:397px;
     left:905px;
     z-index:1;
     display:none;
@@ -339,7 +339,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     background-repeat:no-repeat;
     background-size:contain;
     position:absolute;
-    top:425px; 
+    top:505px; 
     left:1093px;
     z-index:6;
     /*animation: solidonoff2 4s infinite forwards;*/
@@ -353,7 +353,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     background-repeat:no-repeat;
     background-size:contain;
     position:absolute;
-    top:95px;
+    top:175px;
     left:925px;
     z-index:5;
     /*animation: solidonoff2 1s infinite forwards;*/
@@ -367,7 +367,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     background-repeat:no-repeat;
     background-size:contain;
     position:absolute;
-    top:476px;
+    top:556px;
     left:514px;
     z-index:4;
     /*animation: solidonoff2 1s infinite forwards;*/
@@ -384,7 +384,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     transform:translate(0px, 0px) scale(0.2);
     position:absolute;
     left:1462px;
-    top:405px;
+    top:465px;
     opacity:0.5;
     animation: scrollicon 1s infinite;
 }
@@ -437,7 +437,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     background-size:cover;
     position:absolute;
     left:489px;
-    top:28px;
+    top:108px;
     z-index:160;
     display:none;
 }
@@ -450,7 +450,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     background-size:contain;
     position:absolute;
     left:1000px;
-    top:319px;
+    top:399px;
     z-index:159;
     animation: ballmove1 6s ease-in-out infinite;
     display:none;
@@ -464,7 +464,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     background-size:contain;
     position:absolute;
     left:958px;
-    top:105px;
+    top:185px;
     z-index:159;
     animation: ballmove2 4s ease-in-out infinite;
     display:none;
@@ -478,7 +478,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     background-size:contain;
     position:absolute;
     left:510px;
-    top:325px;
+    top:405px;
     z-index:159;
     animation: floating 3s ease-in-out infinite;
     display:none;
@@ -492,7 +492,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     background-size:contain;
     position:absolute;
     left:490px;
-    top:275px;
+    top:355px;
     z-index:159;
     animation: floating2 3s ease-in-out infinite;
     display:none;
@@ -506,7 +506,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     background-size:contain;
     position:absolute;
     left:500px;
-    top:240px;
+    top:320px;
     z-index:159;
     display:none;
     animation: floating3 3s ease-in-out infinite;
@@ -520,7 +520,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     background-size:contain;
     position:absolute;
     left:897px;
-    top:241px;
+    top:321px;
     z-index:159;
     animation: floating 3s ease-in-out infinite;
     display:none;
@@ -534,7 +534,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     background-size:contain;
     position:absolute;
     left:917px;
-    top:200px;
+    top:280px;
     z-index:159;
     animation: floating2 3s ease-in-out infinite;
     display:none;
@@ -548,7 +548,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     background-size:contain;
     position:absolute;
     left:907px;
-    top:160px;
+    top:240px;
     z-index:159;
     animation: floating3 3s ease-in-out infinite;
     display:none;
@@ -562,7 +562,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     background-size:contain;
     position:absolute;
     left:892px;
-    top:135px;
+    top:215px;
     z-index:159;
     animation: floating3 3s ease-in-out infinite;
     display:none;
@@ -577,7 +577,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     background-size:contain;
     position:absolute;
     left:582px;
-    top:90px;
+    top:170px;
     display:none;
     z-index:53;
 }
@@ -590,7 +590,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     background-size:contain;
     position:absolute;
     left:984px;
-    top:435px;
+    top:515px;
     display:none;
 }
 
@@ -602,7 +602,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     background-size:contain;
     position:absolute;
     left:1040px;
-    top:420px;
+    top:500px;
     display:none;
     z-index:51;
     animation: busmove 6s ease-in-out infinite;
@@ -616,7 +616,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     background-size:contain;
     position:absolute;
     left:969px;
-    top:352px;
+    top:432px;
     display:none;
     z-index:52;
 }
@@ -629,7 +629,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     background-size:contain;
     position:absolute;
     left:1000px;
-    top:45px;
+    top:125px;
     display:none;
     z-index:52;
     animation: gemfloat 3s ease-in-out infinite;
@@ -643,7 +643,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     background-size:contain;
     position:absolute;
     left:527.5px;
-    top:37px;
+    top:117px;
     display:none;
 }
 
@@ -655,7 +655,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     background-size:contain;
     position:absolute;
     left:1100px;
-    top:270px;
+    top:350px;
     display:none;
     animation: circlemove 5s ease-in-out infinite;
 }
@@ -700,9 +700,9 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
 
 /*theme2*/
 @keyframes busmove{
-    0%{left:1040px; top:420px;}
-    80%{left:740px; top:600px;}
-    100%{left:740px; top:600px;}
+    0%{left:1040px; top:500px;}
+    80%{left:740px; top:680px;}
+    100%{left:740px; top:680px;}
 }
 
 @keyframes gemfloat{
@@ -713,9 +713,9 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
 
 /*theme3*/
 @keyframes circlemove{
-    0%{left:1095px; top:270px;}
-    50%{left:1007px; top:218px;}
-    100%{left:1095px; top:270px;}
+    0%{left:1095px; top:350px;}
+    50%{left:1007px; top:298px;}
+    100%{left:1095px; top:350px;}
 }
 /*-----------------------------------------------------*/
 
@@ -737,7 +737,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     background-repeat:no-repeat;
     position:absolute;
     left:1002px;
-    top:120px;
+    top:160px;
     background-size:contain;
     animation: bubblemove 0.5s infinite ease-in-out;
     display:block;
@@ -763,7 +763,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     background-repeat:no-repeat;
     position:absolute;
     left:1087px;
-    top:360px;
+    top:400px;
     background-size:contain;
     animation: bubblemove 0.5s infinite ease-in-out;
     display:block;
@@ -794,7 +794,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     background-repeat:no-repeat;
     position:absolute;
     left:388px;
-    top:415px;
+    top:455px;
     background-size:contain;
     animation: bubblemove 0.5s infinite ease-in-out;
     display:block;
@@ -850,19 +850,19 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
 
 .bubbles .anchor1{
     left:1003px;
-    top:188px;
+    top:228px;
     animation:scaleanchor 1s infinite ease-in-out;
 }
 
 .bubbles .anchor2{
     left:1089px;
-    top:443px;
+    top:483px;
     animation:scaleanchor 1s infinite ease-in-out;
 }
 
 .bubbles .anchor3{
     left:486px;
-    top:495px;
+    top:535px;
     animation:scaleanchor 1s infinite ease-in-out;
 }
 
@@ -880,7 +880,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     opacity:0.7;
     background:#848484;
     position:absolute;
-    top:1765px;
+    top:1867px;
 }
 
 /*about us*/
@@ -903,7 +903,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     position:relative;
     overflow:visible;
     opacity:1;
-    margin-top:154px;
+    margin-top:174px;
 }
 
 .aboutus_skills{
@@ -1043,11 +1043,11 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
 /*vertical line*/
 .vertical_line{
     width:1px;
-    height:335px;
+    height:227px;
     background:#848484;
     position:absolute;
     left:50%;
-    top:1610px;
+    top:1640px;
     opacity:0.5;
 }
 
@@ -1088,7 +1088,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     height:984px;
     background:#fff;
     position:absolute;
-    top:1766px;
+    top:1868px;
     opacity:0;
 }
 
@@ -1115,7 +1115,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     background-size:contain;
     position:absolute;
     left:1305px;
-    top:310px;
+    top:350px;
     opacity:0;
     transform:translateY(5px);
     animation: gototop 1s infinite ease-out;
@@ -1226,23 +1226,23 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     width:730px;
     height:1px;
     position:absolute;
-    top:368px;
+    top:385px;
     opacity:1;
     background:#848484;
 }
 
-.wrap_3 .underline .line_2{top:393px;}
-.wrap_3 .underline .line_3{top:418px;}
-.wrap_3 .underline .line_4{top:443px;}
-.wrap_3 .underline .line_5{top:468px;}
-.wrap_3 .underline .line_6{top:493px;}
-.wrap_3 .underline .line_7{top:518px;}
-.wrap_3 .underline .line_8{top:543px;}
-.wrap_3 .underline .line_9{top:568px;}
-.wrap_3 .underline .line_10{top:593px;}
-.wrap_3 .underline .line_11{top:618px;}
-.wrap_3 .underline .line_12{top:643px;}
-.wrap_3 .underline .line_13{top:668px;}
+.wrap_3 .underline .line_2{top:410px;}
+.wrap_3 .underline .line_3{top:435px;}
+.wrap_3 .underline .line_4{top:460px;}
+.wrap_3 .underline .line_5{top:485px;}
+.wrap_3 .underline .line_6{top:510px;}
+.wrap_3 .underline .line_7{top:535px;}
+.wrap_3 .underline .line_8{top:560px;}
+.wrap_3 .underline .line_9{top:585px;}
+.wrap_3 .underline .line_10{top:610px;}
+.wrap_3 .underline .line_11{top:635px;}
+.wrap_3 .underline .line_12{top:660px;}
+.wrap_3 .underline .line_13{top:685px;}
 
 /*send button*/
 .wrap_3  .form_wrap .form_button{
@@ -1251,7 +1251,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     border-bottom:1px solid #848484;
     font-size:16px;
     font-weight:500;
-    margin-top:29px;
+    margin-top:32px;
     opacity:0.6;
     float:right;
 }
@@ -1264,7 +1264,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     background-repeat:no-repeat;
     background-size:contain;
     position:absolute;
-    top:605px;
+    top:625px;
     left:210px;
     opacity:0;
 }
@@ -1276,7 +1276,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     background-repeat:no-repeat;
     background-size:contain;
     position:absolute;
-    top:723px;
+    top:743px;
     left:156px;
     opacity:0;
 }
@@ -1284,21 +1284,11 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
 .wrap_3 .form_wrap #graphic_contact{
     width:250px;
     position:absolute;
-    top:595px;
+    top:615px;
     left:210px;
     opacity:0.6;
     stroke-dasharray: 200;
     stroke-dashoffset: 200;
-}
-
-.wrap_3 .contact_img_guide{
-    background:red;
-    width:8px;
-    height:64px;
-    position:absolute;
-    top:919px;
-    left:996px;
-    display:block;
 }
 
 /*-------------------------------------------------------------*/
