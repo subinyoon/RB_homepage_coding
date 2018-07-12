@@ -14,7 +14,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     margin:0 auto;
     min-width:750px;
     width: 100%;
-    height:5100px; /*이부분 페이지마다 다름*/
+    height:5925px; /*이부분 페이지마다 다름*/
     position:relative;
 }
 
@@ -24,7 +24,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     width:100%;
     height:500px;
     position:absolute;
-    background-color: #f5475d;
+    background-color: #6612f7;
 }
 
 /* blend */
@@ -35,8 +35,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
 
 .wrap .portfolio_detail_wrap .inner_wrap .content_wrap .content_1_wrap{
     width:100%;
-    margin-top:20px;
-    position:relative;
+    margin-top:90px;
 }
 
 .wrap .portfolio_detail_wrap .inner_wrap .content_wrap .content_1_wrap .mockup{
@@ -127,7 +126,6 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     width: 100%;
     height: auto;
     margin-bottom: 50px;
-    mix-blend-mode: multiply;
 }
 
 /*-----------------------------------------------------*/
