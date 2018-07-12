@@ -340,7 +340,7 @@ function toDetail(){
     });
     
     $(".portfolio_wrap .column3 .contents_3").on('click', function(){
-        window.location.href='pc_ptd_qplace.html';
+        window.location.href='pc_ptd_qplacee.html';
         //qplace
     });
     
