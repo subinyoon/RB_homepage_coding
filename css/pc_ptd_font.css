@@ -347,9 +347,7 @@ input[type=range]:focus::-ms-fill-upper {
 }
 
 .wrap .portfolio_detail_wrap .inner_wrap .content_1_txt_wrap .content_txt{
-    font-size:11px;
     margin:0;
-    width:270px;
     line-height:1.82;
     display:block;
     float:left;
