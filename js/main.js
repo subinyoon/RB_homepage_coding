@@ -327,6 +327,11 @@ function toDetail(){
         //vodana
     });
     
+    $(".portfolio_wrap .column2 .contents_5").on('click', function(){
+        window.location.href='pc_ptd_zeron_2.html';
+        //vodana
+    });
+    
     
     
     $(".portfolio_wrap .column3 .contents_1").on('click', function(){
@@ -346,6 +351,11 @@ function toDetail(){
     
     $(".portfolio_wrap .column3 .contents_4").on('click', function(){
         window.location.href='pc_ptd_haya.html';
+        //haya
+    });
+    
+    $(".portfolio_wrap .column3 .contents_5").on('click', function(){
+        window.location.href='pc_ptd_cube.html';
         //haya
     });
     

@@ -306,7 +306,17 @@ function toDetail(){
     
     $(".portfolio_wrap .column1 .contents_7").on('click', function(){
         window.location.href='m_ptd_font.html';
-        //haya
+        //서체관리자
+    });
+    
+    $(".portfolio_wrap .column1 .contents_8").on('click', function(){
+        window.location.href='m_ptd_zeron_2.html';
+        //Zeromon
+    });
+    
+    $(".portfolio_wrap .column1 .contents_9").on('click', function(){
+        window.location.href='m_ptd_cube.html';
+        //Zeromon
     });
     
     //column 2
