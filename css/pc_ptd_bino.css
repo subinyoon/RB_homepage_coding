@@ -13,7 +13,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
 .wrap{
     margin:0 auto;
     width:1366px;
-    height:3680px; /*이부분 페이지마다 다름*/
+    height:3710px; /*이부분 페이지마다 다름*/
     position:relative;
     overflow:visible;
 }
@@ -258,7 +258,6 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
 .wrap .portfolio_detail_wrap .inner_wrap .content_4_txt_wrap{
     width:736px;
     height:57px;
-    background:blue;
     margin-top:30px;
     position:relative;
 }
