@@ -197,6 +197,28 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     background-image:url(../img/font_thumnail.jpg);
 }
 
+.wrap .column1 .contents_8{
+    height:291px;
+}
+
+.wrap .column1 .contents_8 .image{
+    height:223px;
+    background-image:url(../img/zeromon_thumnail.png);
+    background-repeat:no-repeat;
+    background-size:contain;
+}
+
+.wrap .column1 .contents_9{
+    height:531px;
+}
+
+.wrap .column1 .contents_9 .image{
+    height:463px;
+    background-image:url(../img/cube_thumnail.jpeg);
+    background-repeat:no-repeat;
+    background-size:contain;
+}
+
 .wrap .column2 .contents_1{
     height:543px;
 }
@@ -234,7 +256,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
 }
 
 .wrap .column2 .contents_5{
-    height:283px;
+    height:288px;
 }
 
 .wrap .column2 .contents_5 .image{
