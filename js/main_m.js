@@ -358,7 +358,15 @@ function toDetail(){
 /*sns link*/
 function snsLink(){
     $(".footer .sns_wrap .sns_1").on('click', function(){
-       window.location.href='https://www.behance.net/red_brick';    
+       window.open('https://www.behance.net/red_brick','_blank');    
+    });
+    
+    $(".footer .sns_wrap .sns_2").on('click', function(){
+       window.open('https://www.behance.net/red_brick','_blank');    
+    });
+    
+    $(".footer .sns_wrap .sns_3").on('click', function(){
+       window.open('https://www.behance.net/red_brick','_blank');    
     });
 }
 
