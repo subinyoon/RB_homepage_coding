@@ -23,7 +23,7 @@ window.onload = function () {
                 "message": message
             }),
             dataType: "jsonp",
-            headers: {"Content-Type": "application/json"},
+            headers: {"Content-Type": "application/json",'Access-Control-Allow-Origin' : '*'},
             crossDomain : true,
             success: function (data) {
                 alert("문의가 성공적으로 접수되었습니다.");
