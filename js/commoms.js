@@ -1,6 +1,4 @@
 window.onload = function () {
-
-
     $("#submit_btn").click(function () {
         const name = $("#studentName").val(),
             email = $("#studentEmail").val(),
@@ -22,7 +20,6 @@ window.onload = function () {
                 "email": email,
                 "message": message
             }),
-            dataType: "jsonp",
             headers: {"Content-Type": "application/json",'Access-Control-Allow-Origin' : '*'},
             crossDomain : true,
             success: function (data) {
@@ -33,13 +30,8 @@ window.onload = function () {
             }
         });
     });
-//mail end.
 }
-function resultCallback(msg) {
-    if( typeof msg != 'undefined' ) {
-        console.log(msg);
-    }
-}
+
 function validateEmail(email) {
     var re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
     return re.test(email.toLowerCase());
