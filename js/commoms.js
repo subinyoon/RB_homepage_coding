@@ -26,11 +26,10 @@ window.onload = function () {
             }),
             headers: {"Content-Type": "application/json"},
             success: function (data) {
-                //$(".loader").toggle();
                 alert("문의가 성공적으로 접수되었습니다.");
             },
             error: function (error) {
-                alert(error.responseJSON.message + ' 관리자에게 문의해 주세요')
+                alert(' 관리자에게 문의해 주세요')
             }
 
         });
