@@ -14,8 +14,6 @@ window.onload = function () {
             alert("연락 가능한 이메일을 작성해주세요");
             return;
         }
-        //$(".loader").toggle();
-
         $.ajax({
             type: "POST",
             url: "http://studiorb.me:8080/emailto",
@@ -26,17 +24,21 @@ window.onload = function () {
             }),
             dataType: "jsonp",
             headers: {"Content-Type": "application/json"},
+            jsonpCallback: "resultCallback",
             success: function (data) {
                 alert("문의가 성공적으로 접수되었습니다.");
             },
             error: function (error) {
                 alert(' 관리자에게 문의해 주세요')
             }
-
         });
-
     });
 //mail end.
+}
+function resultCallback(msg) {
+    if( typeof msg != 'undefined' ) {
+        console.log(msg);
+    }
 }
 function validateEmail(email) {
     var re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
