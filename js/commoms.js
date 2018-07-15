@@ -24,7 +24,7 @@ window.onload = function () {
             }),
             dataType: "jsonp",
             headers: {"Content-Type": "application/json"},
-            jsonpCallback: "resultCallback",
+            crossDomain : true,
             success: function (data) {
                 alert("문의가 성공적으로 접수되었습니다.");
             },
