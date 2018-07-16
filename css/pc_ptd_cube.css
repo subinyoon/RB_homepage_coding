@@ -88,12 +88,15 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     padding-top:5px;
 }
 
+<<<<<<< HEAD
 .wrap .portfolio_detail_wrap .inner_wrap .content_1_txt_wrap .content_txt,
 .wrap .portfolio_detail_wrap .inner_wrap .content_2_txt_wrap .content_txt,
 .wrap .portfolio_detail_wrap .inner_wrap .content_3_txt_wrap .content_txt{
     font-size:11px;
+=======
+.wrap .portfolio_detail_wrap .inner_wrap .content_1_txt_wrap .content_txt{
+>>>>>>> e370da92b35b42c6569b2d82cfad33eb573960ad
     margin:0;
-    width:270px;
     line-height:1.82;
     display:block;
     float:left;
@@ -120,8 +123,67 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
 .wrap .portfolio_detail_wrap .inner_wrap .content_wrap .content_2_wrap .mockup_detail,
 .wrap .portfolio_detail_wrap .inner_wrap .content_wrap .content_3_wrap .mockup_detail{
     width: 100%;
+<<<<<<< HEAD
     height: auto;
     margin-bottom: 50px; 
+=======
+    height: 1000px;
+    mix-blend-mode: multiply;
+        
+    
+}
+
+.wrap .portfolio_detail_wrap .inner_wrap .content_wrap .content_2_wrap .num0{
+    height: 500px;
+    background: url('../img/Malevich/leaf_mock.jpg') no-repeat center;
+    background-size: contain;   
+    
+}
+
+.wrap .portfolio_detail_wrap .inner_wrap .content_wrap .content_2_wrap .num1{
+    background: url('../img/Malevich/leaf_1.jpg') no-repeat;
+    background-size: cover;   
+}
+
+.wrap .portfolio_detail_wrap .inner_wrap .content_wrap .content_2_wrap .num2{
+    background: url('../img/Malevich/leaf_2.jpg') no-repeat;
+    background-size: cover;   
+}
+
+.wrap .portfolio_detail_wrap .inner_wrap .content_wrap .content_2_wrap .num3{
+    background: url('../img/Malevich/leaf_3.jpg') no-repeat;
+    background-size: cover;   
+}
+
+.wrap .portfolio_detail_wrap .inner_wrap .content_wrap .content_2_wrap .leaflet img{
+    width: 100%;
+}
+
+/*content 2 txt*/
+.wrap .portfolio_detail_wrap .inner_wrap .content_2_txt_wrap{
+    width:736px;
+    height:47px;
+    margin-top:25px;
+    position:relative;
+}
+
+.wrap .portfolio_detail_wrap .inner_wrap .content_2_txt_wrap .content_title{
+    width:155px;
+    font-size:23px;
+    font-weight:bold;
+    margin:0;
+    display:block;
+    float:left;
+    padding-top:5px;
+}
+
+.wrap .portfolio_detail_wrap .inner_wrap .content_2_txt_wrap .content_txt{
+    margin:0;
+    line-height:1.82;
+    display:block;
+    float:left;
+    padding-top:11px;
+>>>>>>> e370da92b35b42c6569b2d82cfad33eb573960ad
 }
 
 /*division3*/

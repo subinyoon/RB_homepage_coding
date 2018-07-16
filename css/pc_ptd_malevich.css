@@ -13,7 +13,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
 .wrap{
     margin:0 auto;
     width:1366px;
-    height:6180px; /*이부분 페이지마다 다름*/
+    height:6380px; /*이부분 페이지마다 다름*/
     position:relative;
     overflow:visible;
 }
@@ -86,9 +86,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
 }
 
 .wrap .portfolio_detail_wrap .inner_wrap .content_1_txt_wrap .content_txt{
-    font-size:11px;
     margin:0;
-    width:270px;
     line-height:1.82;
     display:block;
     float:left;
@@ -163,9 +161,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
 }
 
 .wrap .portfolio_detail_wrap .inner_wrap .content_2_txt_wrap .content_txt{
-    font-size:11px;
     margin:0;
-    width:210px;
     line-height:1.82;
     display:block;
     float:left;
@@ -190,7 +186,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
 /*content 3 txt*/
 .wrap .portfolio_detail_wrap .inner_wrap .content_3_txt_wrap{
     width:736px;
-    height:47px;
+    height:112px;
     margin-top:30px;
     position:relative;
 }
@@ -206,9 +202,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
 }
 
 .wrap .portfolio_detail_wrap .inner_wrap .content_3_txt_wrap .content_txt{
-    font-size:11px;
     margin:0;
-    width:280px;
     line-height:1.82;
     display:block;
     float:left;

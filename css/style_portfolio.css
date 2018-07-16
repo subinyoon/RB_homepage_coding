@@ -161,7 +161,6 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
 
 .wrap .column1 .contents_5{
     height:204px;
-    background:blue;
 }
 
 .wrap .column1 .contents_5 .image{
@@ -205,6 +204,15 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     background-image:url(../img/vodana_thumbnail.jpg);
 }
 
+.wrap .column2 .contents_5{
+    height:202px;
+}
+
+.wrap .column2 .contents_5 .image{
+    height:202px;
+    background-image:url(../img/zeromon_thumnail.png);
+}
+
 .wrap .column3 .contents_1{
     height:199px;
 }
@@ -222,6 +230,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     height:348px;
     background-image:url(../img/bino6.jpg);
 }
+
 .wrap .column3 .contents_3{
     height:303px;
 }
@@ -240,6 +249,15 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
 
 .wrap .column3 .contents_4:hover{
     animation: hayafilter 1s linear forwards;
+}
+
+.wrap .column3 .contents_5{
+    height:418px;
+}
+
+.wrap .column3 .contents_5 .image{
+    height:418px;
+    background-image:url(../img/cube_thumnail.jpeg);
 }
 
 .wrap .column .contents{
