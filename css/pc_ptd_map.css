@@ -15,7 +15,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
 .wrap{
     margin:0 auto;
     width:1366px;
-    height:1450px; /*이부분 페이지마다 다름*/
+    height:1460px; /*이부분 페이지마다 다름*/
     position:relative;
     overflow:visible;
 }

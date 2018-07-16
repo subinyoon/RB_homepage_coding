@@ -13,7 +13,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
 .wrap{
     margin:0 auto;
     width:1366px;
-    height:7000px; /*이부분 페이지마다 다름*/
+    height:6740px; /*이부분 페이지마다 다름*/
     position:relative;
     overflow:visible;
 }
@@ -44,27 +44,6 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     margin-top:80px;
     position:relative;
 }
-
-.wrap .portfolio_detail_wrap .inner_wrap .content_wrap .content_1_wrap .mockup{
-    width: 100%;
-    margin: 0 auto;
-/*    background-color: yellow;*/
-}
-
-.wrap .portfolio_detail_wrap .inner_wrap .content_wrap .content_1_wrap .mockup .mockup_logo{
-    width: 210px;
-    height: auto;
-    display: block;
-    margin: 0 auto;
-}
-
-.wrap .portfolio_detail_wrap .inner_wrap .content_wrap .content_1_wrap .mockup .mockup_content{
-    width: 100%;
-    height: auto;
-    
-    mix-blend-mode: multiply;
-}
-
 
 
 /* common txt*/
@@ -101,7 +80,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     height:1px;
     opacity:0.2;
     background:#848484;
-    margin-top:80px;
+    margin-top: 63px;
 }
 
 /*content2 webdesign*/
@@ -124,7 +103,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     opacity:0.2;
     background:#848484;
     margin: 0 auto;
-    margin-top:90px;
+    margin-top:68px;
 }
 
 .wrap .portfolio_detail_wrap .inner_wrap .content_2_wrap .leaf_big{
@@ -137,16 +116,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     height:1px;
     opacity:0.2;
     background:#848484;
-    margin-top:80px;
-}
-
-/*division4*/
-.wrap .portfolio_detail_wrap .inner_wrap .division_4{
-    width:736px;
-    height:1px;
-    opacity:0.2;
-    background:#848484;
-    margin-top:80px;
+    margin-top:73px;
 }
 
 /*-----------------------------------------------------*/
