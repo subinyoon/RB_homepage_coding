@@ -13,7 +13,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
 .wrap{
     margin:0 auto;
     width:1366px;
-    height:2150px; /*이부분 페이지마다 다름*/
+    height:2245px; /*이부분 페이지마다 다름*/
     position:relative;
     overflow:visible;
 }
@@ -28,6 +28,10 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     background-repeat:no-repeat;
     background-size:cover;
     opacity:0.3;
+}
+
+.wrap .portfolio_detail_wrap .inner_wrap .content_1_wrap{
+    margin-top: 80px;
 }
 
 .wrap .portfolio_detail_wrap .inner_wrap .content_1_wrap .box_1{
@@ -108,12 +112,12 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     height:1px;
     opacity:0.2;
     background:#848484;
-    margin-top:50px;
+    margin-top:63px;
 }
 
 .wrap .portfolio_detail_wrap .inner_wrap .content_2_wrap{
     width:100%;
-    margin-top:60px;
+    margin-top:77px;
 }
 
 .wrap .portfolio_detail_wrap .inner_wrap .content_2_wrap .box{

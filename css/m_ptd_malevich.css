@@ -55,10 +55,10 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
 }
 
 .wrap .portfolio_detail_wrap .inner_wrap .content_wrap .content_1_wrap .graphic img{
-    width: 180px;
+    width: 184px;
     height: 180px;
-    margin-left: 30px;
-    margin-bottom: 30px;
+    margin-left: 25px;
+    margin-bottom: 25px;
     overflow: hidden;
 }
 
@@ -141,21 +141,21 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
 }
 
 .wrap .portfolio_detail_wrap .inner_wrap .content_wrap .content_3_wrap .num1{
-    background: url('../img/Malevich/leaf_1.jpg') no-repeat;
+    background: url('../img/Malevich/leaf_1.png') no-repeat;
     height: 916px;
     background-size: contain;
     mix-blend-mode: multiply;
 }
 
 .wrap .portfolio_detail_wrap .inner_wrap .content_wrap .content_3_wrap .num2{
-    background: url('../img/Malevich/leaf_2.jpg') no-repeat; 
+    background: url('../img/Malevich/leaf_2.png') no-repeat; 
     height: 916px;
     background-size: contain;
     mix-blend-mode: multiply;
 }
 
 .wrap .portfolio_detail_wrap .inner_wrap .content_wrap .content_3_wrap .num3{
-    background: url('../img/Malevich/leaf_3.jpg') no-repeat;
+    background: url('../img/Malevich/leaf_3.png') no-repeat;
     height: 916px;
     background-size: contain;
     mix-blend-mode: multiply;
