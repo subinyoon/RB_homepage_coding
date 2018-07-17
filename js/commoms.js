@@ -14,7 +14,7 @@ window.onload = function () {
         }
         $.ajax({
             type: "POST",
-            url: "http://studiorb.me:8080/emailto",
+            url: "/emailto",
             data: JSON.stringify({
                 "name": name,
                 "email": email,
