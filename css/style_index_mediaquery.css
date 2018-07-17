@@ -139,3 +139,5 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
 .wrap_3 .form_wrap .graphic_solid_grey {top:525px;}
 .wrap_3 .form_wrap .graphic_solid_red {top:643px;}
 .wrap_3 .form_wrap #graphic_contact{top:515px;}
+
+} /*media query END*/

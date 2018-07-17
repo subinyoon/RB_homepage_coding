@@ -12,22 +12,14 @@ function content1(){
     
     //img target
     var $img1 = $(".black_img");
-    
-    volumeControl();
         
     $(".animation_wrap").on("click", function(){
-            
-        var transition = document.getElementById("audio_transition");
-            
-        transition.volume = 0.02;
-        transition.play();
-            
+
         if($img1.css('opacity') == 1) {
             fadeOut();
         }else if($img1.css('opacity') == 0){
             fadeIn();
         }
-
     }); // click END
 }
     
@@ -53,11 +45,6 @@ function fadeIn(){
     },2000,"linear",function(){
         //console.log("fade in");
     });
-}
-    
-function volumeControl(){
-    var x = document.getElementById("main_audio");
-    x.volume = 0.01;
 }
 
       

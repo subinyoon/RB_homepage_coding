@@ -13,7 +13,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
 .wrap{
     margin:0 auto;
     width:1366px;
-    height:6380px; /*이부분 페이지마다 다름*/
+    height:6340px; /*이부분 페이지마다 다름*/
     position:relative;
     overflow:visible;
 }
@@ -33,10 +33,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
 }
 
 /* #e3e3e3*/
-.wrap .portfolio_detail_wrap .inner_wrap{
-     background-color: #fafafa;
-}
-
+.wrap .portfolio_detail_wrap .inner_wrap,
 .wrap .portfolio_detail_wrap .inner_wrap .content_wrap{
      background-color: #fafafa;
 } 
@@ -44,7 +41,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
 /*content 1 illustrations*/
 .wrap .portfolio_detail_wrap .inner_wrap .content_wrap .content_1_wrap{
     width:100%;
-    margin-top:80px;
+    margin-top:70px;
     position:relative;
 }
 
@@ -54,12 +51,18 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
 }
 
 .wrap .portfolio_detail_wrap .inner_wrap .content_wrap .content_1_wrap .graphic img{
-    width: 150px;
-    height: 150px;
-    margin-left: 25px;
-    margin-bottom: 20px;
+    width: 160px;
+    height: 160px;
+    margin-left: 28px;
+    margin-bottom: 25px;
     overflow: hidden;
 }
+
+.wrap .portfolio_detail_wrap .inner_wrap .content_wrap .content_1_wrap .graphic .square_1,
+.wrap .portfolio_detail_wrap .inner_wrap .content_wrap .content_1_wrap .graphic .square_5{
+    margin-left: 0px;
+}
+
 
 
 /*content 1 txt*/
@@ -93,13 +96,13 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     height:1px;
     opacity:0.2;
     background:#848484;
-    margin-top:80px;
+    margin-top:63px;
 }
 
 /*content2 webdesign*/
 .wrap .portfolio_detail_wrap .inner_wrap .content_2_wrap{
     width:100%;
-    margin-top:80px;
+    margin-top:45px;
 }
 
 .wrap .portfolio_detail_wrap .inner_wrap .content_wrap .content_2_wrap .leaflet{
@@ -118,17 +121,17 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
 }
 
 .wrap .portfolio_detail_wrap .inner_wrap .content_wrap .content_2_wrap .num1{
-    background: url('../img/Malevich/leaf_1.jpg') no-repeat;
+    background: url('../img/Malevich/leaf_1.png') no-repeat;
     background-size: cover;   
 }
 
 .wrap .portfolio_detail_wrap .inner_wrap .content_wrap .content_2_wrap .num2{
-    background: url('../img/Malevich/leaf_2.jpg') no-repeat;
+    background: url('../img/Malevich/leaf_2.png') no-repeat;
     background-size: cover;   
 }
 
 .wrap .portfolio_detail_wrap .inner_wrap .content_wrap .content_2_wrap .num3{
-    background: url('../img/Malevich/leaf_3.jpg') no-repeat;
+    background: url('../img/Malevich/leaf_3.png') no-repeat;
     background-size: cover;   
 }
 
@@ -140,7 +143,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
 .wrap .portfolio_detail_wrap .inner_wrap .content_2_txt_wrap{
     width:736px;
     height:47px;
-    margin-top:25px;
+    margin-top:30px;
     position:relative;
 }
 
@@ -168,7 +171,7 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     height:1px;
     opacity:0.2;
     background:#848484;
-    margin-top:80px;
+    margin-top:63px;
 }
 
 /*content3 soundcloud*/

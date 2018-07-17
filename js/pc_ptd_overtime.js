@@ -17,51 +17,52 @@ function setWinHeight(){
     var numHeight = Number(strHeight); 
     var sumHeight = numHeight+winHeight;
     
-    console.log(winHeight);
-    console.log(getHeight);
-    console.log(strHeight);
-    console.log(numHeight);
-    console.log(sumHeight);
+    //console.log(winHeight);
+    //console.log(getHeight);
+    //console.log(strHeight);
+    //console.log(numHeight);
+    //console.log(sumHeight);
     
     $(".wrap .graphic_image").css({"height":sumHeight});
 }
 
 function positionFixed(){
     var offset = window.pageYOffset;
-        //console.log(offset);
+    var mq = window.matchMedia("(max-height:803px)");
+        console.log(offset);
         //console.log(window.innerHeight);
             
-        if(offset >= 620){
+            if(offset >= 620){
                 
-            $(".svgs .svg_lines").css({"position":"fixed"});
-                
-            $(".svg_1").css({"top":"-620px"});
-            $(".svg_2").css({"top":"-202px"});
-            $(".svg_3").css({"top":"-64px"});
-            $(".svg_4").css({"top":"-620px"});
-            $(".svg_5").css({"top":"-620px"});
-            $(".svg_6").css({"top":"-620px"});
-            $(".svg_7").css({"top":"-620px"});
-                
-            $(".wrap .bg_wrap").css({"top":"94px"});
-            $(".wrap .bg_wrap .bg_fixed").css({"position":"fixed"}); 
+                $(".svgs .svg_lines").css({"position":"fixed"});
+
+                $(".svg_1").css({"top":"-620px"});
+                $(".svg_2").css({"top":"-202px"});
+                $(".svg_3").css({"top":"-64px"});
+                $(".svg_4").css({"top":"-620px"});
+                $(".svg_5").css({"top":"-620px"});
+                $(".svg_6").css({"top":"-620px"});
+                $(".svg_7").css({"top":"-620px"});
+
+                $(".wrap .bg_wrap").css({"top":"94px"});
+                $(".wrap .bg_wrap .bg_fixed").css({"position":"fixed"}); 
             
-        }else{
+            }else{
             
-            $(".svgs .svg_lines").css({"position":"relative"});
-                
-            $(".svg_1").css({"top":"0px"});
-            $(".svg_2").css({"top":"418px"});
-            $(".svg_3").css({"top":"556px"});
-            $(".svg_4").css({"top":"0px"});
-            $(".svg_5").css({"top":"0px"});
-            $(".svg_6").css({"top":"0px"});
-            $(".svg_7").css({"top":"0px"});
-                
-            $(".wrap .bg_wrap").css({"top":"714px"});
-            $(".wrap .bg_wrap .bg_fixed").css({"position":"relative"});
-        }
-    
+                $(".svgs .svg_lines").css({"position":"relative"});
+
+                $(".svg_1").css({"top":"0px"});
+                $(".svg_2").css({"top":"418px"});
+                $(".svg_3").css({"top":"556px"});
+                $(".svg_4").css({"top":"0px"});
+                $(".svg_5").css({"top":"0px"});
+                $(".svg_6").css({"top":"0px"});
+                $(".svg_7").css({"top":"0px"});
+
+                $(".wrap .bg_wrap").css({"top":"714px"});
+                $(".wrap .bg_wrap .bg_fixed").css({"position":"relative"});
+            }
+        
         //반복 코드 제거용... 아직 미완
         /*
         for(var i = 1; i < 8; i++){
