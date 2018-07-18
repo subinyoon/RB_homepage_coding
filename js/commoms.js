@@ -1,5 +1,7 @@
 window.onload = function () {
+    alert("alert before event bind");
     $("#submit_btn").click(function () {
+        alert("alert after event bind ");
         
         //spinner ON
         
