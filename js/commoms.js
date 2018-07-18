@@ -1,5 +1,8 @@
 window.onload = function () {
     $("#submit_btn").click(function () {
+        
+        //spinner ON
+        
         const name = $("#studentName").val(),
             email = $("#studentEmail").val(),
             message = $("#studentContents").val();
@@ -23,9 +26,13 @@ window.onload = function () {
             headers: {"Content-Type": "application/json",'Access-Control-Allow-Origin' : '*'},
             crossDomain : true,
             success: function (data) {
+                //spinner OFF
+                
                 alert("문의가 성공적으로 접수되었습니다.");
             },
             error: function (error) {
+                //spinner OFF
+                
                 alert(' 관리자에게 문의해 주세요')
             }
         });
