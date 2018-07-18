@@ -15,6 +15,7 @@ window.onload = function () {
             alert("연락 가능한 이메일을 작성해주세요");
             return;
         }
+        alert("real alert");
         $.ajax({
             type: "POST",
             url: "/emailto",
