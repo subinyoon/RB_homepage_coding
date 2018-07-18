@@ -20,7 +20,7 @@ window.onload = function () {
                 "email": email,
                 "message": message
             }),
-            headers: {"Content-Type": "application/json",'Access-Control-Allow-Origin' : '*'},
+            headers: {"Content-Type": "application/json"},
             crossDomain : true,
             success: function (data) {
                 alert("문의가 성공적으로 접수되었습니다.");
