@@ -3,7 +3,7 @@ window.onload = function () {
         
         //spinner ON
         
-        const name = $("#studentName").val(),
+        var name = $("#studentName").val(),
             email = $("#studentEmail").val(),
             message = $("#studentContents").val();
         if (name == "" || email == "" || message == "") {
