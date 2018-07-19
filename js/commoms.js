@@ -9,8 +9,7 @@ window.onload = function () {
             message = $("#studentContents").val();
         if (name == "" || email == "" || message == "") {
             
-            //spinner & blanket OFF
-            $(".wrap_3 .spinner").css({"display":"none"});
+            //spinner OFF
             $(".wrap_3 .blanket").css({"display":"none"});
             
             alert("이름, 이메일, 문의 내용을 모두 입력해 주세요!");
@@ -18,6 +17,9 @@ window.onload = function () {
         }
 
         if (!validateEmail(email)) {
+            //spinner OFF
+            $(".wrap_3 .blanket").css({"display":"none"});
+            
             alert("연락 가능한 이메일을 작성해주세요");
             return;
         }
