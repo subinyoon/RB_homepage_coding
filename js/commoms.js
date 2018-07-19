@@ -33,10 +33,18 @@ window.onload = function () {
             headers: {"Content-Type": "application/json"},
             crossDomain : true,
             success: function (data) {
-
+                
+                //spinner & blanket OFF
+                $(".wrap_3 .spinner").css({"display":"none"});
+                $(".wrap_3 .blanket").css({"display":"none"});
+                
                 alert("문의가 성공적으로 접수되었습니다.");
             },
             error: function (error) {
+                
+                //spinner & blanket OFF
+                $(".wrap_3 .spinner").css({"display":"none"});
+                $(".wrap_3 .blanket").css({"display":"none"});
 
                 alert('관리자에게 문의해 주세요')
             }
