@@ -860,16 +860,15 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
 
 
 .wrap_3 .spinner{
-    width:100px;
-    height:110px;
+    width:160px;
+    height:175px;
     background-image:url(../img/rb_spinner.gif);
     background-repeat:no-repeat;
-    background-size:contain;
+    background-size:cover;
     position:absolute;
     left:50%;
-    margin-left:-50px;
+    margin-left:-80px;
     top:370px;
-    display:none;
 }
 
 .wrap_3 .contact_txt{
