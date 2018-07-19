@@ -4,7 +4,7 @@ font-family: 'Noto Sans KR', sans-serif;
 
 /*reset*/
 *{margin:0; padding:0;}
-body{font-size:14px; background-color:#f4f4f4; position:relative; overflow-x:hidden;}
+body{width:100%; font-size:14px; background-color:#f4f4f4; position:relative; overflow-x:hidden;}
 a{text-decoration:none; color:#000000;}
 ul, li{list-style:none; margin:0; padding:0;}
 p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
