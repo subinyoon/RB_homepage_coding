@@ -1,12 +1,19 @@
 window.onload = function () {
     $("#submit_btn").click(function () {
 
-        //spinner ON
+        //spinner & blanket ON
+        $(".wrap_3 .spinner").css({"display":"block"});
+        $(".wrap_3 .blanket").css({"display":"block"});
 
         const name = $("#studentName").val(),
             email = $("#studentEmail").val(),
             message = $("#studentContents").val();
         if (name == "" || email == "" || message == "") {
+            
+            //spinner & blanket OFF
+            $(".wrap_3 .spinner").css({"display":"none"});
+            $(".wrap_3 .blanket").css({"display":"none"});
+            
             alert("이름, 이메일, 문의 내용을 모두 입력해 주세요!");
             return;
         }
@@ -26,14 +33,12 @@ window.onload = function () {
             headers: {"Content-Type": "application/json"},
             crossDomain : true,
             success: function (data) {
-                //spinner OFF
 
                 alert("문의가 성공적으로 접수되었습니다.");
             },
             error: function (error) {
-                //spinner OFF
 
-                alert(' 관리자에게 문의해 주세요')
+                alert('관리자에게 문의해 주세요')
             }
         });
     });
