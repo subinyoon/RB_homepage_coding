@@ -15,7 +15,6 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
 
 .wrap .wrap_fixed_1{
     width:100%;
-    background:red;
     position:absolute;
     top:36px;
     left:4%;
