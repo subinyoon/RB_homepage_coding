@@ -313,7 +313,7 @@ function toDetail(){
     });
     
     $(".portfolio_wrap .column2 .contents_2").on('click', function(){
-        window.location.href='pc_ptd_rooming.html';
+        window.location.href='pc_ptd_bino.html';
         //rooming
     });
     
@@ -340,7 +340,7 @@ function toDetail(){
     });
     
     $(".portfolio_wrap .column3 .contents_2").on('click', function(){
-        window.location.href='pc_ptd_bino.html';
+        window.location.href='pc_ptd_rooming.html';
         //bino
     });
     

@@ -178,12 +178,12 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
 }
 
 .wrap .column2 .contents_2{
-    height:339px;
+    height:348px;
 }
 
 .wrap .column2 .contents_2 .image{
-    height:339px;
-    background-image:url(../img/rooming_thumnail.jpg);
+    height:348px;
+    background-image:url(../img/bino6.jpg);
 }
 
 .wrap .column2 .contents_3{
@@ -223,12 +223,12 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
 }
 
 .wrap .column3 .contents_2{
-    height:348px;
+    height:339px;
 }
 
 .wrap .column3 .contents_2 .image{
-    height:348px;
-    background-image:url(../img/bino6.jpg);
+    height:339px;
+    background-image:url(../img/rooming_thumnail.jpg);
 }
 
 .wrap .column3 .contents_3{
