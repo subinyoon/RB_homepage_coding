@@ -921,19 +921,20 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     width:16%;
     float:left;
     opacity:0.6;
-    /*background:green;*/
+    background:green;
 }
 
 .wrap_3 .form_box input{
     border:none;
     float:right;
-    width:77%;
+    width:75%;
     font-size:2.1em;
     color:#848484;
     padding-top:8px;
     background:none;
     border-bottom:1px solid #848484;
     opacity:0.7;
+    background:blue;
 }
 
 .wrap_3 .form_box input:focus{
