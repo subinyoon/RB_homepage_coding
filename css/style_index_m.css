@@ -741,7 +741,6 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     margin-top:15px;
     padding-top:50px;
     padding-bottom:85px;
-    background:purple;
 }
 
 .aboutus_skills .skill_1{
@@ -751,11 +750,14 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
 /*title*/
 .aboutus_skills .skill_box .skill_title{
     width:100%;
+    height:30px;
     margin:0;
     text-align:center;
+    line-height:1em;
     font-size:2.3em;
     font-weight:bold;
     opacity:0.5;
+    padding-bottom:35px;
     background:red;
 }
 
@@ -768,7 +770,6 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     line-height:1.64;
     opacity:0.5;
     background:green;
-
 }
 
 /*about us graphic*/
