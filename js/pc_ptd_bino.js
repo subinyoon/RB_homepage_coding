@@ -24,6 +24,7 @@ function showIllustration(){
         
         if(safari){
            //get slide1 fixed url
+            console.log("safari");
             var fixdiv = $(".content_1_wrap .slide_1").attr('id');
 
             var getfixUrl = getComputedStyle($('#'+fixdiv)[0]).getPropertyValue("background-image");
@@ -47,12 +48,13 @@ function showIllustration(){
                 console.log(finalUrl);
 
             //action
-            $(".content_1_wrap .slide_1").css({'background-image':'url(img'+finalUrl+')'});
-            $(".content_1_wrap .slide_"+i).css({'background-image':'url(img'+finalfixUrl+')'});
+            $(".content_1_wrap .slide_1").css({'background-image':'url(img/'+finalUrl+')'});
+            $(".content_1_wrap .slide_"+i).css({'background-image':'url(img/'+finalfixUrl+')'});
             
         }else{
             
             //get slide1 fixed url
+            console.log("else");
             var fixdiv = $(".content_1_wrap .slide_1").attr('id');
 
             var getfixUrl = getComputedStyle($('#'+fixdiv)[0]).getPropertyValue("background-image");
