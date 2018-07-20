@@ -57,45 +57,45 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
 .wrap .filter_wrap .filter_list li{
     display:block;
     float:left;
-    padding:0 15px 0 15px;
+    padding:0 0 0 10px;
     opacity:0.6;
 }
 
 .wrap .filter_wrap .filter_list li:nth-child(1){
     border-left: 1px solid #848484;
     /*background:#00d8ff;*/
-    width:28px;
+    width:38px;
 }
 
 .wrap .filter_wrap .filter_list li:nth-child(2){
     border-left: 1px solid #848484;
     /*background:#00d8ff;*/
-    width:49px;
+    width:59px;
 }
 
 .wrap .filter_wrap .filter_list li:nth-child(3){
     border-left: 1px solid #848484;
     /*background:#ffde71;*/
-    width:64px;
+    width:74px;
 }
 
 .wrap .filter_wrap .filter_list li:nth-child(4){
     border-left: 1px solid #848484;
     /*background:#4be04b;*/
-    width:114px;
+    width:124px;
 }
 
 .wrap .filter_wrap .filter_list li:nth-child(5){
     border-left: 1px solid #848484;
     /*background:#4be04b;*/
-    width:82px;
+    width:92px;
 }
 
 .wrap .filter_wrap .filter_list li:nth-child(6){
     border-left: 1px solid #848484;
     border-right: 1px solid #848484;
     /*background:#4be04b;*/
-    width:89px;
+    width:99px;
 }
 
 /*portfolio columns*/
