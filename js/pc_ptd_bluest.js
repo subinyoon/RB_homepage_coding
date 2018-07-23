@@ -14,32 +14,74 @@ function content1(){
     
     $(".content_1_wrap .box").on('click', function(){
         
-        //get box1 fixed url
-        var fixdiv = $(".content_1_wrap .box_1").attr('id');
-            //console.log(fixdiv);
-        var getfixUrl = getComputedStyle($('#'+fixdiv)[0]).getPropertyValue("background-image");
-            //console.log(getfixUrl);
-        var slicefixUrl = getfixUrl.slice(27,39);
-            //console.log(slicefixUrl);
-        var finalfixUrl = slicefixUrl;
-            //console.log(finalfixUrl);
+        var chrome   = navigator.userAgent.indexOf('Chrome') > -1;
+        var explorer = navigator.userAgent.indexOf('MSIE') > -1;
+        var firefox  = navigator.userAgent.indexOf('Firefox') > -1;
+        var safari   = navigator.userAgent.indexOf("Safari") > -1;
+        var camino   = navigator.userAgent.indexOf("Camino") > -1;
+        var opera    = navigator.userAgent.toLowerCase().indexOf("op") > -1;
+        if ((chrome) && (safari)) safari = false;
+        if ((chrome) && (opera)) chrome = false;
+        
+        
+        if(safari){
+            
+            //get box1 fixed url
+            var fixdiv = $(".content_1_wrap .box_1").attr('id');
+                //console.log(fixdiv);
+            var getfixUrl = getComputedStyle($('#'+fixdiv)[0]).getPropertyValue("background-image");
+                //console.log(getfixUrl);
+            var slicefixUrl = getfixUrl.slice(27,38);
+                //console.log(slicefixUrl);
+            var finalfixUrl = slicefixUrl;
+                //console.log(finalfixUrl);
 
-        
-        //get $(this).onclicked url
-        var i = $(this).index()+1;
-            //console.log(i);
-        var div = $(this).attr('id');
-            //console.log(div);
-        var getUrl = getComputedStyle($('#'+div)[0]).getPropertyValue("background-image");
-            //console.log(getUrl);
-        var sliceUrl = getUrl.slice(27,39);
-            //console.log(sliceUrl);
-        var finalUrl = sliceUrl;
-            //console.log(finalUrl);
-        
-        //action
-        $(".content_1_wrap .box_1").css({'background-image':'url(img'+finalUrl+')'});
-        $(".content_1_wrap .box_"+i).css({'background-image':'url(img'+finalfixUrl+')'});
+
+            //get $(this).onclicked url
+            var i = $(this).index()+1;
+                //console.log(i);
+            var div = $(this).attr('id');
+                //console.log(div);
+            var getUrl = getComputedStyle($('#'+div)[0]).getPropertyValue("background-image");
+                //console.log(getUrl);
+            var sliceUrl = getUrl.slice(27,38);
+                //console.log(sliceUrl);
+            var finalUrl = sliceUrl;
+                //console.log(finalUrl);
+
+            //action
+            $(".content_1_wrap .box_1").css({'background-image':'url(img/'+finalUrl+')'});
+            $(".content_1_wrap .box_"+i).css({'background-image':'url(img/'+finalfixUrl+')'}); 
+            
+        }else{
+            
+            //get box1 fixed url
+            var fixdiv = $(".content_1_wrap .box_1").attr('id');
+                //console.log(fixdiv);
+            var getfixUrl = getComputedStyle($('#'+fixdiv)[0]).getPropertyValue("background-image");
+                //console.log(getfixUrl);
+            var slicefixUrl = getfixUrl.slice(27,39);
+                //console.log(slicefixUrl);
+            var finalfixUrl = slicefixUrl;
+                //console.log(finalfixUrl);
+
+
+            //get $(this).onclicked url
+            var i = $(this).index()+1;
+                //console.log(i);
+            var div = $(this).attr('id');
+                //console.log(div);
+            var getUrl = getComputedStyle($('#'+div)[0]).getPropertyValue("background-image");
+                //console.log(getUrl);
+            var sliceUrl = getUrl.slice(27,39);
+                //console.log(sliceUrl);
+            var finalUrl = sliceUrl;
+                //console.log(finalUrl);
+
+            //action
+            $(".content_1_wrap .box_1").css({'background-image':'url(img'+finalUrl+')'});
+            $(".content_1_wrap .box_"+i).css({'background-image':'url(img'+finalfixUrl+')'}); 
+        }
     });
 }
 
