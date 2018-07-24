@@ -359,7 +359,7 @@ function toDetail(){
 function snsLink(){
     
     $(".footer .sns_wrap .sns_1").on('click', function(){
-       window.open('https://dribbble.com/red_brick','_blank');    
+       window.open('https://www.instagram.com/studio_redbrick','_blank');    
     });
     
     $(".footer .sns_wrap .sns_2").on('click', function(){
@@ -367,7 +367,7 @@ function snsLink(){
     });
     
     $(".footer .sns_wrap .sns_3").on('click', function(){
-       window.open('https://www.instagram.com/studio_redbrick','_blank');    
+       window.open('https://dribbble.com/red_brick','_blank');    
     });
 }
 
