@@ -351,6 +351,11 @@ function toDetail(){
         //bino
     });
     
+    $(".portfolio_wrap .column2 .contents_7").on('click', function(){
+        window.location.href='m_ptd_circles.html';
+        //bino
+    });
+    
 } // 이부분은 상세페이지 더 나오면 디테일하게 잡을 것!!!!!
 
 /*-------------------------------------------------------*/
