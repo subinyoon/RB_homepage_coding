@@ -305,6 +305,11 @@ function toDetail(){
         //tnc
     });
     
+    $(".portfolio_wrap .column1 .contents_6").on('click', function(){
+        window.location.href='pc_ptd_circles.html';
+        //tnc
+    });
+    
     
     
     $(".portfolio_wrap .column2 .contents_1").on('click', function(){

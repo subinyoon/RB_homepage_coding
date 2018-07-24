@@ -168,6 +168,14 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     background-image:url(../img/tnc_thumnail.png);
 }
 
+.wrap .column1 .contents_6{
+    height:307px;
+}
+
+.wrap .column1 .contents_6 .image{
+    height:307px;
+}
+
 .wrap .column2 .contents_1{
     height:435px;
 }
