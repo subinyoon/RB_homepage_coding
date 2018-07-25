@@ -1,5 +1,6 @@
 $(document).ready(function(){
     
+    mobileDevice();
     menuLink();
     landingPage();
     portfolioPage();
@@ -374,6 +375,12 @@ function snsLink(){
     $(".footer .sns_wrap .sns_3").on('click', function(){
        window.open('https://dribbble.com/red_brick','_blank');    
     });
+}
+
+/*detect mobile devices*/
+function mobileDevice{
+    var x = "User-agent header sent: " + navigator.userAgent;
+    alert(x);
 }
 
 
