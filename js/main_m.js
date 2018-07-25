@@ -378,7 +378,7 @@ function snsLink(){
 }
 
 /*detect mobile devices*/
-function mobileDevice{
+function mobileDevice(){
     
     var isMobile = {
         Android: function() {
