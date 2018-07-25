@@ -406,6 +406,9 @@ function androidCss(){
     
     if(isMobile.Android()){
         $(".wrap .portfolio_detail_wrap .inner_wrap .content_txt_wrap .content_txt").css({"width":"90%"});
+        
+        // visit site
+        $(".wrap .portfolio_detail_wrap .inner_wrap .content_1_txt_wrap .plus_link").css({"margin-top":"5px"});
     }
 }
 

@@ -305,8 +305,8 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
 /* explain */
 .wrap .portfolio_detail_wrap .inner_wrap .content_wrap .content_1_wrap .explain_group .explain{
     position: absolute;
-    width: 120px;
-    height: 65px;
+    width: 150px;
+    height: 85px;
     background-color: #fff;
     
     border: 3px solid #4bd9cb;
@@ -316,30 +316,31 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
 
 .wrap .portfolio_detail_wrap .inner_wrap .content_wrap .content_1_wrap .explain_group .explain p{
     display: block;
-    width: 100px;
+    width: 120px;
     margin: 0 auto;
-    font-size: 10px;
 }
 
 .wrap .portfolio_detail_wrap .inner_wrap .content_wrap .content_1_wrap .explain_group .explain .ex_title{
-    font-size: 11px;
+    height: 20px;
+    font-size: 13px;
     font-weight: 700;
     color: #059e94;
     
-    margin-top: 10px;
+    margin-top: 12px;
 }
 
 .wrap .portfolio_detail_wrap .inner_wrap .content_wrap .content_1_wrap .explain_group .explain .ex_txt{
-    font-size: 10px;
-    line-height: 1.4;
+    height: 50px;
+    font-size: 12px;
+    line-height: 1.5;
     
-    margin-top: 7px;
+    margin-top: 5px;
 }
 
 /* ex position */
 .wrap .portfolio_detail_wrap .inner_wrap .content_wrap .content_1_wrap .ex_1{
-    top: -45px;
-    left: 430px;
+    top: -35px;
+    left: 300px;
 }
 
 .wrap .portfolio_detail_wrap .inner_wrap .content_wrap .content_1_wrap .ex_2{
@@ -349,87 +350,87 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
 
 .wrap .portfolio_detail_wrap .inner_wrap .content_wrap .content_1_wrap .ex_3{
     top: 0px;
-    left: 80px;
+    left: 20px;
 }
 
 .wrap .portfolio_detail_wrap .inner_wrap .content_wrap .content_1_wrap .ex_4{
-    top: 100px;
-    left: 210px;
+    top: 80px;
+    left: 220px;
 }
 
 .wrap .portfolio_detail_wrap .inner_wrap .content_wrap .content_1_wrap .ex_5{
-    top: 30px;
-    left: 250px;
+    top: 10px;
+    left: 230px;
 }
 
 .wrap .portfolio_detail_wrap .inner_wrap .content_wrap .content_1_wrap .ex_6{
-    top: 30px;
-    left: 350px;
+    top: 10px;
+    left: 310px;
 }
 
 .wrap .portfolio_detail_wrap .inner_wrap .content_wrap .content_1_wrap .ex_7{
-    top: 55px;
-    left: 480px;
+    top: 45px;
+    left: 230px;
 }
 
 .wrap .portfolio_detail_wrap .inner_wrap .content_wrap .content_1_wrap .ex_8{
-    top: 100px;
-    left: 460px;
+    top: 90px;
+    left: 470px;
 }
 
 .wrap .portfolio_detail_wrap .inner_wrap .content_wrap .content_1_wrap .ex_9{
-    top: 100px;
+    top: 80px;
     left: 380px;
 }
 
 .wrap .portfolio_detail_wrap .inner_wrap .content_wrap .content_1_wrap .ex_10{
-    top: 155px;
-    left: 20px;
+    top: 135px;
+    left: -10px;
 }
 
 .wrap .portfolio_detail_wrap .inner_wrap .content_wrap .content_1_wrap .ex_11{
-    top: 200px;
-    left: 110px;
+    top: 185px;
+    left: 80px;
 }
 
 .wrap .portfolio_detail_wrap .inner_wrap .content_wrap .content_1_wrap .ex_12{
-    top: 205px;
-    left: 410px;
+    top: 185px;
+    left: 415px;
 }
 
 .wrap .portfolio_detail_wrap .inner_wrap .content_wrap .content_1_wrap .ex_13{
-    top: 240px;
-    left: 400px;
+    top: 230px;
+    left: 405px;
 }
 
 .wrap .portfolio_detail_wrap .inner_wrap .content_wrap .content_1_wrap .ex_14{
-    top: 110px;
-    left: 380px;
+    top: 85px;
+    left: 350px;
 }
 
 .wrap .portfolio_detail_wrap .inner_wrap .content_wrap .content_1_wrap .ex_15{
-    top: 130px;
-    left: 420px;
+    top: 120px;
+    left: 380px;
 }
 
 .wrap .portfolio_detail_wrap .inner_wrap .content_wrap .content_1_wrap .ex_16{
     top: 170px;
-    left: 250px;
+    left: 230px;
 }
 
 .wrap .portfolio_detail_wrap .inner_wrap .content_wrap .content_1_wrap .ex_17{
-    top: 200px;
+    top: 190px;
     left: 435px;
 }
 
 .wrap .portfolio_detail_wrap .inner_wrap .content_wrap .content_1_wrap .ex_18{
-    top: 270px;
-    left: 475px;
+    top: 260px;
+    left: 480px;
 }
 
 .wrap .portfolio_detail_wrap .inner_wrap .content_wrap .content_1_wrap .ex_19{
-    top: 260px;
-    left: 60px;
+    top: 250px;
+    left: 120px;
 }
 
 .wrap .portfolio_detail_wrap .inner_wrap .content_wrap .content_1_wrap .ex_20{
