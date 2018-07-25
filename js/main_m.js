@@ -410,7 +410,7 @@ function androidCss(){
         // visit site
         $(".wrap .portfolio_detail_wrap .inner_wrap .content_1_txt_wrap .plus_link").css({"margin-top":"9px"});
         
-        $(".wrap .portfolio_detail_wrap .inner_wrap .content_1_txt_wrap a").css({"margin-bottom":"5px"});
+        $(".wrap .portfolio_detail_wrap .inner_wrap .content_1_txt_wrap a").css({"margin-bottom":"0px"});
     }
 }
 
