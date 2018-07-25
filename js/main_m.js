@@ -402,7 +402,7 @@ function mobileDevice(){
     }; 
     
     if( isMobile.iOS() ) alert('iOS');
-    if( isMobile.any() ) alert('Mobile');
+    if( isMobile.Android() ) alert('Android');
 }
 
 
