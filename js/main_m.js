@@ -403,6 +403,7 @@ function mobileDevice(){
     
     if( isMobile.iOS() ) alert('iOS');
     if( isMobile.Android() ) alert('Android');
+    if( isMobile.Windows() ) alert('Windows');
 }
 
 
