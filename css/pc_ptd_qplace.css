@@ -56,11 +56,8 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
 .wrap .portfolio_detail_wrap .inner_wrap .content_wrap .content_1_wrap .mockup .mockup_content{
     width: 100%;
     height: auto;
-    
     mix-blend-mode: multiply;
 }
-
-
 
 /*content 1 txt*/
 .wrap .portfolio_detail_wrap .inner_wrap .content_1_txt_wrap{

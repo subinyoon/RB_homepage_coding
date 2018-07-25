@@ -247,4 +247,16 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     position:relative;
 }
 
+/*content txt wrap*/
+.wrap .portfolio_detail_wrap .inner_wrap .content_txt_wrap .content_txt{
+    font-size: 2.25em;
+    margin:0;
+    min-width: 470px;
+    width: 77%;
+    line-height:1.6;
+    display:block;
+    margin-left: 3px;
+    margin-top:15px;
+}
+
 

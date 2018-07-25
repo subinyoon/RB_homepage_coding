@@ -1,6 +1,6 @@
 $(document).ready(function(){
     
-    mobileDevice();
+    androidCss();
     menuLink();
     landingPage();
     portfolioPage();
@@ -378,7 +378,7 @@ function snsLink(){
 }
 
 /*detect mobile devices*/
-function mobileDevice(){
+function androidCss(){
     
     var isMobile = {
         Android: function() {
@@ -401,9 +401,12 @@ function mobileDevice(){
         }
     }; 
     
-    if( isMobile.iOS() ) alert('iOS');
-    if( isMobile.Android() ) alert('Android');
-    if( isMobile.Windows() ) alert('Windows');
+    //if( isMobile.iOS() ) alert('iOS');
+    //if( isMobile.Android() ) alert('Android');
+    
+    if(isMobile.Android()){
+        $(".wrap .portfolio_detail_wrap .inner_wrap .content_txt_wrap .content_txt").css({"width":"90%"});
+    }
 }
 
 

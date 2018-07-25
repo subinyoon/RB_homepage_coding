@@ -78,19 +78,6 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     display:block;
 }
 
-.wrap .portfolio_detail_wrap .inner_wrap .content_1_txt_wrap .content_txt,
-.wrap .portfolio_detail_wrap .inner_wrap .content_2_txt_wrap .content_txt,
-.wrap .portfolio_detail_wrap .inner_wrap .content_3_txt_wrap .content_txt{
-    font-size: 2.25em;
-    margin:0;
-    min-width: 470px;
-    width: 77%;
-    line-height:1.6;
-    display:block;
-    margin-left: 3px;
-    margin-top:15px;
-}
-
 /*division2*/
 .wrap .portfolio_detail_wrap .inner_wrap .content_2_wrap{
     width:100%;
