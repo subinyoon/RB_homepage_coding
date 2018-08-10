@@ -269,9 +269,6 @@ function portfolioFilter(){
             $(".f_"+index).css({'display':'block'});
             $(".no_filter").css({"display":"none"});
         }
-        
-        
-        //console.log(index);
     }); // onclick END   
 }
 
