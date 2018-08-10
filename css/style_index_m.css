@@ -17,6 +17,8 @@ a.button{
     background:blue;
     display:block;
     font-size:50px;
+    z-index:9999;
+    cursor:pointer;
 }
 
 .wrap{
