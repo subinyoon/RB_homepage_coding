@@ -320,6 +320,32 @@ function toDetail(){
         //Zeromon
     });
     
+    $(".portfolio_wrap .column1 .contents_10").on('click', function(){
+        window.location.href='m_ptd_neoregen.html';
+        //neoregen
+    });
+    
+    $(".portfolio_wrap .column1 .contents_11").on('click', function(){
+        window.location.href='m_ptd_above.html';
+        //above
+    });
+    
+    $(".portfolio_wrap .column1 .contents_12").on('click', function(){
+        window.location.href='m_ptd_woo.html';
+        //woo
+    });
+    
+    $(".portfolio_wrap .column1 .contents_13").on('click', function(){
+        window.location.href='m_ptd_trlt.html';
+        //jaypark trlt
+    });
+    
+    $(".portfolio_wrap .column1 .contents_14").on('click', function(){
+        window.location.href='m_ptd_bolca.html';
+        //jaypark trlt
+    });
+    
+    
     //column 2
     
     $(".portfolio_wrap .column2 .contents_1").on('click', function(){
@@ -355,6 +381,31 @@ function toDetail(){
     $(".portfolio_wrap .column2 .contents_7").on('click', function(){
         window.location.href='m_ptd_circles.html';
         //bino
+    });
+    
+    $(".portfolio_wrap .column2 .contents_8").on('click', function(){
+        window.location.href='m_ptd_jb_2.html';
+        //jb gangnam
+    });
+    
+    $(".portfolio_wrap .column2 .contents_9").on('click', function(){
+        window.location.href='m_ptd_dmm.html';
+        //dmm
+    });
+    
+    $(".portfolio_wrap .column2 .contents_10").on('click', function(){
+        window.location.href='m_ptd_denmobili.html';
+        //denmobili
+    });
+    
+    $(".portfolio_wrap .column2 .contents_11").on('click', function(){
+        window.location.href='m_ptd_smnct.html';
+        //smnct
+    });
+    
+    $(".portfolio_wrap .column2 .contents_12").on('click', function(){
+        window.location.href='m_ptd_gr.html';
+        //garam
     });
     
 } // 이부분은 상세페이지 더 나오면 디테일하게 잡을 것!!!!!

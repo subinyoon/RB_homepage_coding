@@ -304,7 +304,22 @@ function toDetail(){
     
     $(".portfolio_wrap .column1 .contents_6").on('click', function(){
         window.location.href='pc_ptd_circles.html';
-        //tnc
+        //circle series
+    });
+    
+    $(".portfolio_wrap .column1 .contents_7").on('click', function(){
+        window.location.href='pc_ptd_neoregen.html';
+        //neoregen
+    });
+    
+    $(".portfolio_wrap .column1 .contents_8").on('click', function(){
+        window.location.href='pc_ptd_above.html';
+        //above
+    });
+    
+    $(".portfolio_wrap .column1 .contents_9").on('click', function(){
+        window.location.href='pc_ptd_gr.html';
+        //garam
     });
     
     
@@ -334,6 +349,21 @@ function toDetail(){
         //vodana
     });
     
+    $(".portfolio_wrap .column2 .contents_6").on('click', function(){
+        window.location.href='pc_ptd_jb_2.html';
+        //jb gangnam
+    });
+    
+    $(".portfolio_wrap .column2 .contents_7").on('click', function(){
+        window.location.href='pc_ptd_denmobili.html';
+        //denmobili
+    });
+    
+    $(".portfolio_wrap .column2 .contents_8").on('click', function(){
+        window.location.href='pc_ptd_trlt.html';
+        //jaypark trlt
+    });
+    
     
     
     $(".portfolio_wrap .column3 .contents_1").on('click', function(){
@@ -359,6 +389,26 @@ function toDetail(){
     $(".portfolio_wrap .column3 .contents_5").on('click', function(){
         window.location.href='pc_ptd_cube.html';
         //haya
+    });
+    
+    $(".portfolio_wrap .column3 .contents_6").on('click', function(){
+        window.location.href='pc_ptd_dmm.html';
+        //dmm
+    });
+    
+    $(".portfolio_wrap .column3 .contents_7").on('click', function(){
+        window.location.href='pc_ptd_smnct.html';
+        //smnct
+    });
+    
+    $(".portfolio_wrap .column3 .contents_8").on('click', function(){
+        window.location.href='pc_ptd_woo.html';
+        //woo won jae
+    });
+    
+    $(".portfolio_wrap .column3 .contents_9").on('click', function(){
+        window.location.href='pc_ptd_bolca.html';
+        //bolca
     });
     
     
