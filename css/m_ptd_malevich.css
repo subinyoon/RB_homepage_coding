@@ -1,0 +1,190 @@
+@charset "utf-8";
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
+font-family: 'Noto Sans KR', sans-serif;
+
+/*reset*/
+*{margin:0; padding:0;}
+body{font-size:14px; color:#626262; background-color:#fafafa; position:relative;}
+a{text-decoration:none; color:#000000;}
+ul, li{list-style:none; margin:0; padding:0;}
+p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
+/*reset end*/
+
+.wrap .portfolio_detail_wrap .title{
+   font-size:4.8em;
+}
+
+.wrap{
+    margin:0 auto;
+    min-width:750px;
+    width: 100%;
+    height:8065px; /*이부분 페이지마다 다름*/
+    position:relative;
+}
+
+/*main header image*/
+.main_image{
+    min-width:750px;
+    width:100%;
+    height:500px;
+    background:#dedede;
+    position:absolute;
+    background-image:url(../img/malevich_header.jpg);
+    background-repeat:no-repeat;
+    background-position: center bottom;
+    background-size:cover;
+    opacity:0.9;
+}
+
+/* blend */
+.wrap .portfolio_detail_wrap .inner_wrap,
+.wrap .portfolio_detail_wrap .inner_wrap .content_wrap{
+     background-color: #fafafa;
+} 
+
+/*content 1 illustrations*/
+.wrap .portfolio_detail_wrap .inner_wrap .content_wrap .content_1_wrap{
+    width:100%;
+    margin-top:80px;
+    position:relative;
+}
+
+.wrap .portfolio_detail_wrap .inner_wrap .content_wrap .content_1_wrap .graphic{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.wrap .portfolio_detail_wrap .inner_wrap .content_wrap .content_1_wrap .graphic img{
+    width: 184px;
+    height: 180px;
+    margin-left: 25px;
+    margin-bottom: 25px;
+    overflow: hidden;
+}
+
+.wrap .portfolio_detail_wrap .inner_wrap .content_wrap .content_1_wrap .graphic .square_1,
+.wrap .portfolio_detail_wrap .inner_wrap .content_wrap .content_1_wrap .graphic .square_4,
+.wrap .portfolio_detail_wrap .inner_wrap .content_wrap .content_1_wrap .graphic .square_7{
+    margin-left: 0px;
+}
+
+
+/*content txt common*/
+.wrap .portfolio_detail_wrap .inner_wrap .content_1_txt_wrap,
+.wrap .portfolio_detail_wrap .inner_wrap .content_2_txt_wrap,
+.wrap .portfolio_detail_wrap .inner_wrap .content_3_txt_wrap{
+    width:100%;
+    margin-top:60px;
+    position:relative;
+}
+
+.wrap .portfolio_detail_wrap .inner_wrap .content_1_txt_wrap .content_title,
+.wrap .portfolio_detail_wrap .inner_wrap .content_2_txt_wrap .content_title,
+.wrap .portfolio_detail_wrap .inner_wrap .content_3_txt_wrap .content_title{
+    width:100%;
+    font-size:5.5em;
+    font-weight:bold;
+    margin:0;
+    display:block;
+}
+
+/*division2*/
+.wrap .portfolio_detail_wrap .inner_wrap .content_2_wrap{
+    width:100%;
+    margin-top:100px;
+/*    background-color: yellow;*/
+}
+
+.wrap .portfolio_detail_wrap .inner_wrap .content_2_wrap .ticket_group{
+    width: 600px;
+    height: 500px;
+    margin: 0 auto;
+/*    background-color: red;*/
+}
+
+.wrap .portfolio_detail_wrap .inner_wrap .content_2_wrap .box{
+    width:47%;
+    height:506px;
+    float:left;
+/*    background:blue;*/
+}
+
+/*division3*/
+.wrap .portfolio_detail_wrap .inner_wrap .content_3_wrap{
+    width:100%;
+    margin-top:100px;
+/*    background-color: yellow;*/
+}
+
+.wrap .portfolio_detail_wrap .inner_wrap .content_wrap .content_3_wrap .leaflet img{
+    width: 100%;
+}
+
+.wrap .portfolio_detail_wrap .inner_wrap .content_wrap .content_3_wrap .num0{
+    height: 407px;
+    background: url('../img/Malevich/leaf_mock.jpg') no-repeat center;
+    background-size: contain;
+    mix-blend-mode: multiply;
+}
+
+.wrap .portfolio_detail_wrap .inner_wrap .content_wrap .content_3_wrap .num1{
+    background: url('../img/Malevich/leaf_1.png') no-repeat;
+    height: 916px;
+    background-size: contain;
+    mix-blend-mode: multiply;
+}
+
+.wrap .portfolio_detail_wrap .inner_wrap .content_wrap .content_3_wrap .num2{
+    background: url('../img/Malevich/leaf_2.png') no-repeat; 
+    height: 916px;
+    background-size: contain;
+    mix-blend-mode: multiply;
+}
+
+.wrap .portfolio_detail_wrap .inner_wrap .content_wrap .content_3_wrap .num3{
+    background: url('../img/Malevich/leaf_3.png') no-repeat;
+    height: 916px;
+    background-size: contain;
+    mix-blend-mode: multiply;
+}
+
+
+/*-----------------------------------------------------*/
+
+.wrap .portfolio_detail_wrap .inner_wrap .project_info_wrap:after{ /*clearfix*/
+    content:"";
+    display:block;
+    clear:both;
+}
+
+.wrap .portfolio_detail_wrap .inner_wrap .content_1_wrap:after{ /*clearfix*/
+    content:"";
+    display:block;
+    clear:both;
+}
+
+.wrap .portfolio_detail_wrap .inner_wrap .content_2_wrap:after{ /*clearfix*/
+    content:"";
+    display:block;
+    clear:both;
+}
+
+.wrap .portfolio_detail_wrap .inner_wrap .content_1_txt_wrap:after{ /*clearfix*/
+    content:"";
+    display:block;
+    clear:both;
+}
+
+.wrap .portfolio_detail_wrap .inner_wrap .content_2_wrap .box_3:after{ /*clearfix*/
+    content:"";
+    display:block;
+    clear:both;
+}
+
+/*------------------------------*/
+
+/*menu off (display only logo)*/
+.wrap .wrap_fixed_1 .menu .menu1, .wrap .wrap_fixed_1 .menu .menu2, .wrap .wrap_fixed_1 .menu .menu3{
+    display:none;
+}
+

@@ -1,0 +1,225 @@
+@charset "utf-8";
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
+font-family: 'Noto Sans KR', sans-serif;
+
+/*reset*/
+*{margin:0; padding:0;}
+body{font-size:14px; background-color:#f4f4f4; position:relative;}
+a{text-decoration:none; color:#000000;}
+ul, li{list-style:none; margin:0; padding:0;}
+p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
+/*reset end*/
+
+.wrap{
+    margin:0 auto;
+    width:1366px;
+    height:1700px; /*이부분 페이지마다 다름*/
+    position:relative;
+    overflow:visible;
+}
+
+
+/*main header image*/
+.main_image{
+    width:100%;
+    height:640px;
+    background:#dedede;
+    position:absolute;
+    background-image:url(../img/rooming_header.jpg);
+    background-repeat:no-repeat;
+    background-position: bottom;
+    background-size:cover;
+    opacity:0.8;
+}
+
+.wrap .portfolio_detail_wrap .inner_wrap .content_wrap .project_info_wrap .txt_box{
+    word-break: keep-all;
+}
+
+/* detail div */
+.wrap .portfolio_detail_wrap .inner_wrap .content_detail_wrap{
+    width: 1000px;
+    margin:0 auto;
+/*    background-color: yellow;*/
+}
+
+
+
+.wrap .portfolio_detail_wrap .inner_wrap .content_1_wrap .imgStorage{
+/*    background-color: forestgreen;*/
+    width:1000px;
+    height:100px;
+    margin: 0 auto;
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+
+.wrap .portfolio_detail_wrap .inner_wrap .content_1_wrap .imgStorage .small{
+    width: 840px;
+    margin: 0 auto;
+/*    background-color: yellow;*/
+    
+}
+
+.wrap .portfolio_detail_wrap .inner_wrap .content_1_wrap .imgStorage img {
+    margin-right: 3px;
+    
+/*    background-color: red;*/
+}
+
+
+.wrap .portfolio_detail_wrap .inner_wrap .content_1_wrap .imgContainer {
+    width:950px;
+    height:576px;
+    
+    background: url(../img/DD/bg.png) no-repeat center;    
+    background-size: cover;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.wrap .portfolio_detail_wrap .inner_wrap .content_1_wrap .big{
+    width: 930px;
+    position: relative;
+    margin: 0 auto;
+    margin-top: 130px;
+    margin-bottom:30px;
+/*    background-color: yellow;*/
+}
+
+.wrap .portfolio_detail_wrap .inner_wrap .content_1_wrap .big_first{
+    width: 780px;
+    margin-left: 10px;
+/*    background-color: yellow;*/
+}
+
+.wrap .portfolio_detail_wrap .inner_wrap .content_1_wrap .big img{
+    margin-right: 5px;
+}
+
+/* absolute position */
+.wrap .portfolio_detail_wrap .inner_wrap .content_1_wrap .big .veryBig{
+    position: absolute;
+    top: 15px;
+    left: 670px;
+/*    background-color: red;*/
+}
+
+.wrap .portfolio_detail_wrap .inner_wrap .content_1_wrap .big .veryBig4{
+    position: absolute;
+    top: 250px;
+    left: 597px;
+}
+
+.wrap .portfolio_detail_wrap .inner_wrap .content_1_wrap .big .veryBig3{
+    position: absolute;
+    top: 270px;
+    left: 550px;
+/*    background-color: red;*/
+}
+
+
+
+.wrap .portfolio_detail_wrap .inner_wrap .content_1_wrap .imgContainer .veryBig2{
+    margin-top: 425px;
+    margin-left: 40px;
+/*    background-color: red;*/
+}
+
+
+
+/*ani txt*/
+.wrap .portfolio_detail_wrap .inner_wrap .content_1_wrap .ani_txt{
+    width:180px;
+    height:18px;
+    margin:0;
+    padding: 8px 0px 5px 0px;
+    margin-top:14px;
+    font-size:13px;
+    float:right;
+    border-top:1px solid #848484;
+    border-bottom:1px solid #848484;
+    opacity:0.5;
+}
+
+/*content 1 txt*/
+.wrap .portfolio_detail_wrap .inner_wrap .content_1_txt_wrap{
+    width:736px;
+    margin: 0 auto;
+    margin-top:30px;
+    position:relative;
+}
+
+.wrap .portfolio_detail_wrap .inner_wrap .content_1_txt_wrap .content_title,
+.wrap .portfolio_detail_wrap .inner_wrap .content_1_txt_wrap .content_title_2{
+    width:98px;
+    font-size:23px;
+    font-weight:bold;
+    margin:0;
+    display:block;
+    float:left;
+    padding-top:5px;
+}
+
+.wrap .portfolio_detail_wrap .inner_wrap .content_1_txt_wrap .content_title_2{
+    width: auto;
+    margin-right: 25px;
+    color: #848484;
+}
+
+.wrap .portfolio_detail_wrap .inner_wrap .content_1_txt_wrap .content_txt,
+.wrap .portfolio_detail_wrap .inner_wrap .content_1_txt_wrap .content_txt_2{
+    margin:0;
+    width:270px;
+    line-height:1.82;
+    display:block;
+    float:left;
+    padding-top:8px;
+}
+
+.wrap .portfolio_detail_wrap .inner_wrap .content_1_txt_wrap .content_txt{
+    margin-right: 40px;   
+}
+
+.wrap .portfolio_detail_wrap .inner_wrap .content_1_txt_wrap .content_txt_2{
+    color: #848484;
+}
+
+
+/*-----------------------------------------------------*/
+
+.wrap .portfolio_detail_wrap .inner_wrap .project_info_wrap:after{ /*clearfix*/
+    content:"";
+    display:block;
+    clear:both;
+}
+
+.wrap .portfolio_detail_wrap .inner_wrap .content_1_wrap:after{ /*clearfix*/
+    content:"";
+    display:block;
+    clear:both;
+}
+
+.wrap .portfolio_detail_wrap .inner_wrap .content_2_wrap:after{ /*clearfix*/
+    content:"";
+    display:block;
+    clear:both;
+}
+
+.wrap .portfolio_detail_wrap .inner_wrap .content_1_txt_wrap:after{ /*clearfix*/
+    content:"";
+    display:block;
+    clear:both;
+}
+
+.wrap .portfolio_detail_wrap .inner_wrap .content_2_wrap .box_3:after{ /*clearfix*/
+    content:"";
+    display:block;
+    clear:both;
+}
+
+.wrap .portfolio_detail_wrap .inner_wrap .content_1_wrap .big:after{
+    content:"";
+    display:block;
+    clear:both;
+}
