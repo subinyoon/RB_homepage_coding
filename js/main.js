@@ -47,11 +47,11 @@ function menuLink(){
             var url = window.location.href;
             //console.log("i=2 "+url);
             
-            if( url == "http://studiorb.me/" || url == "http://studiorb.me/rb_index.html#aboutus_anchor" || url == "http://studiorb.me/rb_index.html#goto_contact" || url == "http://studiorb.me/rb_index.html#goto_contact" || url == "http://studiorb.me/rb_index.html#aboutus_anchor"){
+            if( url == "http://studiorb.me/" || url == "http://studiorb.me/index.html#aboutus_anchor" || url == "http://studiorb.me/index.html#goto_contact" || url == "http://studiorb.me/index.html#goto_contact" || url == "http://studiorb.me/index.html#aboutus_anchor"){
                 $('html,body').stop().animate({
                 scrollTop: $("#aboutus_anchor").offset().top}, 600, 'swing');
             }else{
-             window.location.href='rb_index.html#aboutus_anchor';
+             window.location.href='index.html#aboutus_anchor';
             }     
         }
         
@@ -59,18 +59,18 @@ function menuLink(){
             var url = window.location.href;
             //console.log("i=3 "+url);
         
-            if( url == "http://studiorb.me/" || url == "http://studiorb.me/rb_index.html#goto_contact" || url == "http://studiorb.me/rb_index.html#aboutus_anchor" || url == "http://studiorb.me/rb_index.html#goto_contact" || url == "http://studiorb.me/rb_index.html#aboutus_anchor"){
+            if( url == "http://studiorb.me/" || url == "http://studiorb.me/index.html#goto_contact" || url == "http://studiorb.me/index.html#aboutus_anchor" || url == "http://studiorb.me/index.html#goto_contact" || url == "http://studiorb.me/index.html#aboutus_anchor"){
                 $('html,body').stop().animate({
                 scrollTop: $(".wrap_3").offset().top}, 600, 'swing');
             }else{
-             window.location.href='rb_index.html#goto_contact';
+             window.location.href='index.html#goto_contact';
             }        
         }
     });
     
     /*rb left nav logo : clicked*/
     $(".wrap_fixed_2 .nav_1 .mid, .wrap_fixed_2 .nav_2 .mid").on('click', function(){
-        window.location.href='rb_index.html';
+        window.location.href='index.html';
     });
 }
 
