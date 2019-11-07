@@ -264,6 +264,14 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     background-image:url(../img/bolca/thumbnail_bolca.png);
 }
 
+.wrap .column1 .contents_15{
+    height:403px;
+}
+
+.wrap .column1 .contents_15 .image{
+    height:340px;
+    background-image:url(../img/doota2/doota2_thumbnail.png);
+}
 
 
 
@@ -373,6 +381,33 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
 .wrap .column2 .contents_12 .image{
     height:340px;
     background-image:url(../img/gr/gr_thumbnail.png);
+}
+
+.wrap .column2 .contents_13{
+    height:403px;
+}
+
+.wrap .column2 .contents_13 .image{
+    height:340px;
+    background-image:url(../img/doota1/doota1_thumbnail.png);
+}
+
+.wrap .column2 .contents_14{
+    height:403px;
+}
+
+.wrap .column2 .contents_14 .image{
+    height:340px;
+    background-image:url(../img/nabba/nabba_thumbnail.png);
+}
+
+.wrap .column2 .contents_15{
+    height:403px;
+}
+
+.wrap .column2 .contents_15 .image{
+    height:340px;
+    background-image:url(../img/kravebeauty/kravebeauty_thumbnail.png);
 }
 
 /*-----------------------------------------------------*/

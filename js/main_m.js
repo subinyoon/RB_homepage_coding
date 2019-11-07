@@ -5,6 +5,7 @@ $(document).ready(function(){
     landingPage();
     portfolioPage();
     snsLink();
+    footerTxt();
         
 }); //document ready END
 
@@ -342,7 +343,12 @@ function toDetail(){
     
     $(".portfolio_wrap .column1 .contents_14").on('click', function(){
         window.location.href='m_ptd_bolca.html';
-        //jaypark trlt
+        //bolca
+    });
+    
+    $(".portfolio_wrap .column1 .contents_15").on('click', function(){
+        window.location.href='m_ptd_doota2.html';
+        //doota fashion week
     });
     
     
@@ -408,6 +414,21 @@ function toDetail(){
         //garam
     });
     
+    $(".portfolio_wrap .column2 .contents_13").on('click', function(){
+        window.location.href='m_ptd_doota1.html';
+        //doota new year
+    });
+    
+    $(".portfolio_wrap .column2 .contents_14").on('click', function(){
+        window.location.href='m_ptd_nabba.html';
+        //nabba
+    });
+    
+    $(".portfolio_wrap .column2 .contents_15").on('click', function(){
+        window.location.href='m_ptd_kravebeauty.html';
+        //kravebeauty
+    });
+    
 } // 이부분은 상세페이지 더 나오면 디테일하게 잡을 것!!!!!
 
 /*-------------------------------------------------------*/
@@ -463,6 +484,12 @@ function androidCss(){
         
         $(".wrap .portfolio_detail_wrap .inner_wrap .content_txt_wrap a").css({"margin-bottom":"0px"});
     }
+}
+
+function footerTxt(){
+    //address
+    $(".footer_wrap .footer .txt p").empty();
+    $(".footer_wrap .footer .txt p").append("(c) all rights reserved by Studio Red_Brick <br>서울 금천구 가산디지털2로 115 대륭3차 1114-6호<br> bbalganbyukdol@gmail.com // +82-10-9182-6193");
 }
 
 

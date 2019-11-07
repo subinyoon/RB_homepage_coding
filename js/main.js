@@ -3,6 +3,7 @@ $(document).ready(function(){
     menuLink();
     landingPage();
     portfolioPage();
+    footerTxt();
         
 }); //document ready END
 
@@ -322,6 +323,11 @@ function toDetail(){
         //garam
     });
     
+    $(".portfolio_wrap .column1 .contents_10").on('click', function(){
+        window.location.href='pc_ptd_doota2.html';
+        //doota fashion week
+    });
+    
     
     
     $(".portfolio_wrap .column2 .contents_1").on('click', function(){
@@ -362,6 +368,16 @@ function toDetail(){
     $(".portfolio_wrap .column2 .contents_8").on('click', function(){
         window.location.href='pc_ptd_trlt.html';
         //jaypark trlt
+    });
+    
+    $(".portfolio_wrap .column2 .contents_9").on('click', function(){
+        window.location.href='pc_ptd_doota1.html';
+        //doota new year
+    });
+    
+    $(".portfolio_wrap .column2 .contents_10").on('click', function(){
+        window.location.href='pc_ptd_nabba.html';
+        //nabba
     });
     
     
@@ -411,10 +427,22 @@ function toDetail(){
         //bolca
     });
     
+    $(".portfolio_wrap .column3 .contents_10").on('click', function(){
+        window.location.href='pc_ptd_kravebeauty.html';
+        //kravebeauty
+    });
     
-} // 이부분은 상세페이지 더 나오면 디테일하게 잡을 것!!!!!
+    
+}
 
 /*-------------------------------------------------------*/
+
+function footerTxt(){
+    //address
+    $(".footer_wrap .footer .txt2 p").empty();
+    $(".footer_wrap .footer .txt2 p").append("서울 금천구 가산디지털2로 115 대륭3차 1114-6호");
+}
+
 
 
       

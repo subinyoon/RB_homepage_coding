@@ -205,6 +205,15 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
     background-image:url(../img/gr/gr_thumbnail.png);
 }
 
+.wrap .column1 .contents_10{
+    height:307px;
+}
+
+.wrap .column1 .contents_10 .image{
+    height:307px;
+    background-image:url(../img/doota2/doota2_thumbnail.png);
+}
+
 .wrap .column2 .contents_1{
     height:435px;
 }
@@ -275,6 +284,24 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
 .wrap .column2 .contents_8 .image{
     height:307px;
     background-image:url(../img/aomg-trlt/thumbnail_trlt.png);
+}
+
+.wrap .column2 .contents_9{
+    height:307px;
+}
+
+.wrap .column2 .contents_9 .image{
+    height:307px;
+    background-image:url(../img/doota1/doota1_thumbnail.png);
+}
+
+.wrap .column2 .contents_10{
+    height:307px;
+}
+
+.wrap .column2 .contents_10 .image{
+    height:307px;
+    background-image:url(../img/nabba/nabba_thumbnail.png);
 }
 
 .wrap .column3 .contents_1{
@@ -358,6 +385,15 @@ p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
 .wrap .column3 .contents_9 .image{
     height:307px;
     background-image:url(../img/bolca/thumbnail_bolca.png);
+}
+
+.wrap .column3 .contents_10{
+    height:307px;
+}
+
+.wrap .column3 .contents_10 .image{
+    height:307px;
+    background-image:url(../img/kravebeauty/kravebeauty_thumbnail.png);
 }
 
 .wrap .column .contents{
